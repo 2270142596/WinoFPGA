@@ -6,7 +6,7 @@
 ## 软件情况
 开发系统：Ubuntu 18.04（运行于VMware Workstation 16 Player）  
 开发软件：Visual Studio Code 1.74.3、Vivado 2022
-## 使用方法
+## 使用步骤
 1. 环境配置：参考[CFU-Playground](https://github.com/google/CFU-Playground)相关说明
 2. 下载本项目代码，放到CFU-Playground项目中的`proj`目录下
 3. 连接Arty-A7设备
@@ -16,4 +16,17 @@ source /home/cx/CFU-Playground/env/conda/bin/activate cfu-common && bash
 make prog TARGET=digilent_arty USE_VIVADO=1 EXTRA_LITEX_ARGS="--cpu-variant perf+cfu --variant=a7-100 --sys-clk-freq 75000000"
 make load BUILD_JOBS=4 TARGET=digilent_arty EXTRA_LITEX_ARGS="--cpu-variant perf+cfu --variant=a7-100 --sys-clk-freq 75000000"
 ```
+5. 执行完成后显示如下界面
+
+接着在终端界面依次按下`1`、`2`、`z`，即依次选择TfLM Models menu、Mobilenet V1 models、Run with zeros input
+6. 执行结果如下
+
+该界面的最上面显示了各个算子在MobilenetV1网络推理过程中的总耗时，单位为千时钟周期。界面最下方为图片在该网络模型下的推理结果。
+7. 修改，将点卷积和深度卷积加速功能关闭，仅使用RISC-V处理器进行计算。
+8. 重新执行步骤4-6，得到如下结果
+
+可以看出，TensorFlow Lite官方库的推理结果为-1，与调用加速器的推理结果一致，加速器可以正确计算深度可分离卷积卷积，且调用加速器后，MobilenetV1网络的推理时间加快了6.59倍。
+
+
+
 
