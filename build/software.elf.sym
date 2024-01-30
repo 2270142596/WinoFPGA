@@ -1,0 +1,2102 @@
+
+software.elf:     file format elf32-littleriscv
+
+SYMBOL TABLE:
+40000000 l    d  .text	00000000 .text
+4008b9a8 l    d  .rodata	00000000 .rodata
+404b7540 l    d  .data	00000000 .data
+404b7ab8 l    d  .bss	00000000 .bss
+00000000 l    d  .debug_info	00000000 .debug_info
+00000000 l    d  .debug_abbrev	00000000 .debug_abbrev
+00000000 l    d  .debug_loc	00000000 .debug_loc
+00000000 l    d  .debug_aranges	00000000 .debug_aranges
+00000000 l    d  .debug_ranges	00000000 .debug_ranges
+00000000 l    d  .debug_line	00000000 .debug_line
+00000000 l    d  .debug_str	00000000 .debug_str
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .riscv.attributes	00000000 .riscv.attributes
+00000000 l    d  .debug_frame	00000000 .debug_frame
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    df *ABS*	00000000 src/crt0-vexriscv.o
+40083d0c l       .text	00000000 crt_init
+40083d80 l       .text	00000000 infinit_loop
+00000000 l    df *ABS*	00000000 b64_util.c
+00000000 l       *ABS*	00000000 regnum_x0
+00000001 l       *ABS*	00000000 regnum_x1
+00000002 l       *ABS*	00000000 regnum_x2
+00000003 l       *ABS*	00000000 regnum_x3
+00000004 l       *ABS*	00000000 regnum_x4
+00000005 l       *ABS*	00000000 regnum_x5
+00000006 l       *ABS*	00000000 regnum_x6
+00000007 l       *ABS*	00000000 regnum_x7
+00000008 l       *ABS*	00000000 regnum_x8
+00000009 l       *ABS*	00000000 regnum_x9
+0000000a l       *ABS*	00000000 regnum_x10
+0000000b l       *ABS*	00000000 regnum_x11
+0000000c l       *ABS*	00000000 regnum_x12
+0000000d l       *ABS*	00000000 regnum_x13
+0000000e l       *ABS*	00000000 regnum_x14
+0000000f l       *ABS*	00000000 regnum_x15
+00000010 l       *ABS*	00000000 regnum_x16
+00000011 l       *ABS*	00000000 regnum_x17
+00000012 l       *ABS*	00000000 regnum_x18
+00000013 l       *ABS*	00000000 regnum_x19
+00000014 l       *ABS*	00000000 regnum_x20
+00000015 l       *ABS*	00000000 regnum_x21
+00000016 l       *ABS*	00000000 regnum_x22
+00000017 l       *ABS*	00000000 regnum_x23
+00000018 l       *ABS*	00000000 regnum_x24
+00000019 l       *ABS*	00000000 regnum_x25
+0000001a l       *ABS*	00000000 regnum_x26
+0000001b l       *ABS*	00000000 regnum_x27
+0000001c l       *ABS*	00000000 regnum_x28
+0000001d l       *ABS*	00000000 regnum_x29
+0000001e l       *ABS*	00000000 regnum_x30
+0000001f l       *ABS*	00000000 regnum_x31
+00000000 l       *ABS*	00000000 regnum_zero
+00000001 l       *ABS*	00000000 regnum_ra
+00000002 l       *ABS*	00000000 regnum_sp
+00000003 l       *ABS*	00000000 regnum_gp
+00000004 l       *ABS*	00000000 regnum_tp
+00000005 l       *ABS*	00000000 regnum_t0
+00000006 l       *ABS*	00000000 regnum_t1
+00000007 l       *ABS*	00000000 regnum_t2
+00000008 l       *ABS*	00000000 regnum_s0
+00000009 l       *ABS*	00000000 regnum_s1
+0000000a l       *ABS*	00000000 regnum_a0
+0000000b l       *ABS*	00000000 regnum_a1
+0000000c l       *ABS*	00000000 regnum_a2
+0000000d l       *ABS*	00000000 regnum_a3
+0000000e l       *ABS*	00000000 regnum_a4
+0000000f l       *ABS*	00000000 regnum_a5
+00000010 l       *ABS*	00000000 regnum_a6
+00000011 l       *ABS*	00000000 regnum_a7
+00000012 l       *ABS*	00000000 regnum_s2
+00000013 l       *ABS*	00000000 regnum_s3
+00000014 l       *ABS*	00000000 regnum_s4
+00000015 l       *ABS*	00000000 regnum_s5
+00000016 l       *ABS*	00000000 regnum_s6
+00000017 l       *ABS*	00000000 regnum_s7
+00000018 l       *ABS*	00000000 regnum_s8
+00000019 l       *ABS*	00000000 regnum_s9
+0000001a l       *ABS*	00000000 regnum_s10
+0000001b l       *ABS*	00000000 regnum_s11
+0000001c l       *ABS*	00000000 regnum_t3
+0000001d l       *ABS*	00000000 regnum_t4
+0000001e l       *ABS*	00000000 regnum_t5
+0000001f l       *ABS*	00000000 regnum_t6
+0000000b l       *ABS*	00000000 CUSTOM0
+0000002b l       *ABS*	00000000 CUSTOM1
+00000000 l    df *ABS*	00000000 base.c
+00000000 l       *ABS*	00000000 regnum_x0
+00000001 l       *ABS*	00000000 regnum_x1
+00000002 l       *ABS*	00000000 regnum_x2
+00000003 l       *ABS*	00000000 regnum_x3
+00000004 l       *ABS*	00000000 regnum_x4
+00000005 l       *ABS*	00000000 regnum_x5
+00000006 l       *ABS*	00000000 regnum_x6
+00000007 l       *ABS*	00000000 regnum_x7
+00000008 l       *ABS*	00000000 regnum_x8
+00000009 l       *ABS*	00000000 regnum_x9
+0000000a l       *ABS*	00000000 regnum_x10
+0000000b l       *ABS*	00000000 regnum_x11
+0000000c l       *ABS*	00000000 regnum_x12
+0000000d l       *ABS*	00000000 regnum_x13
+0000000e l       *ABS*	00000000 regnum_x14
+0000000f l       *ABS*	00000000 regnum_x15
+00000010 l       *ABS*	00000000 regnum_x16
+00000011 l       *ABS*	00000000 regnum_x17
+00000012 l       *ABS*	00000000 regnum_x18
+00000013 l       *ABS*	00000000 regnum_x19
+00000014 l       *ABS*	00000000 regnum_x20
+00000015 l       *ABS*	00000000 regnum_x21
+00000016 l       *ABS*	00000000 regnum_x22
+00000017 l       *ABS*	00000000 regnum_x23
+00000018 l       *ABS*	00000000 regnum_x24
+00000019 l       *ABS*	00000000 regnum_x25
+0000001a l       *ABS*	00000000 regnum_x26
+0000001b l       *ABS*	00000000 regnum_x27
+0000001c l       *ABS*	00000000 regnum_x28
+0000001d l       *ABS*	00000000 regnum_x29
+0000001e l       *ABS*	00000000 regnum_x30
+0000001f l       *ABS*	00000000 regnum_x31
+00000000 l       *ABS*	00000000 regnum_zero
+00000001 l       *ABS*	00000000 regnum_ra
+00000002 l       *ABS*	00000000 regnum_sp
+00000003 l       *ABS*	00000000 regnum_gp
+00000004 l       *ABS*	00000000 regnum_tp
+00000005 l       *ABS*	00000000 regnum_t0
+00000006 l       *ABS*	00000000 regnum_t1
+00000007 l       *ABS*	00000000 regnum_t2
+00000008 l       *ABS*	00000000 regnum_s0
+00000009 l       *ABS*	00000000 regnum_s1
+0000000a l       *ABS*	00000000 regnum_a0
+0000000b l       *ABS*	00000000 regnum_a1
+0000000c l       *ABS*	00000000 regnum_a2
+0000000d l       *ABS*	00000000 regnum_a3
+0000000e l       *ABS*	00000000 regnum_a4
+0000000f l       *ABS*	00000000 regnum_a5
+00000010 l       *ABS*	00000000 regnum_a6
+00000011 l       *ABS*	00000000 regnum_a7
+00000012 l       *ABS*	00000000 regnum_s2
+00000013 l       *ABS*	00000000 regnum_s3
+00000014 l       *ABS*	00000000 regnum_s4
+00000015 l       *ABS*	00000000 regnum_s5
+00000016 l       *ABS*	00000000 regnum_s6
+00000017 l       *ABS*	00000000 regnum_s7
+00000018 l       *ABS*	00000000 regnum_s8
+00000019 l       *ABS*	00000000 regnum_s9
+0000001a l       *ABS*	00000000 regnum_s10
+0000001b l       *ABS*	00000000 regnum_s11
+0000001c l       *ABS*	00000000 regnum_t3
+0000001d l       *ABS*	00000000 regnum_t4
+0000001e l       *ABS*	00000000 regnum_t5
+0000001f l       *ABS*	00000000 regnum_t6
+0000000b l       *ABS*	00000000 CUSTOM0
+0000002b l       *ABS*	00000000 CUSTOM1
+00000000 l    df *ABS*	00000000 benchmarks.c
+4000030c l     F .text	000000b0 do_increment_mem
+400003bc l     F .text	000000b0 do_stores
+4000046c l     F .text	000000a0 do_loads_strided
+4000050c l     F .text	000000b0 do_loads_cached
+400005bc l     F .text	000000a0 do_loads
+404b75cc l     O .data	00000078 MENU
+00000000 l    df *ABS*	00000000 main.c
+404b7644 l     O .data	00000098 MENU
+00000000 l    df *ABS*	00000000 models.c
+404b76dc l     O .data	00000048 MENU
+00000000 l    df *ABS*	00000000 stdio.c
+00000000 l    df *ABS*	00000000 embench.c
+404b7724 l     O .data	00000038 MENU
+00000000 l    df *ABS*	00000000 cpp_math.cc
+00000000 l       *ABS*	00000000 regnum_x0
+00000001 l       *ABS*	00000000 regnum_x1
+00000002 l       *ABS*	00000000 regnum_x2
+00000003 l       *ABS*	00000000 regnum_x3
+00000004 l       *ABS*	00000000 regnum_x4
+00000005 l       *ABS*	00000000 regnum_x5
+00000006 l       *ABS*	00000000 regnum_x6
+00000007 l       *ABS*	00000000 regnum_x7
+00000008 l       *ABS*	00000000 regnum_x8
+00000009 l       *ABS*	00000000 regnum_x9
+0000000a l       *ABS*	00000000 regnum_x10
+0000000b l       *ABS*	00000000 regnum_x11
+0000000c l       *ABS*	00000000 regnum_x12
+0000000d l       *ABS*	00000000 regnum_x13
+0000000e l       *ABS*	00000000 regnum_x14
+0000000f l       *ABS*	00000000 regnum_x15
+00000010 l       *ABS*	00000000 regnum_x16
+00000011 l       *ABS*	00000000 regnum_x17
+00000012 l       *ABS*	00000000 regnum_x18
+00000013 l       *ABS*	00000000 regnum_x19
+00000014 l       *ABS*	00000000 regnum_x20
+00000015 l       *ABS*	00000000 regnum_x21
+00000016 l       *ABS*	00000000 regnum_x22
+00000017 l       *ABS*	00000000 regnum_x23
+00000018 l       *ABS*	00000000 regnum_x24
+00000019 l       *ABS*	00000000 regnum_x25
+0000001a l       *ABS*	00000000 regnum_x26
+0000001b l       *ABS*	00000000 regnum_x27
+0000001c l       *ABS*	00000000 regnum_x28
+0000001d l       *ABS*	00000000 regnum_x29
+0000001e l       *ABS*	00000000 regnum_x30
+0000001f l       *ABS*	00000000 regnum_x31
+00000000 l       *ABS*	00000000 regnum_zero
+00000001 l       *ABS*	00000000 regnum_ra
+00000002 l       *ABS*	00000000 regnum_sp
+00000003 l       *ABS*	00000000 regnum_gp
+00000004 l       *ABS*	00000000 regnum_tp
+00000005 l       *ABS*	00000000 regnum_t0
+00000006 l       *ABS*	00000000 regnum_t1
+00000007 l       *ABS*	00000000 regnum_t2
+00000008 l       *ABS*	00000000 regnum_s0
+00000009 l       *ABS*	00000000 regnum_s1
+0000000a l       *ABS*	00000000 regnum_a0
+0000000b l       *ABS*	00000000 regnum_a1
+0000000c l       *ABS*	00000000 regnum_a2
+0000000d l       *ABS*	00000000 regnum_a3
+0000000e l       *ABS*	00000000 regnum_a4
+0000000f l       *ABS*	00000000 regnum_a5
+00000010 l       *ABS*	00000000 regnum_a6
+00000011 l       *ABS*	00000000 regnum_a7
+00000012 l       *ABS*	00000000 regnum_s2
+00000013 l       *ABS*	00000000 regnum_s3
+00000014 l       *ABS*	00000000 regnum_s4
+00000015 l       *ABS*	00000000 regnum_s5
+00000016 l       *ABS*	00000000 regnum_s6
+00000017 l       *ABS*	00000000 regnum_s7
+00000018 l       *ABS*	00000000 regnum_s8
+00000019 l       *ABS*	00000000 regnum_s9
+0000001a l       *ABS*	00000000 regnum_s10
+0000001b l       *ABS*	00000000 regnum_s11
+0000001c l       *ABS*	00000000 regnum_t3
+0000001d l       *ABS*	00000000 regnum_t4
+0000001e l       *ABS*	00000000 regnum_t5
+0000001f l       *ABS*	00000000 regnum_t6
+0000000b l       *ABS*	00000000 CUSTOM0
+0000002b l       *ABS*	00000000 CUSTOM1
+00000000 l    df *ABS*	00000000 functional_cfu_tests.cc
+00000000 l       *ABS*	00000000 regnum_x0
+00000001 l       *ABS*	00000000 regnum_x1
+00000002 l       *ABS*	00000000 regnum_x2
+00000003 l       *ABS*	00000000 regnum_x3
+00000004 l       *ABS*	00000000 regnum_x4
+00000005 l       *ABS*	00000000 regnum_x5
+00000006 l       *ABS*	00000000 regnum_x6
+00000007 l       *ABS*	00000000 regnum_x7
+00000008 l       *ABS*	00000000 regnum_x8
+00000009 l       *ABS*	00000000 regnum_x9
+0000000a l       *ABS*	00000000 regnum_x10
+0000000b l       *ABS*	00000000 regnum_x11
+0000000c l       *ABS*	00000000 regnum_x12
+0000000d l       *ABS*	00000000 regnum_x13
+0000000e l       *ABS*	00000000 regnum_x14
+0000000f l       *ABS*	00000000 regnum_x15
+00000010 l       *ABS*	00000000 regnum_x16
+00000011 l       *ABS*	00000000 regnum_x17
+00000012 l       *ABS*	00000000 regnum_x18
+00000013 l       *ABS*	00000000 regnum_x19
+00000014 l       *ABS*	00000000 regnum_x20
+00000015 l       *ABS*	00000000 regnum_x21
+00000016 l       *ABS*	00000000 regnum_x22
+00000017 l       *ABS*	00000000 regnum_x23
+00000018 l       *ABS*	00000000 regnum_x24
+00000019 l       *ABS*	00000000 regnum_x25
+0000001a l       *ABS*	00000000 regnum_x26
+0000001b l       *ABS*	00000000 regnum_x27
+0000001c l       *ABS*	00000000 regnum_x28
+0000001d l       *ABS*	00000000 regnum_x29
+0000001e l       *ABS*	00000000 regnum_x30
+0000001f l       *ABS*	00000000 regnum_x31
+00000000 l       *ABS*	00000000 regnum_zero
+00000001 l       *ABS*	00000000 regnum_ra
+00000002 l       *ABS*	00000000 regnum_sp
+00000003 l       *ABS*	00000000 regnum_gp
+00000004 l       *ABS*	00000000 regnum_tp
+00000005 l       *ABS*	00000000 regnum_t0
+00000006 l       *ABS*	00000000 regnum_t1
+00000007 l       *ABS*	00000000 regnum_t2
+00000008 l       *ABS*	00000000 regnum_s0
+00000009 l       *ABS*	00000000 regnum_s1
+0000000a l       *ABS*	00000000 regnum_a0
+0000000b l       *ABS*	00000000 regnum_a1
+0000000c l       *ABS*	00000000 regnum_a2
+0000000d l       *ABS*	00000000 regnum_a3
+0000000e l       *ABS*	00000000 regnum_a4
+0000000f l       *ABS*	00000000 regnum_a5
+00000010 l       *ABS*	00000000 regnum_a6
+00000011 l       *ABS*	00000000 regnum_a7
+00000012 l       *ABS*	00000000 regnum_s2
+00000013 l       *ABS*	00000000 regnum_s3
+00000014 l       *ABS*	00000000 regnum_s4
+00000015 l       *ABS*	00000000 regnum_s5
+00000016 l       *ABS*	00000000 regnum_s6
+00000017 l       *ABS*	00000000 regnum_s7
+00000018 l       *ABS*	00000000 regnum_s8
+00000019 l       *ABS*	00000000 regnum_s9
+0000001a l       *ABS*	00000000 regnum_s10
+0000001b l       *ABS*	00000000 regnum_s11
+0000001c l       *ABS*	00000000 regnum_t3
+0000001d l       *ABS*	00000000 regnum_t4
+0000001e l       *ABS*	00000000 regnum_t5
+0000001f l       *ABS*	00000000 regnum_t6
+0000000b l       *ABS*	00000000 CUSTOM0
+0000002b l       *ABS*	00000000 CUSTOM1
+400007f0 l     F .text	00000158 _ZN12_GLOBAL__N_120do_interactive_testsEv
+40000948 l     F .text	00000098 _ZN12_GLOBAL__N_114do_fixed_testsEv
+400009e0 l     F .text	000001a0 _ZN12_GLOBAL__N_116do_compare_testsEv
+404b775c l     O .data	00000008 _ZN12_GLOBAL__N_14MENUE
+00000000 l    df *ABS*	00000000 golden_op_tests.cc
+4008e6a0 l     O .rodata	00000900 _ZL19raw_1x1_filter_data
+4008c0e8 l     O .rodata	00002580 _ZL18raw_1x1_input_data
+4008efb8 l     O .rodata	00000960 _ZL19raw_1x1_output_data
+4008c070 l     O .rodata	00000060 _ZL17raw_1x1_bias_data
+4008c0d0 l     O .rodata	00000018 _ZL18raw_1x1_bias_shape
+4008e668 l     O .rodata	00000038 _ZL19raw_1x1_conv_params
+4008efa0 l     O .rodata	00000018 _ZL19raw_1x1_input_shape
+4008f918 l     O .rodata	00000018 _ZL20raw_1x1_filter_shape
+4008f930 l     O .rodata	00000018 _ZL20raw_1x1_output_shape
+4008f948 l     O .rodata	00000060 _ZL20raw_1x1_output_shift
+4008f9a8 l     O .rodata	00000060 _ZL25raw_1x1_output_multiplier
+00000000 l    df *ABS*	00000000 menu.cc
+00000000 l    df *ABS*	00000000 mnv2.cc
+40000eb0 l     F .text	00000048 _ZL13do_classify_1v
+40000ef8 l     F .text	000000c0 _ZL15do_golden_testsv
+40000fb8 l     F .text	00000040 _ZL17do_classify_zerosv
+40000ff8 l     F .text	00000048 _ZL19do_classify_specialv
+4043629c l     O .rodata	00012c00 _ZL17input_00001_18027
+40001040 l     F .text	00000048 _ZL13do_classify_0v
+4008fb6c l     O .rodata	0035b730 _ZL11mobilenetv1
+403fde9c l     O .rodata	00012c00 _ZL16input_00001_7281
+40410a9c l     O .rodata	00012c00 _ZL16input_00001_7425
+4042369c l     O .rodata	00012c00 _ZL16input_00002_2532
+40448e9c l     O .rodata	00012c00 _ZL17input_00002_25869
+403eb29c l     O .rodata	00012c00 _ZL15input_00004_970
+404b77b4 l     O .data	00000008 _ZL4MENU
+00000000 l    df *ABS*	00000000 pdti8.cc
+400010b8 l     F .text	00000040 _ZL17do_classify_zerosv
+400010f8 l     F .text	00000054 _ZL21do_classify_no_personv
+4000114c l     F .text	00000054 _ZL18do_classify_personv
+400011a0 l     F .text	0000014c _ZL15do_golden_testsv
+4045bb74 l     O .rodata	00049618 _ZL11model_pdti8
+404b7830 l     O .data	00000008 _ZL4MENU
+00000000 l    df *ABS*	00000000 perf.cc
+4000131c l     F .text	0000004c _ZL12do_perf_showv
+40001368 l     F .text	00000130 _ZL12do_perf_zerov
+40001498 l     F .text	00000020 _ZL13do_perf_set_1v
+400014b8 l     F .text	0000001c _ZL13do_perf_set_0v
+400014d4 l     F .text	00000120 _ZL14do_perf_enablev
+400015f4 l     F .text	00000108 _ZL13do_perf_pausev
+40001840 l     F .text	0000019c _ZL15do_perf_measurev
+404b7ac0 l     O .bss	00000004 _ZL11counter_num
+404b789c l     O .data	00000008 _ZL4MENU
+00000000 l    df *ABS*	00000000 murmurhash.cc
+00000000 l    df *ABS*	00000000 util_tests.cc
+40001dac l     F .text	00000148 _ZN12_GLOBAL__N_115do_murmur_testsEv
+40001ef4 l     F .text	00000300 _ZN12_GLOBAL__N_16do_fpuEv
+404b7934 l     O .data	00000008 _ZN12_GLOBAL__N_14MENUE
+00000000 l    df *ABS*	00000000 proj_menu.cc
+40002200 l     F .text	0000006c _ZN12_GLOBAL__N_114do_b64_samplesEv
+404b797c l     O .data	00000008 _ZN12_GLOBAL__N_14MENUE
+00000000 l    df *ABS*	00000000 proj_tflite.cc
+00000000 l    df *ABS*	00000000 software_cfu.cc
+00000000 l       *ABS*	00000000 regnum_x0
+00000001 l       *ABS*	00000000 regnum_x1
+00000002 l       *ABS*	00000000 regnum_x2
+00000003 l       *ABS*	00000000 regnum_x3
+00000004 l       *ABS*	00000000 regnum_x4
+00000005 l       *ABS*	00000000 regnum_x5
+00000006 l       *ABS*	00000000 regnum_x6
+00000007 l       *ABS*	00000000 regnum_x7
+00000008 l       *ABS*	00000000 regnum_x8
+00000009 l       *ABS*	00000000 regnum_x9
+0000000a l       *ABS*	00000000 regnum_x10
+0000000b l       *ABS*	00000000 regnum_x11
+0000000c l       *ABS*	00000000 regnum_x12
+0000000d l       *ABS*	00000000 regnum_x13
+0000000e l       *ABS*	00000000 regnum_x14
+0000000f l       *ABS*	00000000 regnum_x15
+00000010 l       *ABS*	00000000 regnum_x16
+00000011 l       *ABS*	00000000 regnum_x17
+00000012 l       *ABS*	00000000 regnum_x18
+00000013 l       *ABS*	00000000 regnum_x19
+00000014 l       *ABS*	00000000 regnum_x20
+00000015 l       *ABS*	00000000 regnum_x21
+00000016 l       *ABS*	00000000 regnum_x22
+00000017 l       *ABS*	00000000 regnum_x23
+00000018 l       *ABS*	00000000 regnum_x24
+00000019 l       *ABS*	00000000 regnum_x25
+0000001a l       *ABS*	00000000 regnum_x26
+0000001b l       *ABS*	00000000 regnum_x27
+0000001c l       *ABS*	00000000 regnum_x28
+0000001d l       *ABS*	00000000 regnum_x29
+0000001e l       *ABS*	00000000 regnum_x30
+0000001f l       *ABS*	00000000 regnum_x31
+00000000 l       *ABS*	00000000 regnum_zero
+00000001 l       *ABS*	00000000 regnum_ra
+00000002 l       *ABS*	00000000 regnum_sp
+00000003 l       *ABS*	00000000 regnum_gp
+00000004 l       *ABS*	00000000 regnum_tp
+00000005 l       *ABS*	00000000 regnum_t0
+00000006 l       *ABS*	00000000 regnum_t1
+00000007 l       *ABS*	00000000 regnum_t2
+00000008 l       *ABS*	00000000 regnum_s0
+00000009 l       *ABS*	00000000 regnum_s1
+0000000a l       *ABS*	00000000 regnum_a0
+0000000b l       *ABS*	00000000 regnum_a1
+0000000c l       *ABS*	00000000 regnum_a2
+0000000d l       *ABS*	00000000 regnum_a3
+0000000e l       *ABS*	00000000 regnum_a4
+0000000f l       *ABS*	00000000 regnum_a5
+00000010 l       *ABS*	00000000 regnum_a6
+00000011 l       *ABS*	00000000 regnum_a7
+00000012 l       *ABS*	00000000 regnum_s2
+00000013 l       *ABS*	00000000 regnum_s3
+00000014 l       *ABS*	00000000 regnum_s4
+00000015 l       *ABS*	00000000 regnum_s5
+00000016 l       *ABS*	00000000 regnum_s6
+00000017 l       *ABS*	00000000 regnum_s7
+00000018 l       *ABS*	00000000 regnum_s8
+00000019 l       *ABS*	00000000 regnum_s9
+0000001a l       *ABS*	00000000 regnum_s10
+0000001b l       *ABS*	00000000 regnum_s11
+0000001c l       *ABS*	00000000 regnum_t3
+0000001d l       *ABS*	00000000 regnum_t4
+0000001e l       *ABS*	00000000 regnum_t5
+0000001f l       *ABS*	00000000 regnum_t6
+0000000b l       *ABS*	00000000 CUSTOM0
+0000002b l       *ABS*	00000000 CUSTOM1
+404c83a4 l     O .bss	00000808 _ZN12_GLOBAL__N_112output_queueE
+404b7b74 l     O .bss	00008018 _ZN12_GLOBAL__N_111input_storeE
+404c93b4 l     O .bss	00000808 _ZN12_GLOBAL__N_117output_multiplierE
+404c8bac l     O .bss	00000808 _ZN12_GLOBAL__N_112output_shiftE
+404bfb8c l     O .bss	00000808 _ZN12_GLOBAL__N_111output_biasE
+404c0394 l     O .bss	00008010 _ZN12_GLOBAL__N_112filter_storeE
+404b7ac4 l     O .bss	00000004 _ZN12_GLOBAL__N_116reg_input_offsetE
+404b7ac8 l     O .bss	00000004 _ZN12_GLOBAL__N_117reg_output_offsetE
+404b7acc l     O .bss	00000004 _ZN12_GLOBAL__N_118reg_activation_maxE
+404b7ad0 l     O .bss	00000004 _ZN12_GLOBAL__N_118reg_activation_minE
+404b7ad4 l     O .bss	00000004 _ZN12_GLOBAL__N_121reg_output_batch_sizeE
+404b7ad8 l     O .bss	00000004 _ZZN12_GLOBAL__N_16oq_putEPNS_11OutputQueueEmE7dbg_ctr
+00000000 l    df *ABS*	00000000 error_reporter.cc
+00000000 l    df *ABS*	00000000 flatbuffer_conversions.cc
+00000000 l    df *ABS*	00000000 op_resolver.cc
+00000000 l    df *ABS*	00000000 common.cc
+404a6734 l     O .rodata	0000004c CSWTCH.10
+00000000 l    df *ABS*	00000000 portable_tensor_utils.cc
+00000000 l    df *ABS*	00000000 quantization_util.cc
+00000000 l    df *ABS*	00000000 conv.cc
+00000000 l       *ABS*	00000000 regnum_x0
+00000001 l       *ABS*	00000000 regnum_x1
+00000002 l       *ABS*	00000000 regnum_x2
+00000003 l       *ABS*	00000000 regnum_x3
+00000004 l       *ABS*	00000000 regnum_x4
+00000005 l       *ABS*	00000000 regnum_x5
+00000006 l       *ABS*	00000000 regnum_x6
+00000007 l       *ABS*	00000000 regnum_x7
+00000008 l       *ABS*	00000000 regnum_x8
+00000009 l       *ABS*	00000000 regnum_x9
+0000000a l       *ABS*	00000000 regnum_x10
+0000000b l       *ABS*	00000000 regnum_x11
+0000000c l       *ABS*	00000000 regnum_x12
+0000000d l       *ABS*	00000000 regnum_x13
+0000000e l       *ABS*	00000000 regnum_x14
+0000000f l       *ABS*	00000000 regnum_x15
+00000010 l       *ABS*	00000000 regnum_x16
+00000011 l       *ABS*	00000000 regnum_x17
+00000012 l       *ABS*	00000000 regnum_x18
+00000013 l       *ABS*	00000000 regnum_x19
+00000014 l       *ABS*	00000000 regnum_x20
+00000015 l       *ABS*	00000000 regnum_x21
+00000016 l       *ABS*	00000000 regnum_x22
+00000017 l       *ABS*	00000000 regnum_x23
+00000018 l       *ABS*	00000000 regnum_x24
+00000019 l       *ABS*	00000000 regnum_x25
+0000001a l       *ABS*	00000000 regnum_x26
+0000001b l       *ABS*	00000000 regnum_x27
+0000001c l       *ABS*	00000000 regnum_x28
+0000001d l       *ABS*	00000000 regnum_x29
+0000001e l       *ABS*	00000000 regnum_x30
+0000001f l       *ABS*	00000000 regnum_x31
+00000000 l       *ABS*	00000000 regnum_zero
+00000001 l       *ABS*	00000000 regnum_ra
+00000002 l       *ABS*	00000000 regnum_sp
+00000003 l       *ABS*	00000000 regnum_gp
+00000004 l       *ABS*	00000000 regnum_tp
+00000005 l       *ABS*	00000000 regnum_t0
+00000006 l       *ABS*	00000000 regnum_t1
+00000007 l       *ABS*	00000000 regnum_t2
+00000008 l       *ABS*	00000000 regnum_s0
+00000009 l       *ABS*	00000000 regnum_s1
+0000000a l       *ABS*	00000000 regnum_a0
+0000000b l       *ABS*	00000000 regnum_a1
+0000000c l       *ABS*	00000000 regnum_a2
+0000000d l       *ABS*	00000000 regnum_a3
+0000000e l       *ABS*	00000000 regnum_a4
+0000000f l       *ABS*	00000000 regnum_a5
+00000010 l       *ABS*	00000000 regnum_a6
+00000011 l       *ABS*	00000000 regnum_a7
+00000012 l       *ABS*	00000000 regnum_s2
+00000013 l       *ABS*	00000000 regnum_s3
+00000014 l       *ABS*	00000000 regnum_s4
+00000015 l       *ABS*	00000000 regnum_s5
+00000016 l       *ABS*	00000000 regnum_s6
+00000017 l       *ABS*	00000000 regnum_s7
+00000018 l       *ABS*	00000000 regnum_s8
+00000019 l       *ABS*	00000000 regnum_s9
+0000001a l       *ABS*	00000000 regnum_s10
+0000001b l       *ABS*	00000000 regnum_s11
+0000001c l       *ABS*	00000000 regnum_t3
+0000001d l       *ABS*	00000000 regnum_t4
+0000001e l       *ABS*	00000000 regnum_t5
+0000001f l       *ABS*	00000000 regnum_t6
+0000000b l       *ABS*	00000000 CUSTOM0
+0000002b l       *ABS*	00000000 CUSTOM1
+00000000 l    df *ABS*	00000000 mnv2_conv.cc
+00000000 l       *ABS*	00000000 regnum_x0
+00000001 l       *ABS*	00000000 regnum_x1
+00000002 l       *ABS*	00000000 regnum_x2
+00000003 l       *ABS*	00000000 regnum_x3
+00000004 l       *ABS*	00000000 regnum_x4
+00000005 l       *ABS*	00000000 regnum_x5
+00000006 l       *ABS*	00000000 regnum_x6
+00000007 l       *ABS*	00000000 regnum_x7
+00000008 l       *ABS*	00000000 regnum_x8
+00000009 l       *ABS*	00000000 regnum_x9
+0000000a l       *ABS*	00000000 regnum_x10
+0000000b l       *ABS*	00000000 regnum_x11
+0000000c l       *ABS*	00000000 regnum_x12
+0000000d l       *ABS*	00000000 regnum_x13
+0000000e l       *ABS*	00000000 regnum_x14
+0000000f l       *ABS*	00000000 regnum_x15
+00000010 l       *ABS*	00000000 regnum_x16
+00000011 l       *ABS*	00000000 regnum_x17
+00000012 l       *ABS*	00000000 regnum_x18
+00000013 l       *ABS*	00000000 regnum_x19
+00000014 l       *ABS*	00000000 regnum_x20
+00000015 l       *ABS*	00000000 regnum_x21
+00000016 l       *ABS*	00000000 regnum_x22
+00000017 l       *ABS*	00000000 regnum_x23
+00000018 l       *ABS*	00000000 regnum_x24
+00000019 l       *ABS*	00000000 regnum_x25
+0000001a l       *ABS*	00000000 regnum_x26
+0000001b l       *ABS*	00000000 regnum_x27
+0000001c l       *ABS*	00000000 regnum_x28
+0000001d l       *ABS*	00000000 regnum_x29
+0000001e l       *ABS*	00000000 regnum_x30
+0000001f l       *ABS*	00000000 regnum_x31
+00000000 l       *ABS*	00000000 regnum_zero
+00000001 l       *ABS*	00000000 regnum_ra
+00000002 l       *ABS*	00000000 regnum_sp
+00000003 l       *ABS*	00000000 regnum_gp
+00000004 l       *ABS*	00000000 regnum_tp
+00000005 l       *ABS*	00000000 regnum_t0
+00000006 l       *ABS*	00000000 regnum_t1
+00000007 l       *ABS*	00000000 regnum_t2
+00000008 l       *ABS*	00000000 regnum_s0
+00000009 l       *ABS*	00000000 regnum_s1
+0000000a l       *ABS*	00000000 regnum_a0
+0000000b l       *ABS*	00000000 regnum_a1
+0000000c l       *ABS*	00000000 regnum_a2
+0000000d l       *ABS*	00000000 regnum_a3
+0000000e l       *ABS*	00000000 regnum_a4
+0000000f l       *ABS*	00000000 regnum_a5
+00000010 l       *ABS*	00000000 regnum_a6
+00000011 l       *ABS*	00000000 regnum_a7
+00000012 l       *ABS*	00000000 regnum_s2
+00000013 l       *ABS*	00000000 regnum_s3
+00000014 l       *ABS*	00000000 regnum_s4
+00000015 l       *ABS*	00000000 regnum_s5
+00000016 l       *ABS*	00000000 regnum_s6
+00000017 l       *ABS*	00000000 regnum_s7
+00000018 l       *ABS*	00000000 regnum_s8
+00000019 l       *ABS*	00000000 regnum_s9
+0000001a l       *ABS*	00000000 regnum_s10
+0000001b l       *ABS*	00000000 regnum_s11
+0000001c l       *ABS*	00000000 regnum_t3
+0000001d l       *ABS*	00000000 regnum_t4
+0000001e l       *ABS*	00000000 regnum_t5
+0000001f l       *ABS*	00000000 regnum_t6
+0000000b l       *ABS*	00000000 CUSTOM0
+0000002b l       *ABS*	00000000 CUSTOM1
+00000000 l    df *ABS*	00000000 portable_tensor_utils.cc
+00000000 l    df *ABS*	00000000 tensor_utils.cc
+00000000 l    df *ABS*	00000000 kernel_util.cc
+404a69c0 l     O .rodata	00000044 CSWTCH.36
+00000000 l    df *ABS*	00000000 all_ops_resolver.cc
+40009f38 l     F .text	000001cc _ZN6tflite22MicroMutableOpResolverILj128EE10AddBuiltinENS_15BuiltinOperatorERK18TfLiteRegistrationPF12TfLiteStatusPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPvE.isra.0
+00000000 l    df *ABS*	00000000 single_arena_buffer_allocator.cc
+00000000 l    df *ABS*	00000000 debug_log.cc
+00000000 l    df *ABS*	00000000 fake_micro_context.cc
+404c9bbc l     O .bss	00000100 _ZN6tflite12_GLOBAL__N_1L18dummy_tensor_arenaE
+00000000 l    df *ABS*	00000000 flatbuffer_utils.cc
+00000000 l    df *ABS*	00000000 activations.cc
+4000e76c l     F .text	0000000c _ZN6tflite12_GLOBAL__N_18ReluInitEP13TfLiteContextPKcj
+4000e778 l     F .text	0000000c _ZN6tflite12_GLOBAL__N_19Relu6InitEP13TfLiteContextPKcj
+4000e784 l     F .text	00000138 _ZN6tflite12_GLOBAL__N_18ReluEvalEP13TfLiteContextP10TfLiteNode
+4000e8bc l     F .text	00000148 _ZN6tflite12_GLOBAL__N_19Relu6EvalEP13TfLiteContextP10TfLiteNode
+00000000 l    df *ABS*	00000000 activations_common.cc
+00000000 l    df *ABS*	00000000 add.cc
+00000000 l    df *ABS*	00000000 add_common.cc
+00000000 l    df *ABS*	00000000 add_n.cc
+400120a4 l     F .text	00000464 _ZN6tflite12_GLOBAL__N_17PrepareEP13TfLiteContextP10TfLiteNode
+40012508 l     F .text	000005d4 _ZN6tflite12_GLOBAL__N_14EvalEP13TfLiteContextP10TfLiteNode
+00000000 l    df *ABS*	00000000 arg_min_max.cc
+40012b1c l     F .text	000009dc _ZN6tflite12_GLOBAL__N_14EvalEP13TfLiteContextP10TfLiteNodeb
+400134f8 l     F .text	00000008 _ZN6tflite12_GLOBAL__N_110ArgMaxEvalEP13TfLiteContextP10TfLiteNode
+40013500 l     F .text	00000008 _ZN6tflite12_GLOBAL__N_110ArgMinEvalEP13TfLiteContextP10TfLiteNode
+00000000 l    df *ABS*	00000000 assign_variable.cc
+40013580 l     F .text	0000008c _ZN6tflite12_GLOBAL__N_14EvalEP13TfLiteContextP10TfLiteNode
+4001360c l     F .text	00000264 _ZN6tflite12_GLOBAL__N_17PrepareEP13TfLiteContextP10TfLiteNode
+00000000 l    df *ABS*	00000000 batch_to_space_nd.cc
+400138b0 l     F .text	00000264 _ZN6tflite12_GLOBAL__N_17PrepareEP13TfLiteContextP10TfLiteNode
+40013b14 l     F .text	000005ec _ZN6tflite12_GLOBAL__N_14EvalEP13TfLiteContextP10TfLiteNode
+00000000 l    df *ABS*	00000000 broadcast_args.cc
+40014140 l     F .text	00000280 _ZN6tflite12_GLOBAL__N_120BroadcastArgsPrepareEP13TfLiteContextP10TfLiteNode
+40014684 l     F .text	00000128 _ZN6tflite12_GLOBAL__N_117BroadcastArgsEvalEP13TfLiteContextP10TfLiteNode
+00000000 l    df *ABS*	00000000 broadcast_to.cc
+400147ac l     F .text	00000408 _ZN6tflite12_GLOBAL__N_118BroadcastToPrepareEP13TfLiteContextP10TfLiteNode
+40014e48 l     F .text	000002d8 _ZN6tflite12_GLOBAL__N_115BroadcastToEvalEP13TfLiteContextP10TfLiteNode
+00000000 l    df *ABS*	00000000 call_once.cc
+40015120 l     F .text	0000000c _ZN6tflite12_GLOBAL__N_14InitEP13TfLiteContextPKcj
+4001512c l     F .text	0000010c _ZN6tflite12_GLOBAL__N_17PrepareEP13TfLiteContextP10TfLiteNode
+40015238 l     F .text	00000060 _ZN6tflite12_GLOBAL__N_14EvalEP13TfLiteContextP10TfLiteNode
+00000000 l    df *ABS*	00000000 cast.cc
+400152dc l     F .text	00000188 _ZN6tflite12_GLOBAL__N_17PrepareEP13TfLiteContextP10TfLiteNode
+40015464 l     F .text	00000710 _ZN6tflite12_GLOBAL__N_14EvalEP13TfLiteContextP10TfLiteNode
+00000000 l    df *ABS*	00000000 ceil.cc
+00000000 l    df *ABS*	00000000 circular_buffer.cc
+404c9cbc l     O .bss	00000024 _ZZN6tflite24Register_CIRCULAR_BUFFEREvE1r
+404b7ae0 l     O .bss	00000008 _ZGVZN6tflite24Register_CIRCULAR_BUFFEREvE1r
+00000000 l    df *ABS*	00000000 circular_buffer_common.cc
+404b7ae8 l     O .bss	00000004 _ZZN6tflite21CircularBufferPrepareEP13TfLiteContextP10TfLiteNodeE16cb_prepare_count
+00000000 l    df *ABS*	00000000 comparisons.cc
+400166b4 l     F .text	00001f98 _ZN6tflite3ops5micro11comparisons12_GLOBAL__N_111GreaterEvalEP13TfLiteContextP10TfLiteNode
+4001864c l     F .text	00002018 _ZN6tflite3ops5micro11comparisons12_GLOBAL__N_116GreaterEqualEvalEP13TfLiteContextP10TfLiteNode
+4001a664 l     F .text	00001f98 _ZN6tflite3ops5micro11comparisons12_GLOBAL__N_18LessEvalEP13TfLiteContextP10TfLiteNode
+4001c5fc l     F .text	00002014 _ZN6tflite3ops5micro11comparisons12_GLOBAL__N_113LessEqualEvalEP13TfLiteContextP10TfLiteNode
+4001e610 l     F .text	00002874 _ZN6tflite3ops5micro11comparisons12_GLOBAL__N_112NotEqualEvalEP13TfLiteContextP10TfLiteNode
+40020e84 l     F .text	00002578 _ZN6tflite3ops5micro11comparisons12_GLOBAL__N_19EqualEvalEP13TfLiteContextP10TfLiteNode
+00000000 l    df *ABS*	00000000 concatenation.cc
+00000000 l    df *ABS*	00000000 conv.cc
+40025050 l     F .text	0000000c _ZN6tflite12_GLOBAL__N_14InitEP13TfLiteContextPKcj
+4002505c l     F .text	000009d4 _ZN6tflite12_GLOBAL__N_14EvalEP13TfLiteContextP10TfLiteNode
+00000000 l    df *ABS*	00000000 conv_common.cc
+00000000 l    df *ABS*	00000000 conv_test.cc
+404b7568 l     O .data	00000014 _ZN6tflite7testing12_GLOBAL__N_1L11kInputShapeE
+404b757c l     O .data	00000014 _ZN6tflite7testing12_GLOBAL__N_1L12kFilterShapeE
+404b7590 l     O .data	00000014 _ZN6tflite7testing12_GLOBAL__N_1L12kOutputShapeE
+404b75a4 l     O .data	00000018 _ZN6tflite7testing12_GLOBAL__N_1L18common_conv_paramsE
+404ae36c l     O .rodata	00000040 _ZN6tflite7testing12_GLOBAL__N_1L10kInputDataE
+404ae3ac l     O .rodata	00000030 _ZN6tflite7testing12_GLOBAL__N_1L11kFilterDataE
+404ae3dc l     O .rodata	00000030 _ZN6tflite7testing12_GLOBAL__N_1L11kGoldenDataE
+404ae40c l     O .rodata	0000000c _ZN6tflite7testing12_GLOBAL__N_1L9kBiasDataE
+404b79fc l     O .data	00000008 _ZN6tflite7testing12_GLOBAL__N_1L10kBiasShapeE
+00000000 l    df *ABS*	00000000 conv_test_common.cc
+4002bd74 l     F .text	0000010c _ZN6tflite7testing10InvokeConvIsEE12TfLiteStatusP12TfLiteTensoriiP16TfLiteConvParams18TfLiteRegistrationPT_.isra.0
+4002be80 l     F .text	0000010c _ZN6tflite7testing10InvokeConvIfEE12TfLiteStatusP12TfLiteTensoriiP16TfLiteConvParams18TfLiteRegistrationPT_.isra.0
+00000000 l    df *ABS*	00000000 cumsum.cc
+4002d82c l     F .text	0000048c _ZN6tflite12_GLOBAL__N_17PrepareEP13TfLiteContextP10TfLiteNode
+4002dcb8 l     F .text	00000e30 _ZN6tflite12_GLOBAL__N_14EvalEP13TfLiteContextP10TfLiteNode
+00000000 l    df *ABS*	00000000 depth_to_space.cc
+4002eb28 l     F .text	0000032c _ZN6tflite12_GLOBAL__N_17PrepareEP13TfLiteContextP10TfLiteNode
+4002ee54 l     F .text	00000544 _ZN6tflite12_GLOBAL__N_14EvalEP13TfLiteContextP10TfLiteNode
+00000000 l    df *ABS*	00000000 depthwise_conv.cc
+00000000 l       *ABS*	00000000 regnum_x0
+00000001 l       *ABS*	00000000 regnum_x1
+00000002 l       *ABS*	00000000 regnum_x2
+00000003 l       *ABS*	00000000 regnum_x3
+00000004 l       *ABS*	00000000 regnum_x4
+00000005 l       *ABS*	00000000 regnum_x5
+00000006 l       *ABS*	00000000 regnum_x6
+00000007 l       *ABS*	00000000 regnum_x7
+00000008 l       *ABS*	00000000 regnum_x8
+00000009 l       *ABS*	00000000 regnum_x9
+0000000a l       *ABS*	00000000 regnum_x10
+0000000b l       *ABS*	00000000 regnum_x11
+0000000c l       *ABS*	00000000 regnum_x12
+0000000d l       *ABS*	00000000 regnum_x13
+0000000e l       *ABS*	00000000 regnum_x14
+0000000f l       *ABS*	00000000 regnum_x15
+00000010 l       *ABS*	00000000 regnum_x16
+00000011 l       *ABS*	00000000 regnum_x17
+00000012 l       *ABS*	00000000 regnum_x18
+00000013 l       *ABS*	00000000 regnum_x19
+00000014 l       *ABS*	00000000 regnum_x20
+00000015 l       *ABS*	00000000 regnum_x21
+00000016 l       *ABS*	00000000 regnum_x22
+00000017 l       *ABS*	00000000 regnum_x23
+00000018 l       *ABS*	00000000 regnum_x24
+00000019 l       *ABS*	00000000 regnum_x25
+0000001a l       *ABS*	00000000 regnum_x26
+0000001b l       *ABS*	00000000 regnum_x27
+0000001c l       *ABS*	00000000 regnum_x28
+0000001d l       *ABS*	00000000 regnum_x29
+0000001e l       *ABS*	00000000 regnum_x30
+0000001f l       *ABS*	00000000 regnum_x31
+00000000 l       *ABS*	00000000 regnum_zero
+00000001 l       *ABS*	00000000 regnum_ra
+00000002 l       *ABS*	00000000 regnum_sp
+00000003 l       *ABS*	00000000 regnum_gp
+00000004 l       *ABS*	00000000 regnum_tp
+00000005 l       *ABS*	00000000 regnum_t0
+00000006 l       *ABS*	00000000 regnum_t1
+00000007 l       *ABS*	00000000 regnum_t2
+00000008 l       *ABS*	00000000 regnum_s0
+00000009 l       *ABS*	00000000 regnum_s1
+0000000a l       *ABS*	00000000 regnum_a0
+0000000b l       *ABS*	00000000 regnum_a1
+0000000c l       *ABS*	00000000 regnum_a2
+0000000d l       *ABS*	00000000 regnum_a3
+0000000e l       *ABS*	00000000 regnum_a4
+0000000f l       *ABS*	00000000 regnum_a5
+00000010 l       *ABS*	00000000 regnum_a6
+00000011 l       *ABS*	00000000 regnum_a7
+00000012 l       *ABS*	00000000 regnum_s2
+00000013 l       *ABS*	00000000 regnum_s3
+00000014 l       *ABS*	00000000 regnum_s4
+00000015 l       *ABS*	00000000 regnum_s5
+00000016 l       *ABS*	00000000 regnum_s6
+00000017 l       *ABS*	00000000 regnum_s7
+00000018 l       *ABS*	00000000 regnum_s8
+00000019 l       *ABS*	00000000 regnum_s9
+0000001a l       *ABS*	00000000 regnum_s10
+0000001b l       *ABS*	00000000 regnum_s11
+0000001c l       *ABS*	00000000 regnum_t3
+0000001d l       *ABS*	00000000 regnum_t4
+0000001e l       *ABS*	00000000 regnum_t5
+0000001f l       *ABS*	00000000 regnum_t6
+0000000b l       *ABS*	00000000 CUSTOM0
+0000002b l       *ABS*	00000000 CUSTOM1
+4002f3d8 l     F .text	0000000c _ZN6tflite12_GLOBAL__N_14InitEP13TfLiteContextPKcj
+4002f3e4 l     F .text	0000101c _ZN6tflite12_GLOBAL__N_14EvalEP13TfLiteContextP10TfLiteNode
+00000000 l    df *ABS*	00000000 depthwise_conv_common.cc
+00000000 l       *ABS*	00000000 regnum_x0
+00000001 l       *ABS*	00000000 regnum_x1
+00000002 l       *ABS*	00000000 regnum_x2
+00000003 l       *ABS*	00000000 regnum_x3
+00000004 l       *ABS*	00000000 regnum_x4
+00000005 l       *ABS*	00000000 regnum_x5
+00000006 l       *ABS*	00000000 regnum_x6
+00000007 l       *ABS*	00000000 regnum_x7
+00000008 l       *ABS*	00000000 regnum_x8
+00000009 l       *ABS*	00000000 regnum_x9
+0000000a l       *ABS*	00000000 regnum_x10
+0000000b l       *ABS*	00000000 regnum_x11
+0000000c l       *ABS*	00000000 regnum_x12
+0000000d l       *ABS*	00000000 regnum_x13
+0000000e l       *ABS*	00000000 regnum_x14
+0000000f l       *ABS*	00000000 regnum_x15
+00000010 l       *ABS*	00000000 regnum_x16
+00000011 l       *ABS*	00000000 regnum_x17
+00000012 l       *ABS*	00000000 regnum_x18
+00000013 l       *ABS*	00000000 regnum_x19
+00000014 l       *ABS*	00000000 regnum_x20
+00000015 l       *ABS*	00000000 regnum_x21
+00000016 l       *ABS*	00000000 regnum_x22
+00000017 l       *ABS*	00000000 regnum_x23
+00000018 l       *ABS*	00000000 regnum_x24
+00000019 l       *ABS*	00000000 regnum_x25
+0000001a l       *ABS*	00000000 regnum_x26
+0000001b l       *ABS*	00000000 regnum_x27
+0000001c l       *ABS*	00000000 regnum_x28
+0000001d l       *ABS*	00000000 regnum_x29
+0000001e l       *ABS*	00000000 regnum_x30
+0000001f l       *ABS*	00000000 regnum_x31
+00000000 l       *ABS*	00000000 regnum_zero
+00000001 l       *ABS*	00000000 regnum_ra
+00000002 l       *ABS*	00000000 regnum_sp
+00000003 l       *ABS*	00000000 regnum_gp
+00000004 l       *ABS*	00000000 regnum_tp
+00000005 l       *ABS*	00000000 regnum_t0
+00000006 l       *ABS*	00000000 regnum_t1
+00000007 l       *ABS*	00000000 regnum_t2
+00000008 l       *ABS*	00000000 regnum_s0
+00000009 l       *ABS*	00000000 regnum_s1
+0000000a l       *ABS*	00000000 regnum_a0
+0000000b l       *ABS*	00000000 regnum_a1
+0000000c l       *ABS*	00000000 regnum_a2
+0000000d l       *ABS*	00000000 regnum_a3
+0000000e l       *ABS*	00000000 regnum_a4
+0000000f l       *ABS*	00000000 regnum_a5
+00000010 l       *ABS*	00000000 regnum_a6
+00000011 l       *ABS*	00000000 regnum_a7
+00000012 l       *ABS*	00000000 regnum_s2
+00000013 l       *ABS*	00000000 regnum_s3
+00000014 l       *ABS*	00000000 regnum_s4
+00000015 l       *ABS*	00000000 regnum_s5
+00000016 l       *ABS*	00000000 regnum_s6
+00000017 l       *ABS*	00000000 regnum_s7
+00000018 l       *ABS*	00000000 regnum_s8
+00000019 l       *ABS*	00000000 regnum_s9
+0000001a l       *ABS*	00000000 regnum_s10
+0000001b l       *ABS*	00000000 regnum_s11
+0000001c l       *ABS*	00000000 regnum_t3
+0000001d l       *ABS*	00000000 regnum_t4
+0000001e l       *ABS*	00000000 regnum_t5
+0000001f l       *ABS*	00000000 regnum_t6
+0000000b l       *ABS*	00000000 CUSTOM0
+0000002b l       *ABS*	00000000 CUSTOM1
+00000000 l    df *ABS*	00000000 depthwise_conv_test.cc
+40030d44 l     F .text	0000022c _ZN6tflite7testing12_GLOBAL__N_128ValidateDepthwiseConvGoldensIaEE12TfLiteStatusPKT_iP25TfLiteDepthwiseConvParamsfiP12TfLiteTensor.constprop.0
+40030f70 l     F .text	00000584 _ZN6tflite7testing12_GLOBAL__N_128ValidateDepthwiseConvGoldensIaEE12TfLiteStatusPKT_iP25TfLiteDepthwiseConvParamsfiP12TfLiteTensor.constprop.1
+400314f4 l     F .text	00000234 _ZN6tflite7testing12_GLOBAL__N_128ValidateDepthwiseConvGoldensIaEE12TfLiteStatusPKT_iP25TfLiteDepthwiseConvParamsfiP12TfLiteTensor.constprop.2
+40031728 l     F .text	00000364 _ZN6tflite7testing12_GLOBAL__N_122TestDepthwiseConvFloatEPiPKfS2_S4_S2_S4_S4_S2_P25TfLiteDepthwiseConvParamsPf
+40031a8c l     F .text	00000418 _ZN6tflite7testing12_GLOBAL__N_136TestDepthwiseConvQuantizedPerChannelEPiPKfPafiS2_S4_S5_S2_S4_PlS2_S4_S5_S5_fiP25TfLiteDepthwiseConvParams10TfLiteType.constprop.0
+00000000 l    df *ABS*	00000000 dequantize.cc
+00000000 l    df *ABS*	00000000 dequantize_common.cc
+00000000 l    df *ABS*	00000000 detection_postprocess.cc
+400368b8 l     F .text	000003d0 _ZN6tflite12_GLOBAL__N_17PrepareEP13TfLiteContextP10TfLiteNode
+40036c88 l     F .text	00000244 _ZSt13__adjust_heapIPiiiN9__gnu_cxx5__ops15_Iter_comp_iterIZN6tflite12_GLOBAL__N_124DecreasingPartialArgSortEPKfiiS0_EUliiE_EEEvT_T0_SB_T1_T2_
+40036ecc l     F .text	000001a0 _ZN6tflite12_GLOBAL__N_124DecreasingPartialArgSortEPKfiiPi
+4003709c l     F .text	0000039c _ZN6tflite12_GLOBAL__N_19MergeSortIZNS0_17DecreasingArgSortEPKfiPiS4_EUliiE_EEvS4_S4_iT_
+40037438 l     F .text	000006c4 _ZN6tflite12_GLOBAL__N_134NonMaxSuppressionSingleClassHelperEP13TfLiteContextP10TfLiteNodePNS0_6OpDataEPKfPiS9_i
+40037afc l     F .text	00000c70 _ZN6tflite12_GLOBAL__N_14EvalEP13TfLiteContextP10TfLiteNode
+40038f34 l     F .text	00001f90 _ZN6tflite12_GLOBAL__N_14InitEP13TfLiteContextPKcj
+404ff840 l     O .bss	00000024 _ZZN6tflite30Register_DETECTION_POSTPROCESSEvE1r
+404b7af0 l     O .bss	00000008 _ZGVZN6tflite30Register_DETECTION_POSTPROCESSEvE1r
+00000000 l    df *ABS*	00000000 div.cc
+4003af44 l     F .text	0000000c _ZN6tflite12_GLOBAL__N_14InitEP13TfLiteContextPKcj
+4003af50 l     F .text	0000025c _ZN6tflite12_GLOBAL__N_17PrepareEP13TfLiteContextP10TfLiteNode
+4003d118 l     F .text	0000011c _ZN6tflite12_GLOBAL__N_14EvalEP13TfLiteContextP10TfLiteNode
+4003b8c8 l     F .text	00000d0c _ZN6tflite12_GLOBAL__N_113EvalQuantizedEP13TfLiteContextP10TfLiteNodeP15TfLiteDivParamsPKNS0_9OpDataDivEPK16TfLiteEvalTensorSC_PSA_.constprop.0
+4003c9c8 l     F .text	00000750 _ZN6tflite12_GLOBAL__N_17EvalDivEP13TfLiteContextP10TfLiteNodeP15TfLiteDivParamsPKNS0_9OpDataDivEPK16TfLiteEvalTensorSC_PSA_.constprop.0
+00000000 l    df *ABS*	00000000 elementwise.cc
+4003d234 l     F .text	0000000c _ZN6tflite3ops5micro11elementwise12_GLOBAL__N_123ElementWiseAbsRsqrtInitEP13TfLiteContextPKcj
+4003d240 l     F .text	0000020c _ZN6tflite3ops5micro11elementwise12_GLOBAL__N_114GenericPrepareIXadL_ZNS3_22IsNumericSupportedTypeE10TfLiteTypeEEEE12TfLiteStatusP13TfLiteContextP10TfLiteNode
+4003d44c l     F .text	0000020c _ZN6tflite3ops5micro11elementwise12_GLOBAL__N_114GenericPrepareIXadL_ZNS3_22IsLogicalSupportedTypeE10TfLiteTypeEEEE12TfLiteStatusP13TfLiteContextP10TfLiteNode
+4003d658 l     F .text	00000498 _ZN6tflite3ops5micro11elementwise12_GLOBAL__N_115PrepareAbsRsqrtIXadL_ZNS3_18IsAbsSupportedTypeE10TfLiteTypeEELi0EEE12TfLiteStatusP13TfLiteContextP10TfLiteNode
+4003daf0 l     F .text	000004b8 _ZN6tflite3ops5micro11elementwise12_GLOBAL__N_115PrepareAbsRsqrtIXadL_ZNS3_20IsRsqrtSupportedTypeE10TfLiteTypeEELi1EEE12TfLiteStatusP13TfLiteContextP10TfLiteNode
+4003dfa8 l     F .text	00000110 _ZN6tflite3ops5micro11elementwise12_GLOBAL__N_110SquareEvalEP13TfLiteContextP10TfLiteNode
+4003e0b8 l     F .text	000000fc _ZN6tflite3ops5micro11elementwise12_GLOBAL__N_114LogicalNotEvalEP13TfLiteContextP10TfLiteNode
+4003e1b4 l     F .text	0000010c _ZN6tflite3ops5micro11elementwise12_GLOBAL__N_18SqrtEvalEP13TfLiteContextP10TfLiteNode
+4003e2c0 l     F .text	0000010c _ZN6tflite3ops5micro11elementwise12_GLOBAL__N_17LogEvalEP13TfLiteContextP10TfLiteNode
+4003e3cc l     F .text	0000010c _ZN6tflite3ops5micro11elementwise12_GLOBAL__N_17CosEvalEP13TfLiteContextP10TfLiteNode
+4003e4d8 l     F .text	0000010c _ZN6tflite3ops5micro11elementwise12_GLOBAL__N_17SinEvalEP13TfLiteContextP10TfLiteNode
+4003e5e4 l     F .text	00000854 _ZN6tflite3ops5micro11elementwise12_GLOBAL__N_19RsqrtEvalEP13TfLiteContextP10TfLiteNode
+4003ee38 l     F .text	00000658 _ZN6tflite3ops5micro11elementwise12_GLOBAL__N_17AbsEvalEP13TfLiteContextP10TfLiteNode
+00000000 l    df *ABS*	00000000 elu.cc
+4003f698 l     F .text	0000000c _ZN6tflite12_GLOBAL__N_17EluInitEP13TfLiteContextPKcj
+4003f6a4 l     F .text	000001fc _ZN6tflite12_GLOBAL__N_17EluEvalEP13TfLiteContextP10TfLiteNode
+4003f8a0 l     F .text	00000308 _ZN6tflite12_GLOBAL__N_110EluPrepareEP13TfLiteContextP10TfLiteNode
+00000000 l    df *ABS*	00000000 ethosu.cc
+00000000 l    df *ABS*	00000000 exp.cc
+4003fc00 l     F .text	00000310 _ZN6tflite12_GLOBAL__N_17PrepareEP13TfLiteContextP10TfLiteNode
+4003ff10 l     F .text	00000130 _ZN6tflite12_GLOBAL__N_14EvalEP13TfLiteContextP10TfLiteNode
+00000000 l    df *ABS*	00000000 expand_dims.cc
+40040080 l     F .text	0000019c _ZN6tflite12_GLOBAL__N_14EvalEP13TfLiteContextP10TfLiteNode
+4004021c l     F .text	0000044c _ZN6tflite12_GLOBAL__N_17PrepareEP13TfLiteContextP10TfLiteNode
+00000000 l    df *ABS*	00000000 fill.cc
+400406a8 l     F .text	000003a8 _ZN6tflite12_GLOBAL__N_17PrepareEP13TfLiteContextP10TfLiteNode
+40040a50 l     F .text	000002c4 _ZN6tflite12_GLOBAL__N_14EvalEP13TfLiteContextP10TfLiteNode
+00000000 l    df *ABS*	00000000 floor.cc
+00000000 l    df *ABS*	00000000 floor_div.cc
+40040ed8 l     F .text	00000008 _ZN6tflite12_GLOBAL__N_14InitEP13TfLiteContextPKcj
+40040ee0 l     F .text	00000274 _ZN6tflite12_GLOBAL__N_17PrepareEP13TfLiteContextP10TfLiteNode
+40041154 l     F .text	000005f0 _ZN6tflite12_GLOBAL__N_14EvalEP13TfLiteContextP10TfLiteNode
+00000000 l    df *ABS*	00000000 floor_mod.cc
+40041788 l     F .text	00000008 _ZN6tflite12_GLOBAL__N_14InitEP13TfLiteContextPKcj
+40041790 l     F .text	00000274 _ZN6tflite12_GLOBAL__N_17PrepareEP13TfLiteContextP10TfLiteNode
+40041a04 l     F .text	000005cc _ZN6tflite12_GLOBAL__N_14EvalEP13TfLiteContextP10TfLiteNode
+00000000 l    df *ABS*	00000000 fully_connected.cc
+40042014 l     F .text	0000000c _ZN6tflite12_GLOBAL__N_14InitEP13TfLiteContextPKcj
+40042020 l     F .text	00000298 _ZN6tflite12_GLOBAL__N_17PrepareEP13TfLiteContextP10TfLiteNode
+400422b8 l     F .text	00000d68 _ZN6tflite12_GLOBAL__N_14EvalEP13TfLiteContextP10TfLiteNode
+00000000 l    df *ABS*	00000000 fully_connected_common.cc
+00000000 l    df *ABS*	00000000 gather.cc
+400431fc l     F .text	00000454 _ZN6tflite12_GLOBAL__N_17PrepareEP13TfLiteContextP10TfLiteNode
+40043650 l     F .text	00000498 _ZN6tflite12_GLOBAL__N_14EvalEP13TfLiteContextP10TfLiteNode
+00000000 l    df *ABS*	00000000 gather_nd.cc
+40043b28 l     F .text	00000334 _ZN6tflite12_GLOBAL__N_17PrepareEP13TfLiteContextP10TfLiteNode
+40043e5c l     F .text	00000480 _ZN6tflite12_GLOBAL__N_14EvalEP13TfLiteContextP10TfLiteNode
+00000000 l    df *ABS*	00000000 hard_swish.cc
+4004431c l     F .text	0000000c _ZN6tflite12_GLOBAL__N_113HardSwishInitEP13TfLiteContextPKcj
+40044328 l     F .text	0000047c _ZN6tflite12_GLOBAL__N_113HardSwishEvalEP13TfLiteContextP10TfLiteNode
+00000000 l    df *ABS*	00000000 hard_swish_common.cc
+00000000 l    df *ABS*	00000000 if.cc
+40044a7c l     F .text	0000000c _ZN6tflite12_GLOBAL__N_14InitEP13TfLiteContextPKcj
+40044a88 l     F .text	00000358 _ZN6tflite12_GLOBAL__N_17PrepareEP13TfLiteContextP10TfLiteNode
+40044de0 l     F .text	0000015c _ZN6tflite12_GLOBAL__N_14EvalEP13TfLiteContextP10TfLiteNode
+00000000 l    df *ABS*	00000000 kernel_runner.cc
+00000000 l    df *ABS*	00000000 kernel_util.cc
+00000000 l    df *ABS*	00000000 l2_pool_2d.cc
+40045b3c l     F .text	0000043c _ZN6tflite12_GLOBAL__N_19L2PrepareEP13TfLiteContextP10TfLiteNode
+40045f78 l     F .text	000004bc _ZN6tflite12_GLOBAL__N_16L2EvalEP13TfLiteContextP10TfLiteNode
+00000000 l    df *ABS*	00000000 l2norm.cc
+00000000 l    df *ABS*	00000000 leaky_relu.cc
+00000000 l    df *ABS*	00000000 leaky_relu_common.cc
+00000000 l    df *ABS*	00000000 log_softmax.cc
+40047ba4 l     F .text	00000360 _ZN6tflite12_GLOBAL__N_117LogSoftmaxPrepareEP13TfLiteContextP10TfLiteNode
+40048d5c l     F .text	00000734 _ZN6tflite12_GLOBAL__N_114LogSoftmaxEvalEP13TfLiteContextP10TfLiteNode
+00000000 l    df *ABS*	00000000 logical.cc
+40049490 l     F .text	0000000c _ZN6tflite12_GLOBAL__N_113LogicalOrEvalEP13TfLiteContextP10TfLiteNode
+4004949c l     F .text	0000000c _ZN6tflite12_GLOBAL__N_114LogicalAndEvalEP13TfLiteContextP10TfLiteNode
+00000000 l    df *ABS*	00000000 logical_common.cc
+00000000 l    df *ABS*	00000000 logistic.cc
+40049a1c l     F .text	0000000c _ZN6tflite12_GLOBAL__N_112LogisticInitEP13TfLiteContextPKcj
+40049d94 l     F .text	000005c4 _ZN6tflite12_GLOBAL__N_112LogisticEvalEP13TfLiteContextP10TfLiteNode
+404b10cc l     O .rodata	00000200 _ZN6tfliteL20sigmoid_table_uint16E
+00000000 l    df *ABS*	00000000 logistic_common.cc
+00000000 l    df *ABS*	00000000 lstm_eval.cc
+4004a708 l     F .text	00000248 _ZN6tflite13lstm_internal22CalculateLstmGateFloatEPKfS2_S2_S2_S2_S2_S2_S2_S2_S2_iiiii21TfLiteFusedActivationPfbb.constprop.1
+4004a950 l     F .text	00000230 _ZN6tflite13lstm_internal22CalculateLstmGateFloatEPKfS2_S2_S2_S2_S2_S2_S2_S2_S2_iiiii21TfLiteFusedActivationPfbb.constprop.0
+404b13d4 l     O .rodata	00000200 _ZN6tfliteL20sigmoid_table_uint16E
+00000000 l    df *ABS*	00000000 maximum_minimum.cc
+4004dd6c l     F .text	0000003c _ZN6tflite3ops5micro15maximum_minimum12_GLOBAL__N_19MaximumOp2opIfEET_S6_S6_
+4004dda8 l     F .text	00000018 _ZN6tflite3ops5micro15maximum_minimum12_GLOBAL__N_19MaximumOp2opIaEET_S6_S6_
+4004ddc0 l     F .text	0000000c _ZN6tflite3ops5micro15maximum_minimum12_GLOBAL__N_19MaximumOp2opIlEET_S6_S6_
+4004ddcc l     F .text	0000001c _ZN6tflite3ops5micro15maximum_minimum12_GLOBAL__N_19MaximumOp2opIxEET_S6_S6_
+4004dde8 l     F .text	0000003c _ZN6tflite3ops5micro15maximum_minimum12_GLOBAL__N_19MinimumOp2opIfEET_S6_S6_
+4004de24 l     F .text	00000018 _ZN6tflite3ops5micro15maximum_minimum12_GLOBAL__N_19MinimumOp2opIaEET_S6_S6_
+4004de3c l     F .text	0000000c _ZN6tflite3ops5micro15maximum_minimum12_GLOBAL__N_19MinimumOp2opIlEET_S6_S6_
+4004de48 l     F .text	0000001c _ZN6tflite3ops5micro15maximum_minimum12_GLOBAL__N_19MinimumOp2opIxEET_S6_S6_
+4004fb5c l     F .text	00000260 _ZN6tflite3ops5micro15maximum_minimum4EvalILNS2_12_GLOBAL__N_110KernelTypeE0ENS4_9MaximumOpEEE12TfLiteStatusP13TfLiteContextP10TfLiteNode
+4004f8fc l     F .text	00000260 _ZN6tflite3ops5micro15maximum_minimum4EvalILNS2_12_GLOBAL__N_110KernelTypeE0ENS4_9MinimumOpEEE12TfLiteStatusP13TfLiteContextP10TfLiteNode
+00000000 l    df *ABS*	00000000 micro_tensor_utils.cc
+00000000 l    df *ABS*	00000000 mirror_pad.cc
+4004ff48 l     F .text	0000000c _ZN6tflite12_GLOBAL__N_14InitEP13TfLiteContextPKcj
+4004ff54 l     F .text	000001fc _ZN6tflite12_GLOBAL__N_17PrepareEP13TfLiteContextP10TfLiteNode
+40050150 l     F .text	000000ec _ZN6tflite12_GLOBAL__N_112GetFlatIndexEiiPK16TfLiteEvalTensorPK14TfLiteIntArrayPiS7_i
+4005023c l     F .text	00000218 _ZN6tflite12_GLOBAL__N_14EvalEP13TfLiteContextP10TfLiteNode
+00000000 l    df *ABS*	00000000 mul.cc
+00000000 l    df *ABS*	00000000 mul_common.cc
+00000000 l    df *ABS*	00000000 neg.cc
+400530b8 l     F .text	00000128 _ZN6tflite12_GLOBAL__N_14EvalEP13TfLiteContextP10TfLiteNode
+00000000 l    df *ABS*	00000000 pack.cc
+4005321c l     F .text	00000610 _ZN6tflite3ops5micro4pack12_GLOBAL__N_14EvalEP13TfLiteContextP10TfLiteNode
+00000000 l    df *ABS*	00000000 pad.cc
+40053868 l     F .text	0000000c _ZN6tflite12_GLOBAL__N_14InitEP13TfLiteContextPKcj
+40053fc8 l     F .text	0000280c _ZN6tflite12_GLOBAL__N_14EvalEP13TfLiteContextP10TfLiteNode
+00000000 l    df *ABS*	00000000 pooling.cc
+4005685c l     F .text	0000000c _ZN6tflite12_GLOBAL__N_14InitEP13TfLiteContextPKcj
+40056868 l     F .text	0000011c _ZN6tflite12_GLOBAL__N_111AverageEvalEP13TfLiteContextP10TfLiteNode
+40056984 l     F .text	0000011c _ZN6tflite12_GLOBAL__N_17MaxEvalEP13TfLiteContextP10TfLiteNode
+00000000 l    df *ABS*	00000000 pooling_common.cc
+00000000 l    df *ABS*	00000000 prelu.cc
+00000000 l    df *ABS*	00000000 prelu_common.cc
+00000000 l    df *ABS*	00000000 quantize.cc
+40058e78 l     F .text	0000000c _ZN6tflite12_GLOBAL__N_14InitEP13TfLiteContextPKcj
+00000000 l    df *ABS*	00000000 quantize_common.cc
+00000000 l    df *ABS*	00000000 read_variable.cc
+4005a558 l     F .text	0000004c _ZN6tflite12_GLOBAL__N_17PrepareEP13TfLiteContextP10TfLiteNode
+4005a5a4 l     F .text	0000008c _ZN6tflite12_GLOBAL__N_14EvalEP13TfLiteContextP10TfLiteNode
+00000000 l    df *ABS*	00000000 reduce.cc
+00000000 l    df *ABS*	00000000 reduce_common.cc
+4005a770 l     F .text	00000628 _ZN6tflite18QuantizedMeanOrSumIaEE12TfLiteStatusP13TfLiteContextP10TfLiteNodePiS6_PlPNS_12OpDataReduceEb.isra.0
+4005ad98 l     F .text	00000608 _ZN6tflite18QuantizedMeanOrSumIsEE12TfLiteStatusP13TfLiteContextP10TfLiteNodePiS6_PlPNS_12OpDataReduceEb.isra.0
+00000000 l    df *ABS*	00000000 reshape.cc
+00000000 l    df *ABS*	00000000 resize_bilinear.cc
+4005dac8 l     F .text	00000274 _ZN6tflite12_GLOBAL__N_17PrepareEP13TfLiteContextP10TfLiteNode
+4005e3f0 l     F .text	000006c0 _ZN6tflite12_GLOBAL__N_14EvalEP13TfLiteContextP10TfLiteNode
+00000000 l    df *ABS*	00000000 resize_nearest_neighbor.cc
+00000000 l    df *ABS*	00000000 round.cc
+00000000 l    df *ABS*	00000000 select.cc
+00000000 l    df *ABS*	00000000 shape.cc
+4006285c l     F .text	000000c0 _ZN6tflite12_GLOBAL__N_14EvalEP13TfLiteContextP10TfLiteNode
+4006291c l     F .text	000000b8 _ZN6tflite12_GLOBAL__N_17PrepareEP13TfLiteContextP10TfLiteNode
+00000000 l    df *ABS*	00000000 slice.cc
+40062a14 l     F .text	000001b8 _ZN6tflite12_GLOBAL__N_17PrepareEP13TfLiteContextP10TfLiteNode
+40062bcc l     F .text	00000b4c _ZN6tflite12_GLOBAL__N_14EvalEP13TfLiteContextP10TfLiteNode
+00000000 l    df *ABS*	00000000 softmax.cc
+4006379c l     F .text	00001104 _ZN6tflite12_GLOBAL__N_111SoftmaxEvalEP13TfLiteContextP10TfLiteNode
+00000000 l    df *ABS*	00000000 softmax_common.cc
+00000000 l    df *ABS*	00000000 space_to_batch_nd.cc
+40065600 l     F .text	0000000c _ZN6tflite12_GLOBAL__N_14InitEP13TfLiteContextPKcj
+4006560c l     F .text	00000264 _ZN6tflite12_GLOBAL__N_17PrepareEP13TfLiteContextP10TfLiteNode
+40065870 l     F .text	000006b0 _ZN6tflite12_GLOBAL__N_14EvalEP13TfLiteContextP10TfLiteNode
+00000000 l    df *ABS*	00000000 space_to_depth.cc
+40065f64 l     F .text	0000031c _ZN6tflite12_GLOBAL__N_17PrepareEP13TfLiteContextP10TfLiteNode
+40066280 l     F .text	00000534 _ZN6tflite12_GLOBAL__N_14EvalEP13TfLiteContextP10TfLiteNode
+00000000 l    df *ABS*	00000000 split.cc
+00000000 l    df *ABS*	00000000 split_v.cc
+00000000 l    df *ABS*	00000000 squared_difference.cc
+40067f5c l     F .text	0000000c _ZN6tflite12_GLOBAL__N_121SquaredDifferenceInitEP13TfLiteContextPKcj
+40067f68 l     F .text	00000460 _ZN6tflite12_GLOBAL__N_124SquaredDifferencePrepareEP13TfLiteContextP10TfLiteNode
+400683c8 l     F .text	000018bc _ZN6tflite12_GLOBAL__N_121SquaredDifferenceEvalEP13TfLiteContextP10TfLiteNode
+00000000 l    df *ABS*	00000000 squeeze.cc
+40069cc8 l     F .text	00000148 _ZN6tflite12_GLOBAL__N_14EvalEP13TfLiteContextP10TfLiteNode
+40069e10 l     F .text	00000418 _ZN6tflite12_GLOBAL__N_17PrepareEP13TfLiteContextP10TfLiteNode
+00000000 l    df *ABS*	00000000 strided_slice.cc
+00000000 l    df *ABS*	00000000 sub.cc
+00000000 l    df *ABS*	00000000 sub_common.cc
+00000000 l    df *ABS*	00000000 svdf.cc
+40071e68 l     F .text	0000000c _ZN6tflite12_GLOBAL__N_14InitEP13TfLiteContextPKcj
+40071e74 l     F .text	000001f0 _ZN6tflite12_GLOBAL__N_14EvalEP13TfLiteContextP10TfLiteNode
+00000000 l    df *ABS*	00000000 svdf_common.cc
+00000000 l    df *ABS*	00000000 tanh.cc
+40073d6c l     F .text	0000000c _ZN6tflite3ops5micro11activations12_GLOBAL__N_18TanhInitEP13TfLiteContextPKcj
+40073d78 l     F .text	00000460 _ZN6tflite3ops5micro11activations12_GLOBAL__N_111TanhPrepareEP13TfLiteContextP10TfLiteNode
+404b34d4 l     O .rodata	00000200 _ZN6tfliteL20sigmoid_table_uint16E
+00000000 l    df *ABS*	00000000 transpose.cc
+40074dcc l     F .text	00000318 _ZN6tflite12_GLOBAL__N_17PrepareEP13TfLiteContextP10TfLiteNode
+40075404 l     F .text	00000648 _ZN6tflite12_GLOBAL__N_14EvalEP13TfLiteContextP10TfLiteNode
+00000000 l    df *ABS*	00000000 transpose_conv.cc
+40075a4c l     F .text	0000000c _ZN6tflite12_GLOBAL__N_14InitEP13TfLiteContextPKcj
+40075a58 l     F .text	000008e4 _ZN6tflite12_GLOBAL__N_17PrepareEP13TfLiteContextP10TfLiteNode
+4007633c l     F .text	00001d00 _ZN6tflite12_GLOBAL__N_14EvalEP13TfLiteContextP10TfLiteNode
+00000000 l    df *ABS*	00000000 unidirectional_sequence_lstm.cc
+40078080 l     F .text	0000000c _ZN6tflite12_GLOBAL__N_130UnidirectionalSequenceLstmInitEP13TfLiteContextPKcj
+4007808c l     F .text	000005a0 _ZN6tflite12_GLOBAL__N_130UnidirectionalSequenceLstmEvalEP13TfLiteContextP10TfLiteNode
+4007862c l     F .text	00000128 _ZN6tflite12_GLOBAL__N_138PrecomputeZeroPointTimesWeightWithBiasEP13TfLiteContextlPK12TfLiteTensorS5_PPl.part.0
+40078754 l     F .text	00000e5c _ZN6tflite12_GLOBAL__N_133PopulateQuantizedLstmParams8x8_16EP13TfLiteContextP10TfLiteNodePNS_20IntegerLstmParameterE.isra.0
+400795b0 l     F .text	00002af4 _ZN6tflite12_GLOBAL__N_133UnidirectionalSequenceLstmPrepareEP13TfLiteContextP10TfLiteNode
+00000000 l    df *ABS*	00000000 unpack.cc
+4007c0e8 l     F .text	000004d0 _ZN6tflite3ops5micro6unpack12_GLOBAL__N_14EvalEP13TfLiteContextP10TfLiteNode
+00000000 l    df *ABS*	00000000 var_handle.cc
+4007c5f4 l     F .text	0000000c _ZN6tflite12_GLOBAL__N_14InitEP13TfLiteContextPKcj
+4007c600 l     F .text	00000030 _ZN6tflite12_GLOBAL__N_14EvalEP13TfLiteContextP10TfLiteNode
+4007c630 l     F .text	000000a8 _ZN6tflite12_GLOBAL__N_17PrepareEP13TfLiteContextP10TfLiteNode
+00000000 l    df *ABS*	00000000 while.cc
+4007c71c l     F .text	0000000c _ZN6tflite12_GLOBAL__N_14InitEP13TfLiteContextPKcj
+4007c728 l     F .text	00000240 _ZN6tflite12_GLOBAL__N_17PrepareEP13TfLiteContextP10TfLiteNode
+4007c968 l     F .text	000001a0 _ZN6tflite12_GLOBAL__N_14EvalEP13TfLiteContextP10TfLiteNode
+00000000 l    df *ABS*	00000000 zeros_like.cc
+4007cb4c l     F .text	00000190 _ZN6tflite12_GLOBAL__N_17PrepareEP13TfLiteContextP10TfLiteNode
+4007ccdc l     F .text	00000280 _ZN6tflite12_GLOBAL__N_14EvalEP13TfLiteContextP10TfLiteNode
+00000000 l    df *ABS*	00000000 memory_helpers.cc
+00000000 l    df *ABS*	00000000 greedy_memory_planner.cc
+00000000 l    df *ABS*	00000000 linear_memory_planner.cc
+00000000 l    df *ABS*	00000000 micro_allocation_info.cc
+404b6040 l     O .rodata	00000018 _ZN6tflite12_GLOBAL__N_1L24kOfflineMemAllocMetadataE
+00000000 l    df *ABS*	00000000 micro_allocator.cc
+4007eb54 l     F .text	00000010 _ZN6tflite12_GLOBAL__N_125MicroBuiltinDataAllocator8AllocateEjj
+4007eb64 l     F .text	00000004 _ZN6tflite12_GLOBAL__N_125MicroBuiltinDataAllocator10DeallocateEPv
+4007ec44 l     F .text	00000004 _ZN6tflite12_GLOBAL__N_125MicroBuiltinDataAllocatorD0Ev
+4007ec44 l     F .text	00000004 _ZN6tflite12_GLOBAL__N_125MicroBuiltinDataAllocatorD1Ev
+404b6368 l     O .rodata	00000018 _ZTVN6tflite12_GLOBAL__N_125MicroBuiltinDataAllocatorE
+404b7a80 l     O .data	00000004 _ZN6tflite12_GLOBAL__N_1L19kZeroLengthIntArrayE
+00000000 l    df *ABS*	00000000 micro_context.cc
+00000000 l    df *ABS*	00000000 micro_graph.cc
+00000000 l    df *ABS*	00000000 micro_interpreter.cc
+00000000 l    df *ABS*	00000000 micro_log.cc
+00000000 l    df *ABS*	00000000 micro_profiler.cc
+00000000 l    df *ABS*	00000000 micro_resource_variable.cc
+00000000 l    df *ABS*	00000000 micro_string.cc
+00000000 l    df *ABS*	00000000 micro_time.cc
+400829fc l       .text	00000000 read32
+00000000 l    df *ABS*	00000000 micro_utils.cc
+00000000 l    df *ABS*	00000000 mock_micro_graph.cc
+00000000 l    df *ABS*	00000000 system_setup.cc
+00000000 l    df *ABS*	00000000 test_helpers.cc
+00000000 l    df *ABS*	00000000 flatbuffer_conversions_bridge.cc
+00000000 l    df *ABS*	00000000 micro_error_reporter.cc
+404b7b04 l     O .bss	00000004 _ZN12_GLOBAL__N_115error_reporter_E
+404b7b08 l     O .bss	00000004 _ZN12_GLOBAL__N_127micro_error_reporter_bufferE
+00000000 l    df *ABS*	00000000 op_resolver_bridge.cc
+00000000 l    df *ABS*	00000000 schema_utils.cc
+00000000 l    df *ABS*	00000000 tflite.cc
+40083734 l     F .text	00000004 _ZN12_GLOBAL__N_116ProgressProfilerD0Ev
+40083734 l     F .text	00000004 _ZN12_GLOBAL__N_116ProgressProfilerD1Ev
+40083738 l     F .text	00000040 _ZN12_GLOBAL__N_116ProgressProfiler10BeginEventEPKc
+405cf030 l     O .bss	0000160c _ZZL11tflite_initvE8resolver
+405ca028 l     O .bss	00005008 _ZZL11tflite_initvE14micro_profiler
+40501f74 l     O .bss	000c8000 _ZN12_GLOBAL__N_1L12tensor_arenaE
+40083ba0 l       .text	00000000 read1069
+40083bc8 l       .text	00000000 read1104
+405c9f74 l     O .bss	000000b4 _ZZ17tflite_load_modelPKhjE3buf
+404b6a6c l     O .rodata	00000018 _ZTVN12_GLOBAL__N_116ProgressProfilerE
+404b7b10 l     O .bss	00000008 _ZGVZL11tflite_initvE14micro_profiler
+404b7b18 l     O .bss	00000008 _ZGVZL11tflite_initvE20micro_error_reporter
+404b7b20 l     O .bss	00000008 _ZGVZL11tflite_initvE8resolver
+404b7b28 l     O .bss	00000004 _ZN12_GLOBAL__N_111interpreterE
+404b7b2c l     O .bss	00000004 _ZN12_GLOBAL__N_111op_resolverE
+404b7b30 l     O .bss	00000004 _ZN12_GLOBAL__N_114error_reporterE
+404b7b34 l     O .bss	00000004 _ZN12_GLOBAL__N_18profilerE
+404b7b38 l     O .bss	00000001 _ZZL11tflite_initvE11initialized
+404b7a84 l     O .data	00000004 _ZZL11tflite_initvE20micro_error_reporter
+00000000 l    df *ABS*	00000000 tflite_unit_tests.cc
+00000000 l    df *ABS*	00000000 uart.c
+404b7b44 l     O .bss	00000004 rx_consume
+404b7b48 l     O .bss	00000004 rx_produce
+404b7b40 l     O .bss	00000004 tx_produce
+404b7b3c l     O .bss	00000004 tx_consume
+405d063c l     O .bss	00000080 rx_buf
+405d06bc l     O .bss	00000080 tx_buf
+00000000 l    df *ABS*	00000000 comparesf2.c
+00000000 l    df *ABS*	00000000 comparedf2.c
+00000000 l    df *ABS*	00000000 addsf3.c
+00000000 l    df *ABS*	00000000 subsf3.c
+00000000 l    df *ABS*	00000000 mulsf3.c
+00000000 l    df *ABS*	00000000 divsf3.c
+00000000 l    df *ABS*	00000000 divdi3.c
+00000000 l    df *ABS*	00000000 udivmoddi4.c
+00000000 l    df *ABS*	00000000 floatsisf.c
+00000000 l    df *ABS*	00000000 floatunsisf.c
+00000000 l    df *ABS*	00000000 fixsfsi.c
+00000000 l    df *ABS*	00000000 fixdfdi.c
+00000000 l    df *ABS*	00000000 fixunsdfdi.c
+00000000 l    df *ABS*	00000000 adddf3.c
+40084f0c l     F .text	00000080 normalize
+00000000 l    df *ABS*	00000000 subdf3.c
+00000000 l    df *ABS*	00000000 muldf3.c
+400853f0 l     F .text	00000080 normalize
+00000000 l    df *ABS*	00000000 divdf3.c
+400857f8 l     F .text	00000080 normalize
+00000000 l    df *ABS*	00000000 floatsidf.c
+00000000 l    df *ABS*	00000000 floatunsidf.c
+00000000 l    df *ABS*	00000000 floatdidf.c
+00000000 l    df *ABS*	00000000 fixdfsi.c
+00000000 l    df *ABS*	00000000 fixunsdfsi.c
+00000000 l    df *ABS*	00000000 clzsi2.c
+00000000 l    df *ABS*	00000000 ctzsi2.c
+00000000 l    df *ABS*	00000000 udivdi3.c
+00000000 l    df *ABS*	00000000 umoddi3.c
+00000000 l    df *ABS*	00000000 lshrdi3.c
+00000000 l    df *ABS*	00000000 ashldi3.c
+00000000 l    df *ABS*	00000000 bsearch.c
+00000000 l    df *ABS*	00000000 abort.c
+00000000 l    df *ABS*	00000000 abs.c
+00000000 l    df *ABS*	00000000 strtol.c
+40086134 l     F .text	00000190 _strtol_l.part.0
+00000000 l    df *ABS*	00000000 strtoll.c
+400862fc l     F .text	00000250 _strtoll_l.constprop.0
+00000000 l    df *ABS*	00000000 strtoull.c
+40086550 l     F .text	00000230 _strtoull_l.constprop.0
+00000000 l    df *ABS*	00000000 pico-cxa-atexit.c
+00000000 l    df *ABS*	00000000 memcmp.c
+00000000 l    df *ABS*	00000000 strncmp.c
+00000000 l    df *ABS*	00000000 fputc.c
+00000000 l    df *ABS*	00000000 getchar.c
+00000000 l    df *ABS*	00000000 printf.c
+00000000 l    df *ABS*	00000000 putchar.c
+00000000 l    df *ABS*	00000000 puts.c
+00000000 l    df *ABS*	00000000 vfiprintf.c
+40086930 l     F .text	000000f4 __ultoa_invert
+00000000 l    df *ABS*	00000000 s_fabs.c
+00000000 l    df *ABS*	00000000 sf_fabs.c
+00000000 l    df *ABS*	00000000 sf_fmax.c
+00000000 l    df *ABS*	00000000 sf_fmin.c
+00000000 l    df *ABS*	00000000 sf_fpclassify.c
+00000000 l    df *ABS*	00000000 sf_sqrt.c
+00000000 l    df *ABS*	00000000 s_exp.c
+404b6c00 l     O .rodata	00000010 ln2HI
+404b6c10 l     O .rodata	00000010 ln2LO
+404b6c20 l     O .rodata	00000010 halF
+00000000 l    df *ABS*	00000000 s_floor.c
+00000000 l    df *ABS*	00000000 s_frexp.c
+00000000 l    df *ABS*	00000000 sf_ceil.c
+00000000 l    df *ABS*	00000000 sf_cos.c
+00000000 l    df *ABS*	00000000 sf_exp.c
+404b73bc l     O .rodata	00000008 ln2HI
+404b73b4 l     O .rodata	00000008 ln2LO
+404b73c4 l     O .rodata	00000008 halF
+00000000 l    df *ABS*	00000000 sf_floor.c
+00000000 l    df *ABS*	00000000 sf_fmod.c
+404b73cc l     O .rodata	00000008 Zero
+00000000 l    df *ABS*	00000000 sf_log.c
+00000000 l    df *ABS*	00000000 sf_pow.c
+404b7448 l     O .rodata	00000008 bp
+404b7438 l     O .rodata	00000008 dp_l
+404b7440 l     O .rodata	00000008 dp_h
+00000000 l    df *ABS*	00000000 sf_rem_pio2.c
+404b6c30 l     O .rodata	00000080 npio2_hw
+404b6cb0 l     O .rodata	00000318 two_over_pi
+00000000 l    df *ABS*	00000000 sf_sin.c
+00000000 l    df *ABS*	00000000 sf_tanh.c
+404b7a94 l     O .data	00000004 one
+404b7a90 l     O .data	00000004 two
+404b7a8c l     O .data	00000004 tiny
+00000000 l    df *ABS*	00000000 s_expm1.c
+00000000 l    df *ABS*	00000000 s_round.c
+00000000 l    df *ABS*	00000000 math_err_uflow.c
+404b7a98 l     O .data	00000008 VAL
+00000000 l    df *ABS*	00000000 math_err_oflow.c
+404b7aa0 l     O .data	00000008 VAL
+00000000 l    df *ABS*	00000000 sf_scalbn.c
+00000000 l    df *ABS*	00000000 sf_expm1.c
+00000000 l    df *ABS*	00000000 sf_issignaling.c
+00000000 l    df *ABS*	00000000 sf_round.c
+00000000 l    df *ABS*	00000000 math_errf_uflowf.c
+404b7aa8 l     O .data	00000004 VAL
+00000000 l    df *ABS*	00000000 math_errf_oflowf.c
+404b7aac l     O .data	00000004 VAL
+00000000 l    df *ABS*	00000000 math_errf_divzerof.c
+404b7ab0 l     O .data	00000004 VAL
+00000000 l    df *ABS*	00000000 math_errf_invalidf.c
+404b7ab4 l     O .data	00000004 VAL
+00000000 l    df *ABS*	00000000 strlen.c
+00000000 l    df *ABS*	00000000 stdio.c
+4008a634 l     F .text	00000020 litex_getc
+4008a654 l     F .text	0000003c litex_putc
+404b75bc l     O .data	00000010 __stdio
+00000000 l    df *ABS*	00000000 missing.c
+00000000 l    df *ABS*	00000000 lock.c
+00000000 l    df *ABS*	00000000 signal.c
+405d073c l     O .bss	00000080 _sig_func
+00000000 l    df *ABS*	00000000 pico-onexit.c
+405d07bc l     O .bss	00000180 on_exits
+00000000 l    df *ABS*	00000000 strnlen.c
+00000000 l    df *ABS*	00000000 fgetc.c
+00000000 l    df *ABS*	00000000 kf_cos.c
+00000000 l    df *ABS*	00000000 kf_rem_pio2.c
+404b6fc8 l     O .rodata	0000000c init_jk
+404b6fd4 l     O .rodata	0000002c PIo2
+00000000 l    df *ABS*	00000000 kf_sin.c
+00000000 l    df *ABS*	00000000 libgcc2.c
+00000000 l    df *ABS*	00000000 floatundidf.c
+00000000 l    df *ABS*	00000000 extendsfdf2.c
+00000000 l    df *ABS*	00000000 truncdfsf2.c
+00000000 l    df *ABS*	00000000 no_person_image_data.cc
+00000000 l    df *ABS*	00000000 person_image_data.cc
+00000000 l    df *ABS*	00000000 conv_test_data.cc
+00000000 l    df *ABS*	00000000 ctype_.c
+00000000 l    df *ABS*	00000000 libgcc2.c
+00000000 l    df *ABS*	00000000 micro_test_globals.cc
+00000000 l    df *ABS*	00000000 errno.c
+40066b04  w    F .text	00000290 _ZN6tflite3ops5micro5split9SplitImplIaEE12TfLiteStatusP13TfLiteContextP10TfLiteNodePK16TfLiteEvalTensori
+4000e46c g     F .text	00000024 _ZN6tflite16FakeMicroContext16GetScratchBufferEi
+40004388 g     F .text	000000cc _ZN6tflite12ParseReducerEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+4003c5d4  w    F .text	000003f4 _ZN6tflite15NDOpsHelperImplILi5ELi1EZNS_13reference_ops16BroadcastDivSlowIfLi5EEEvRKNS_16ArithmeticParamsERKNS_12RuntimeShapeEPKT_S8_SB_S8_PS9_EUlPiE_EENSt9enable_ifIXneT0_miT_Li1EEvE4typeERKNS_11NdArrayDescIXT_EEERKT1_SD_
+400868a8 g     F .text	0000000c putchar
+400805a4 g     F .text	000000a0 _ZN6tflite10MicroGraph16GetSubgraphInputEii
+400884d8 g     F .text	00000b20 _powf
+400804e8 g     F .text	00000004 _ZN6tflite10MicroGraphD0Ev
+40057234 g     F .text	000002d8 _ZN6tflite27AveragePoolingEvalQuantizedEP13TfLiteContextPK10TfLiteNodePK16TfLitePoolParamsPKNS_13OpDataPoolingEPK16TfLiteEvalTensorPSB_
+4000881c g     F .text	000000a8 _ZN6tflite12tensor_utils16PortableCwiseMulEPKsS2_iiiPs
+404b36d4 g     O .rodata	00000010 _ZN6tflite17kConvInput1x4x4x1E
+40086020 g     F .text	0000003c __ashldi3
+400021f4 g     F .text	0000000c do_util_tests_menu
+40003918 g     F .text	00000008 _ZN6tflite9ParseFillEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+4008965c g     F .text	0000067c expm1
+40002a3c g     F .text	00000040 _ZN6tflite13ErrorReporter6ReportEPKcz
+4000ddd8 g     F .text	0000004c _ZNK6tflite26SingleArenaBufferAllocator18GetAvailableMemoryEj
+40084090 g     F .text	00000094 __cmpdf2
+40083624  w    F .text	00000004 _ZN6tflite18MicroErrorReporterD2Ev
+40087f58 g     F .text	000001e8 fmodf
+40087148 g     F .text	00000018 fabs
+404b7a20 g     O .data	00000004 _ZN6tflite27kFullyConnectedOutputTensorE
+40056e14 g     F .text	00000420 _ZN6tflite23AveragePoolingEvalFloatEPK13TfLiteContextPK10TfLiteNodePK16TfLitePoolParamsPKNS_13OpDataPoolingEPK16TfLiteEvalTensorPSC_
+40004974 g     F .text	00000008 _ZN6tflite10ParseSliceEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+404b79c8 g     O .data	00000004 _ZN6tflite23kActivationsInputTensorE
+40003ea8 g     F .text	00000008 _ZN6tflite14ParseLessEqualEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+400841f4 g     F .text	00000004 __eqdf2
+4004a358 g     F .text	000003a8 _ZN6tflite33CalculateArithmeticOpDataLogisticEP13TfLiteContextP10TfLiteNodePNS_14OpDataLogisticE
+40009d50  w    F .text	00000008 _ZNK6tflite10OpResolver24MayContainUserDefinedOpsEv
+400848b0 g     F .text	00000078 __divdi3
+4007d37c g     F .text	00000010 _ZN6tflite19GreedyMemoryPlannerC1Ev
+4007ff78 g     F .text	0000015c _ZN6tflite14MicroAllocator21FinishModelAllocationEPKNS_5ModelEPNS_19SubgraphAllocationsEPPNS_19ScratchBufferHandleE
+40024ec4 g     F .text	0000018c _ZN6tflite3ops5micro13concatenation4EvalEP13TfLiteContextP10TfLiteNode
+404b7a30 g     O .data	00000004 _ZN6tflite12kInputTensorE
+4007e920 g     F .text	00000234 _ZN6tflite21AllocationInfoBuilder24GetOfflinePlannedOffsetsEPPKl
+40089e80 g     F .text	00000108 ldexpf
+40085d34 g     F .text	00000058 __floatdidf
+404b4c04 g     O .rodata	00000009 _ZN6tflite39kConvGoldenOutput5x5InputPaddingSame3x3E
+40007470 g     F .text	00000458 _ZN6tflite21reference_integer_ops21Mnv2ConvPerChannel1x1ERKNS_10ConvParamsEPKlS5_RKNS_12RuntimeShapeEPKaS8_SA_S8_S5_S8_Pa
+40047018 g     F .text	00000044 _ZN6tflite19Register_LEAKY_RELUEv
+4000ee84 g     F .text	000001d4 _ZN6tflite11ReluPrepareEP13TfLiteContextP10TfLiteNode
+40037090  w    F .text	0000000c _ZN11flexbuffers10KeyCompareItEEiPKvS2_
+40086860 g     F .text	00000048 printf
+4000e544 g     F .text	00000084 _ZN6tflite16FakeMicroContextC1EP12TfLiteTensorPNS_26SingleArenaBufferAllocatorEPNS_10MicroGraphE
+404b7500 g     O .rodata	00000004 stdout
+404b7540 g       .data	00000000 _fdata
+4000def4 g     F .text	00000004 _ZThn4_N6tflite26SingleArenaBufferAllocatorD1Ev
+4000227c g     F .text	00000004 _Z15tflite_postloadv
+404b7a68 g     O .data	00000004 _ZN6tflite17kSvdfOutputTensorE
+404b5f48  w    O .rodata	0000002c _ZTVN6tflite19GreedyMemoryPlannerE
+4005a630 g     F .text	00000040 _ZN6tflite22Register_READ_VARIABLEEv
+404b782c g     O .data	00000004 mobilenetv1_len
+4000e5d4 g     F .text	000000a4 _ZN6tflite17FlexbufferWrapperC1EPKhj
+400092cc g     F .text	00000198 _ZN6tflite32GetQuantizedConvolutionMultiplerEP13TfLiteContextPK12TfLiteTensorS4_S4_PS2_Pd
+40003188 g     F .text	00000104 _ZN6tflite18ParseConcatenationEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+40003938 g     F .text	000001c0 _ZN6tflite19ParseFullyConnectedEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+4000e490  w    F .text	00000010 _ZN6tflite16FakeMicroContextD0Ev
+40001088 g     F .text	00000030 mnv2_menu
+4004b97c g     F .text	000002ec _ZN6tflite13lstm_internal13LstmStepFloatEPKfS2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_PK16TfLiteLSTMParamsiiiiiiPfS6_S6_S6_S6_S6_S6_
+400059cc g     F .text	00000060 TfLiteIntArrayEqual
+40014100 g     F .text	00000040 _ZN6tflite26Register_BATCH_TO_SPACE_NDEv
+4000e5c8 g     F .text	0000000c _ZN6tflite16FakeMicroContext32IsAllTempTfLiteTensorDeallocatedEv
+40009cf4 g     F .text	0000002c _ZN6tflite17TfLiteTypeGetSizeE10TfLiteType
+400810bc g     F .text	000000b0 _ZN6tflite16MicroInterpreter6outputEj
+40089cd8 g     F .text	00000100 round
+404b7a60 g     O .data	00000004 _ZN6tflite15kSvdfBiasTensorE
+40030608 g     F .text	000003ac _ZN6tflite28CalculateOpDataDepthwiseConvEP13TfLiteContextP10TfLiteNodeRK25TfLiteDepthwiseConvParamsiiiiii10TfLiteTypePNS_10OpDataConvE
+400811b4 g     F .text	00000490 _ZN6tflite16MicroInterpreter44PrepareNodeAndRegistrationDataFromFlatbufferEv
+400741d8 g     F .text	00000044 _ZN6tflite3ops5micro13Register_TANHEv
+40009120 g     F .text	00000004 _ZN6tflite12tensor_utils35MatrixBatchVectorMultiplyAccumulateEPKfiiS2_iPf
+4005a694 g     F .text	00000008 _ZN6tflite7EvalMaxEP13TfLiteContextP10TfLiteNode
+404b79d8 g     O .data	00000004 _ZN6tflite16kAddOutputTensorE
+40084678 g     F .text	00000238 __divsf3
+40015fa8 g     F .text	00000040 _ZN6tflite3ops5micro13Register_CEILEv
+40082df4 g     F .text	00000114 _ZN6tflite14MockMicroGraphC1EPNS_26SingleArenaBufferAllocatorE
+400629d4 g     F .text	00000040 _ZN6tflite14Register_SHAPEEv
+40047f44  w    F .text	000001f4 _ZN8gemmlowp55exp_on_interval_between_negative_one_quarter_and_0_exclIlEENS_10FixedPointIT_Li0EEES3_
+400748a8 g     F .text	00000524 _ZN6tflite3ops5micro11activations8TanhEvalEP13TfLiteContextP10TfLiteNode
+4000dd30 g     F .text	00000040 _ZN6tflite26SingleArenaBufferAllocator20IsAllTempDeallocatedEv
+40008bc4 g     F .text	00000268 _ZN6tflite12tensor_utils47PortableVectorBatchVectorCwiseProductAccumulateEPKsiS2_iliPs
+40004744 g     F .text	000000fc _ZN6tflite26ParseResizeNearestNeighborEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+40008ea8 g     F .text	00000030 _ZN6tflite12tensor_utils18PortableSub1VectorEPKsiPs
+4003b1ac g     F .text	00000044 _ZN6tflite12Register_DIVEv
+40080e94 g     F .text	0000005c _ZN6tflite10MicroGraphC1EP13TfLiteContextPKNS_5ModelEPNS_14MicroAllocatorEPNS_22MicroResourceVariablesE
+40081008 g     F .text	000000b4 _ZN6tflite16MicroInterpreter5inputEj
+404b7afc g     O .bss	00000004 _ZN10micro_test12tests_passedE
+40002bfc g     F .text	00000110 _ZN6tflite8ParseAddEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+4008a5a0 g     F .text	0000003c memmove
+4005dd7c  w    F .text	00000674 _ZN6tflite13reference_ops14ResizeBilinearIfEEvRKNS_20ResizeBilinearParamsERKNS_12RuntimeShapeEPKT_S7_PKlS7_PS8_
+400078c8 g     F .text	00000138 _ZN6tflite12tensor_utils43PortableMatrixBatchVectorMultiplyAccumulateEPKfiiS2_iPf
+400802ec g     F .text	00000010 _ZN6tflite12MicroContext26DeallocateTempTfLiteTensorEP12TfLiteTensor
+4000df0c g     F .text	0000008c _ZN6tflite26SingleArenaBufferAllocator20ResetTempAllocationsEv
+4007105c  w    F .text	000003bc _ZN6tflite15NDOpsHelperImplILi5ELi1EZNS_13reference_ops16BroadcastSubSlowILi5EEEvRKNS_16ArithmeticParamsERKNS_12RuntimeShapeEPKfS8_SA_S8_PfEUlPiE_EENSt9enable_ifIXneT0_miT_Li1EEvE4typeERKNS_11NdArrayDescIXT_EEERKT1_SC_
+4008227c g     F .text	00000778 MicroVsnprintf
+404b79f4 g     O .data	00000004 _ZN6tflite17kConvOutputTensorE
+4003706c  w    F .text	0000000c _ZN11flexbuffers10KeyCompareImEEiPKvS2_
+400884d8 g     F .text	00000b20 powf
+40009124 g     F .text	00000004 _ZN6tflite12tensor_utils35MatrixBatchVectorMultiplyAccumulateEPKaPKlS2_llllllPlPsPNS_17CpuBackendContextE
+40004a50 g     F .text	000000c8 _ZN6tflite17ParseSpaceToDepthEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+4005a68c g     F .text	00000008 _ZN6tflite8EvalMeanEP13TfLiteContextP10TfLiteNode
+40082154 g     F .text	000000c0 _ZN6tflite22MicroResourceVariables6AssignEiPK16TfLiteEvalTensor
+40084d70 g     F .text	0000007c __fixsfsi
+400478e0 g     F .text	000002c4 _ZN6tflite16LeakyReluPrepareEP13TfLiteContextP10TfLiteNode
+40083628 g     F .text	00000024 _ZN6tflite18MicroErrorReporter6ReportEPKcPv
+4006dff0 g     F .text	00000608 _ZN6tflite3ops5micro13strided_slice7PrepareEP13TfLiteContextP10TfLiteNode
+400092c4 g     F .text	00000004 _ZN6tflite12tensor_utils10Sub1VectorEPKsiPs
+400092bc g     F .text	00000004 _ZN6tflite12tensor_utils39VectorBatchVectorCwiseProductAccumulateEPKsiS2_iliPs
+4000dc58 g     F .text	00000004 _ZN6tflite26SingleArenaBufferAllocatorD0Ev
+4000065c g     F .text	0000000c do_benchmarks_menu
+40056ae4 g     F .text	00000044 _ZN6tflite20Register_MAX_POOL_2DEv
+40084200 g     F .text	00000004 __gtdf2
+4000503c g     F .text	00000008 _ZN6tflite22ParseSquaredDifferenceEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+40036384 g     F .text	0000000c _ZN6tflite14DequantizeInitEP13TfLiteContextPKcj
+400038f8 g     F .text	00000008 _ZN6tflite8ParseEluEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+400430a8 g     F .text	00000080 _ZN6tflite25FullyConnectedParamsFloatE21TfLiteFusedActivation
+4000328c g     F .text	000001cc _ZN6tflite11ParseConv2DEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+40083b38 g     F .text	00000028 _Z17tflite_get_outputv
+40088ff8 g     F .text	0000045c __rem_pio2f
+404ab658  w    O .rodata	00000034 _ZTVN6tflite16FakeMicroContextE
+40008ed8 g     F .text	000001c4 _ZN6tflite12tensor_utils31PortableMeanStddevNormalizationEPKfPfii
+4006a274 g     F .text	00003560 _ZN6tflite3ops5micro13strided_slice4EvalEP13TfLiteContextP10TfLiteNode
+40089508 g     F .text	00000154 tanhf
+4007eb68 g     F .text	00000004 _ZN6tflite14MicroAllocatorD0Ev
+400484d4  w    F .text	00000888 _ZN6tflite43log_x_for_x_greater_than_or_equal_to_1_implILi5ELi12EEEN8gemmlowp10FixedPointIlXT_EEENS2_IlXT0_EEE
+40080ef8 g     F .text	00000110 _ZN6tflite16MicroInterpreterC1EPKNS_5ModelERKNS_15MicroOpResolverEPhjPNS_22MicroResourceVariablesEPNS_22MicroProfilerInterfaceE
+40088140 g     F .text	00000398 logf
+400006cc g     F .text	00000004 no_menu
+40083778 g     F .text	000002a8 _Z17tflite_load_modelPKhj
+40082a1c g     F .text	00000034 _ZN6tflite12ElementCountERK14TfLiteIntArray
+40014bf4  w    F .text	00000254 _ZN6tflite13reference_ops13BroadcastImplILi5EEEvRKNS_11NdArrayDescIXT_EEEPKcS5_PcPiiii
+400604c4  w    F .text	00000868 _ZN6tflite13reference_ops21BroadcastSelect5DSlowIbfEEvRKNS_12RuntimeShapeEPKT_S4_PKT0_S4_SA_S4_PS8_
+4000355c g     F .text	000000c8 _ZN6tflite17ParseDepthToSpaceEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+40012adc g     F .text	00000040 _ZN6tflite14Register_ADD_NEv
+404b7b4c g     O .bss	00000004 errno
+40087874 g     F .text	0000011c floor
+4000f19c g     F .text	0000000c _ZN6tflite7AddInitEP13TfLiteContextPKcj
+40000188 g     F .text	000000a8 b64_dump
+40081bb0 g     F .text	00000094 _ZN6tflite13MicroProfiler10BeginEventEPKc
+4008b9a8 g       .text	00000000 _etext
+40082f10 g     F .text	00000030 _ZN6tflite7testing20FloatArrayFromFloatsEPKf
+40002f54 g     F .text	00000008 _ZN6tflite16ParseBroadcastToEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+4004543c g     F .text	00000118 _ZN6tflite5micro32CreateWritableTensorDimsWithCopyEP13TfLiteContextP12TfLiteTensorP16TfLiteEvalTensor
+40003624 g     F .text	000001f4 _ZN6tflite20ParseDepthwiseConv2DEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+4004e100  w    F .text	00000464 _ZN6tflite13reference_ops27MaximumMinimumBroadcastSlowIfPFfffELi5EEEvRKNS_12RuntimeShapeEPKT_S6_S9_S6_PS7_T0_
+400041ac g     F .text	00000008 _ZN6tflite10ParsePadV2EPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+40082acc g     F .text	000002dc _ZN6tflite33SignedSymmetricPerChannelQuantizeEPKfP14TfLiteIntArrayiPaPf10TfLiteType
+40080328 g     F .text	00000014 _ZN6tflite12MicroContext27RequestScratchBufferInArenaEjPi
+404b7a40 g     O .data	00000004 _ZN6tflite16kMulInput1TensorE
+404c9ce0  w    O .bss	0001adb0 _ZZN6tflite21reference_integer_ops23DepthwiseConvPerChannelERKNS_15DepthwiseParamsEPKlS5_RKNS_12RuntimeShapeEPKaS8_SA_S8_S5_S8_PaE20recvOutputBufferList
+40024b60  w    F .text	00000364 _ZN6tflite3ops5micro13concatenation15EvalUnquantizedIbEEvP13TfLiteContextP10TfLiteNode
+40005560 g     F .text	000000f4 _ZN6tflite11ParseUnpackEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+4004ae4c g     F .text	000001a0 _ZN6tflite13lstm_internal19UpdateLstmCellFloatEiiPfPKfS1_S3_bf
+4008605c g     F .text	000000b0 bsearch
+404b75d0 g       .data	00000000 _gp
+40050498 g     F .text	00000120 _ZN6tflite7MulEvalEP13TfLiteContextP10TfLiteNode
+40082f08 g     F .text	00000004 _ZN6tflite16InitializeTargetEv
+40063758 g     F .text	00000044 _ZN6tflite16Register_SOFTMAXEv
+40004be0 g     F .text	000000c8 _ZN6tflite11ParseSplitVEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+40084458 g     F .text	0000000c __subsf3
+40003bf4 g     F .text	00000008 _ZN6tflite12ParseGreaterEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+40083ebc g     F .text	00000078 uart_write
+4008a698 g     F .text	00000008 getpid
+4008116c g     F .text	00000048 _ZN6tflite16MicroInterpreterD2Ev
+404b7a70 g     O .data	00000004 _ZN6tflite25kSvdfWeightsFeatureTensorE
+4007d7ac g     F .text	000003c0 _ZN6tflite19GreedyMemoryPlanner15PrintMemoryPlanEv
+40072064 g     F .text	00000044 _ZN6tflite13Register_SVDFEv
+40067370 g     F .text	000000fc _ZN6tflite3ops5micro7split_v7PrepareEP13TfLiteContextP10TfLiteNode
+400872c0 g     F .text	00000118 sqrtf
+40025fc4 g     F .text	00000340 _ZN6tflite11ConvPrepareEP13TfLiteContextP10TfLiteNode
+400069fc  w    F .text	00000544 _ZN6tflite21reference_integer_ops14ConvPerChannelIxEEvRKNS_10ConvParamsEPKlS6_RKNS_12RuntimeShapeEPKsS9_PKaS9_PKT_S9_Ps
+40067954  w    F .text	0000027c _ZN6tflite3ops5micro7split_v9SplitImplIsEE12TfLiteStatusP13TfLiteContextP10TfLiteNodePK16TfLiteEvalTensori
+4000445c g     F .text	00000008 _ZN6tflite10ParseRelu6EPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+4008116c g     F .text	00000048 _ZN6tflite16MicroInterpreterD1Ev
+4001623c g     F .text	000002f4 _ZN6tflite21CircularBufferPrepareEP13TfLiteContextP10TfLiteNode
+4000909c g     F .text	00000084 _ZN6tflite12tensor_utils12IsZeroVectorEPKfi
+40002bf4 g     F .text	00000008 _ZN6tflite8ParseAbsEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+4008a818 g     F .text	0000007c getc
+40065410 g     F .text	0000000c _ZN6tflite11SoftmaxInitEP13TfLiteContextPKcj
+40003554 g     F .text	00000008 _ZN6tflite8ParseCosEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+4008a3dc g     F .text	00000020 __issignalingf
+404b7a24 g     O .data	00000004 _ZN6tflite28kFullyConnectedWeightsTensorE
+40082ddc g     F .text	00000008 _ZN6tflite14MockMicroGraph12NumSubgraphsEv
+4003f4d4 g     F .text	00000040 _ZN6tflite3ops5micro12Register_SINEv
+40005ce0 g     F .text	0000006c _ZN6tflite12tensor_utils23UnpackDenseInt4IntoInt8EPKaiPa
+404b7a18 g     O .data	00000004 _ZN6tflite25kFullyConnectedBiasTensorE
+40016530 g     F .text	0000000c _ZN6tflite3ops5micro11comparisons4InitEP13TfLiteContextPKcj
+40002280 g     F .text	000007bc software_cfu
+4008a57c g     F .text	00000024 memcpy
+40023550 g     F .text	00000044 _ZN6tflite3ops5micro19Register_LESS_EQUALEv
+4000a1d8 g     F .text	00003a80 _ZN6tflite14AllOpsResolverC2Ev
+404b7a4c g     O .data	00000004 _ZN6tflite19kPoolingInputTensorE
+400006d0 g     F .text	0000000c embench_menu
+4000e1c0 g     F .text	00000134 _ZN6tflite26SingleArenaBufferAllocator23AllocateResizableBufferEjj
+4004fdbc g     F .text	0000018c _ZN6tflite31PortableApplyActivationToVectorEPKfi21TfLiteFusedActivationPf
+4005a6e8 g     F .text	00000044 _ZN6tflite19Register_REDUCE_MAXEv
+400019dc g     F .text	000002c4 perf_print_all_counters
+40085c2c g     F .text	00000094 __floatsidf
+4004bc68 g     F .text	000005b4 _ZN6tflite13lstm_internal21LstmStepInteger8x8_16EPKaS2_llS2_llS2_llS2_llS2_llS2_llS2_llS2_llPKsllS4_llS4_llS2_lllllS4_llS4_llS4_llS4_llPKlS6_S6_S6_salllllS6_S6_S6_S6_S6_S6_S6_S6_S6_iiiiPalPsS7_S8_S8_S8_S8_S7_Pl
+40000020 g     F .text	00000168 b64_encode
+404b7b00 g     O .bss	00000001 _ZN10micro_test13did_test_failE
+400841f8 g     F .text	00000004 __ltdf2
+40030444 g     F .text	00000100 _ZN6tflite24DepthwiseConvParamsFloatERK25TfLiteDepthwiseConvParamsRKNS_10OpDataConvE
+400804e8 g     F .text	00000004 _ZN6tflite10MicroGraphD1Ev
+40000230 g     F .text	0000001c isr
+4005d15c g     F .text	00000474 _ZN6tflite13EvalSumHelperEP13TfLiteContextP10TfLiteNodePNS_12OpDataReduceE
+4008029c g     F .text	00000004 _ZN6tflite12MicroContextD2Ev
+400309b4 g     F .text	00000390 _ZN6tflite20DepthwiseConvPrepareEP13TfLiteContextP10TfLiteNode
+40004850 g     F .text	00000008 _ZN6tflite13ParseSelectV2EPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+4000583c g     F .text	00000008 _ZN6tflite14ParseZerosLikeEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+40071418 g     F .text	0000056c _ZN6tflite7EvalSubEP13TfLiteContextP10TfLiteNodeP15TfLiteSubParamsPKNS_9OpDataSubEPK16TfLiteEvalTensorSB_PS9_
+400868b4 g     F .text	0000007c puts
+400804a4 g     F .text	00000008 _ZN6tflite12MicroContext23SetScratchBufferHandlesEPNS_19ScratchBufferHandleE
+40008e2c g     F .text	0000007c _ZN6tflite12tensor_utils18PortableSub1VectorEPKfiPf
+400674ac  w    F .text	0000020c _ZN6tflite3ops5micro7split_v9SplitImplIfEE12TfLiteStatusP13TfLiteContextP10TfLiteNodePK16TfLiteEvalTensori
+40003818 g     F .text	00000008 _ZN6tflite15ParseDequantizeEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+40080480 g     F .text	00000024 _ZN6tflite12MicroContextC2EPNS_14MicroAllocatorEPKNS_5ModelEPNS_10MicroGraphE
+40083b60 g     F .text	000000dc _Z15tflite_classifyv
+40000b80 g     F .text	0000000c do_functional_cfu_tests
+404b79d4 g     O .data	00000004 _ZN6tflite16kAddInputTensor2E
+4005ed14 g     F .text	00000ce0 _ZN6tflite3ops5micro23resize_nearest_neighbor4EvalEP13TfLiteContextP10TfLiteNode
+4005a67c g     F .text	00000008 _ZN6tflite10PrepareMaxEP13TfLiteContextP10TfLiteNode
+40009db0  w    F .text	00000004 _ZN6tflite14AllOpsResolverD0Ev
+4006e63c g     F .text	0000000c _ZN6tflite7SubInitEP13TfLiteContextPKcj
+40015b74 g     F .text	00000040 _ZN6tflite13Register_CASTEv
+4000dcb0 g     F .text	00000080 _ZN6tflite26SingleArenaBufferAllocator12AllocateTempEjj
+40004a48 g     F .text	00000008 _ZN6tflite19ParseSpaceToBatchNdEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+4008a3fc g     F .text	00000088 roundf
+40083a70 g     F .text	0000005c _Z16tflite_set_inputPKv
+40000d40 g     F .text	00000170 menu_run
+404b7a6c g     O .data	00000004 _ZN6tflite22kSvdfWeightsTimeTensorE
+404b79f8 g     O .data	00000004 _ZN6tflite18kConvWeightsTensorE
+4004de64 g     F .text	0000003c _ZN6tflite3ops5micro16Register_MAXIMUMEv
+400006a4 g     F .text	0000000c models_menu
+400802c4 g     F .text	00000028 _ZN6tflite12MicroContext24AllocateTempTfLiteTensorEi
+4005865c g     F .text	000005ec _ZN6tflite25BroadcastPrelu4DSlowFloatERKNS_12RuntimeShapeEPKfS2_S4_S2_Pf
+404b6970  w    O .rodata	00000038 _ZTVN6tflite14MockMicroGraphE
+4008654c g     F .text	00000004 strtoll
+40083f90 g     F .text	00000060 __lesf2
+400494e4 g     F .text	0000003c _ZN6tflite20Register_LOGICAL_ANDEv
+40009138 g     F .text	00000004 _ZN6tflite12tensor_utils8CwiseMulEPKsS2_lllllPa
+40085e24 g     F .text	00000084 __fixunsdfsi
+40071984 g     F .text	00000138 _ZN6tflite7SubEvalEP13TfLiteContextP10TfLiteNode
+4005a6a4 g     F .text	00000044 _ZN6tflite13Register_MEANEv
+400727a4 g     F .text	000006a4 _ZN6tflite21EvalInt8SvdfReferenceEP13TfLiteContextP10TfLiteNodePK16TfLiteEvalTensorS6_S6_S6_PK16TfLiteSVDFParamsPS4_SA_RKNS_10OpDataSvdfE
+40003eb0 g     F .text	00000008 _ZN6tflite8ParseLogEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+4005b994 g     F .text	00000f30 _ZN6tflite14EvalMeanHelperEP13TfLiteContextP10TfLiteNodePNS_12OpDataReduceE
+40080e94 g     F .text	0000005c _ZN6tflite10MicroGraphC2EP13TfLiteContextPKNS_5ModelEPNS_14MicroAllocatorEPNS_22MicroResourceVariablesE
+40081b70 g     F .text	00000040 _Z11MicroPrintfPKcz
+40015fe8 g     F .text	00000094 _ZN6tflite18CircularBufferInitEP13TfLiteContextPKcj
+40057bec g     F .text	00000a2c _ZN6tflite9PreluEvalEP13TfLiteContextP10TfLiteNode
+40087274 g     F .text	0000004c __fpclassifyf
+404b4404 g     O .rodata	00000800 _ZN6tflite26kConvGoldenOutput1x16x16x8E
+4000ed24 g     F .text	000000e4 _ZN6tflite10Relu6FloatERKNS_12RuntimeShapeEPKfS2_Pf
+4006e5f8 g     F .text	00000044 _ZN6tflite3ops5micro22Register_STRIDED_SLICEEv
+40006f40  w    F .text	00000530 _ZN6tflite21reference_integer_ops14ConvPerChannelIlEEvRKNS_10ConvParamsEPKlS6_RKNS_12RuntimeShapeEPKsS9_PKaS9_PKT_S9_Ps
+404b7a88 g     O .data	00000004 .hidden __dso_handle
+4006e648 g     F .text	00000044 _ZN6tflite12Register_SUBEv
+4000e6b0 g     F .text	00000040 _ZN6tflite20NumSubgraphOperatorsEPKNS_8SubGraphE
+40049a28 g     F .text	00000044 _ZN6tflite17Register_LOGISTICEv
+00000000 g       *ABS*	00000000 __DYNAMIC
+404a6e18 g     O .rodata	00002400 g_no_person_data
+40086a24 g     F .text	00000724 __i_vfprintf
+4007dda4 g     F .text	0000004c _ZN6tflite21AllocationInfoBuilder18FreeAllocationInfoEv
+40005748 g     F .text	000000f4 _ZN6tflite10ParseWhileEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+40044fb0  w    F .text	00000010 _ZN6tflite21MicroContextGetTensorEPK13TfLiteContexti
+40067bd0  w    F .text	0000020c _ZN6tflite3ops5micro7split_v9SplitImplIlEE12TfLiteStatusP13TfLiteContextP10TfLiteNodePK16TfLiteEvalTensori
+40041fd0 g     F .text	00000044 _ZN6tflite18Register_FLOOR_MODEv
+40084928 g     F .text	000002f0 __udivmoddi4
+40030400 g     F .text	00000044 _ZN6tflite26Register_DEPTHWISE_CONV_2DEv
+40083c3c g     F .text	00000040 tflite_do_tests
+400059c0 g     F .text	0000000c TfLiteIntArrayGetSizeInBytes
+40048138  w    F .text	0000039c _ZN8gemmlowp22exp_on_negative_valuesIlLi5EEENS_10FixedPointIT_Li0EEENS1_IS2_XT0_EEE
+40058c48 g     F .text	00000230 _ZN6tflite12PreluPrepareEP13TfLiteContextP10TfLiteNode
+4008a53c g     F .text	00000040 .hidden __math_invalidf
+40003af8 g     F .text	000000f4 _ZN6tflite11ParseGatherEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+4007421c  w    F .text	0000068c _ZN8gemmlowp40one_minus_x_over_one_plus_x_for_x_in_0_1IlEENS_10FixedPointIT_Li0EEES3_
+4007d704 g     F .text	000000a8 _ZN6tflite19GreedyMemoryPlanner20GetMaximumMemorySizeEv
+40087160 g     F .text	0000000c fabsf
+4000de24 g     F .text	000000d0 _ZN6tflite26SingleArenaBufferAllocator12ResizeBufferEPhjj
+40080ef8 g     F .text	00000110 _ZN6tflite16MicroInterpreterC2EPKNS_5ModelERKNS_15MicroOpResolverEPhjPNS_22MicroResourceVariablesEPNS_22MicroProfilerInterfaceE
+40004e48 g     F .text	000001e4 _ZN6tflite12ParseSqueezeEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+40083ea0 g     F .text	0000001c uart_read_nonblock
+404a6400  w    O .rodata	00000280 _ZZN6tflite24EnumNamesBuiltinOperatorEvE5names
+404b79e0 g     O .data	00000004 _ZN6tflite26kCircularBufferInputTensorE
+4007ec1c g     F .text	00000010 _ZN6tflite14MicroAllocator20IsAllTempDeallocatedEv
+40003458 g     F .text	000000fc _ZN6tflite11ParseCumsumEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+404b6454  w    O .rodata	00000038 _ZTVN6tflite10MicroGraphE
+404b79f0 g     O .data	00000004 _ZN6tflite16kConvInputTensorE
+40003fc8 g     F .text	000000d8 _ZN6tflite8ParseMulEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+40002f44 g     F .text	00000008 _ZN6tflite19ParseBatchToSpaceNdEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+4008b6e4 g     F .text	000000f8 .hidden __extendsfdf2
+40004ca8 g     F .text	000001a0 _ZN6tflite31ParseUnidirectionalSequenceLSTMEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+404b7a34 g     O .data	00000004 _ZN6tflite13kOutputTensorE
+40082de4  w    F .text	00000010 _ZN6tflite14MockMicroGraphD1Ev
+4007df48 g     F .text	0000027c _ZN6tflite21AllocationInfoBuilder24InitializeAllocationInfoEPKlPNS_19SubgraphAllocationsE
+40043128 g     F .text	000000d4 _ZN6tflite29CalculateOpDataFullyConnectedEP13TfLiteContext21TfLiteFusedActivation10TfLiteTypePK12TfLiteTensorS6_S6_PS4_PNS_20OpDataFullyConnectedE
+40084f8c g     F .text	0000044c __adddf3
+40084088 g     F .text	00000004 __nesf2
+4005b3a0 g     F .text	00000248 _ZN6tflite13PrepareSimpleEP13TfLiteContextP10TfLiteNodePlPi
+40004848 g     F .text	00000008 _ZN6tflite10ParseRsqrtEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+4000e000 g     F .text	000000a4 _ZN6tflite26SingleArenaBufferAllocator25DeallocateResizableBufferEPh
+4007e60c g     F .text	00000314 _ZN6tflite21AllocationInfoBuilder32MarkSubgraphLifetimesIfNecessaryEPKNS_8OperatorEPNS_8internal20ScratchBufferRequestEPNS_19ScratchBufferHandleEPNS_19SubgraphAllocationsE
+40085fc0 g     F .text	00000024 __umoddi3
+40044fc0  w    F .text	00000010 _ZN6tflite25MicroContextGetEvalTensorEPK13TfLiteContexti
+40005044 g     F .text	00000160 _ZN6tflite17ParseStridedSliceEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+40003928 g     F .text	00000008 _ZN6tflite13ParseFloorDivEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+40003dd4 g     F .text	000000cc _ZN6tflite14ParseLeakyReluEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+4000ea48 g     F .text	00000044 _ZN6tflite14Register_RELU6Ev
+4000913c g     F .text	00000004 _ZN6tflite12tensor_utils8CwiseAddEPKsS2_iiPs
+4007d37c g     F .text	00000010 _ZN6tflite19GreedyMemoryPlannerC2Ev
+4008b2b0 g     F .text	0000017c __kernel_sinf
+4004dedc  w    F .text	00000224 _ZN6tflite15NDOpsHelperImplILi5ELi1EZNS_13reference_ops27MaximumMinimumBroadcastSlowIfPFfffELi5EEEvRKNS_12RuntimeShapeEPKT_S7_SA_S7_PS8_T0_EUlPiE_EENSt9enable_ifIXneT0_miT_Li1EEvE4typeERKNS_11NdArrayDescIXT_EEERKT1_SD_
+4007803c g     F .text	00000044 _ZN6tflite23Register_TRANSPOSE_CONVEv
+4005750c g     F .text	00000420 _ZN6tflite19MaxPoolingEvalFloatEP13TfLiteContextP10TfLiteNodeP16TfLitePoolParamsPKNS_13OpDataPoolingEPK16TfLiteEvalTensorPS9_
+40082de4  w    F .text	00000010 _ZN6tflite14MockMicroGraphD0Ev
+40075124  w    F .text	00000174 _ZN6tflite13reference_ops18transpose_internal13TransposeImplIlEEviiPKlPKT_PKiPS5_S9_S4_
+404b37e4 g     O .rodata	00000020 _ZN6tflite19kConvBiasQuantized8E
+40085fb8 g     F .text	00000008 __udivdi3
+400006b0 g     F .text	0000001c readchar
+40037078  w    F .text	0000000c _ZN11flexbuffers10KeyCompareIyEEiPKvS2_
+40056aa0 g     F .text	00000044 _ZN6tflite24Register_AVERAGE_POOL_2DEv
+4008029c g     F .text	00000004 _ZN6tflite12MicroContextD0Ev
+4008610c g     F .text	00000018 abort
+40085cc0 g     F .text	00000074 __floatunsidf
+4000e764 g     F .text	00000004 _ZN6tflite33FlatBufferVectorToTfLiteTypeArrayEPKN11flatbuffers6VectorIlEE
+4000ea04 g     F .text	00000044 _ZN6tflite13Register_RELUEv
+40083acc g     F .text	0000006c _Z25tflite_set_input_unsignedPKh
+40003920 g     F .text	00000008 _ZN6tflite10ParseFloorEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+40005c80 g     F .text	00000060 _ZN6tflite12tensor_utils20ApplySignbitToVectorEPKfiPf
+40001cac g     F .text	00000100 murmurhash3_32
+40004840 g     F .text	00000008 _ZN6tflite10ParseRoundEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+4007fe08 g     F .text	00000170 _ZN6tflite14MicroAllocator20StartModelAllocationEPKNS_5ModelE
+4007ec0c g     F .text	00000010 _ZN6tflite14MicroAllocator20ResetTempAllocationsEv
+40005f20 g     F .text	0000018c _ZN6tflite24PreprocessSoftmaxScalingEddiPlPi
+4000e544 g     F .text	00000084 _ZN6tflite16FakeMicroContextC2EP12TfLiteTensorPNS_26SingleArenaBufferAllocatorEPNS_10MicroGraphE
+4002c32c  w    F .text	00000254 _ZN6tflite7testing19ValidateConvGoldensIaEE12TfLiteStatusP12TfLiteTensoriPKT_iP16TfLiteConvParams18TfLiteRegistrationPS5_f
+404b69a8  w    O .rodata	00000014 _ZTVN6tflite18MicroErrorReporterE
+40040d54 g     F .text	00000148 _ZN6tflite3ops5micro5floor4EvalEP13TfLiteContextP10TfLiteNode
+4002eae8 g     F .text	00000040 _ZN6tflite15Register_CUMSUMEv
+40083414 g     F .text	00000178 _ZN6tflite7testing40CreateSymmetricPerChannelQuantizedTensorEPKfPaP14TfLiteIntArrayPfPiP24TfLiteAffineQuantizationib10TfLiteType
+40067000  w    F .text	000001fc _ZN6tflite3ops5micro5split9SplitImplIlEE12TfLiteStatusP13TfLiteContextP10TfLiteNodePK16TfLiteEvalTensori
+4007f4e8 g     F .text	0000044c _ZN6tflite8internal36InitializeTfLiteTensorFromFlatbufferEPNS_26IPersistentBufferAllocatorEPNS_29INonPersistentBufferAllocatorEbRKNS_6TensorEPKN11flatbuffers6VectorINS8_6OffsetINS_6BufferEEEEEP12TfLiteTensor
+400862c4 g     F .text	00000038 strtol
+40058ec8 g     F .text	000003ac _ZN6tflite24PrepareQuantizeReferenceEP13TfLiteContextP10TfLiteNode
+40040040 g     F .text	00000040 _ZN6tflite12Register_EXPEv
+40087aec g     F .text	000000b0 cosf
+400012ec g     F .text	00000030 pdti8_menu
+4008a7f4 g     F .text	00000024 strnlen
+400505b8 g     F .text	00000044 _ZN6tflite12Register_MULEv
+404b7b54 g     O .bss	00000020 CFU_start_counts
+4000e6f0 g     F .text	00000074 _ZN6tflite20NumSubgraphOperatorsEPKNS_5ModelEi
+40083a20 g     F .text	00000050 _Z22tflite_set_input_zerosv
+40013508 g     F .text	0000003c _ZN6tflite16Register_ARG_MAXEv
+4008358c g     F .text	0000003c _ZN6tflite17ConvertTensorTypeENS_10TensorTypeEP10TfLiteType
+405d0940 g       .bss	00000000 _ebss
+4007dc00  w    F .text	00000008 _ZN6tflite18MicroMemoryPlanner4InitEPhi
+400527c8 g     F .text	000008f0 _ZN6tflite21EvalMulFloatReferenceEP13TfLiteContextP10TfLiteNodeP15TfLiteMulParamsPKNS_9OpDataMulEPK16TfLiteEvalTensorSB_PS9_
+40072e48 g     F .text	00000570 _ZN6tflite22EvalFloatSvdfReferenceEP13TfLiteContextP10TfLiteNodePK16TfLiteEvalTensorS6_S6_S6_PK16TfLiteSVDFParamsiPS4_SA_
+40046714 g     F .text	000008b4 _ZN6tflite3ops5micro6l2norm4EvalEP13TfLiteContextP10TfLiteNode
+40046474 g     F .text	0000000c _ZN6tflite3ops5micro6l2norm4InitEP13TfLiteContextPKcj
+404b7a14  w    O .data	00000004 _ZZN11flexbuffers3Map8EmptyMapEvE9empty_map
+40009d20  w    F .text	00000010 _ZNK6tflite10OpResolver12GetDelegatesEi
+40067ddc g     F .text	00000180 _ZN6tflite3ops5micro7split_v4EvalEP13TfLiteContextP10TfLiteNode
+40003bec g     F .text	00000008 _ZN6tflite13ParseGatherNdEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+4002ca58 g     F .text	000000dc _ZN6tflite7testing27TestConvQuantizedPerChannelEPiPKfPafiS1_S3_S4_S1_S3_PlPfS1_S1_S3_S4_fiP16TfLiteConvParams18TfLiteRegistrationS4_10TfLiteType
+40011c78 g     F .text	000002c4 _ZN6tflite18CalculateOpDataAddEP13TfLiteContextP15TfLiteAddParamsPK12TfLiteTensorS6_PS4_PNS_9OpDataAddE
+4007ee78 g     F .text	00000054 _ZN6tflite14MicroAllocator28AllocateScratchBufferHandlesEPPNS_19ScratchBufferHandleEj
+4000024c g     F .text	00000010 init_runtime
+40003908 g     F .text	00000008 _ZN6tflite8ParseExpEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+4000e3b4 g     F .text	00000024 _ZN6tflite16FakeMicroContext24AllocateTempTfLiteTensorEi
+40003930 g     F .text	00000008 _ZN6tflite13ParseFloorModEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+40009d40  w    F .text	00000010 _ZNK6tflite10OpResolver25GetOpaqueDelegateCreatorsEv
+40085d8c g     F .text	00000098 __fixdfsi
+404e4a90  w    O .bss	0001adb0 _ZZN6tflite21reference_integer_ops23DepthwiseConvPerChannelERKNS_15DepthwiseParamsEPKlS5_RKNS_12RuntimeShapeEPKaS8_SA_S8_S5_S8_PaE19sendInputBufferList
+40040e9c g     F .text	0000003c _ZN6tflite3ops5micro14Register_FLOOREv
+4003fbf4 g     F .text	0000000c _ZN6tflite16GetString_ETHOSUEv
+4ffffffc g       .bss	00000000 _fstack
+404b3700 g     O .rodata	00000009 _ZN6tflite18kConvFilter1x3x3x1E
+404b7b50 g     O .bss	00000001 __lock___libc_recursive_mutex
+4008a894 g     F .text	00000190 __kernel_cosf
+400087d0 g     F .text	0000004c _ZN6tflite12tensor_utils38PortableMatrixScalarMultiplyAccumulateEPKalllPl
+4007fd64 g     F .text	000000a4 _ZN6tflite14MicroAllocator6CreateEPhj
+4007d048 g     F .text	00000100 _ZN6tflite22BytesRequiredForTensorERKNS_6TensorEPjS3_
+400667f4 g     F .text	000000d4 _ZN6tflite3ops5micro5split7PrepareEP13TfLiteContextP10TfLiteNode
+4008317c g     F .text	00000218 _ZN6tflite7testing35CreatePerChannelQuantizedBiasTensorEPKfPxP14TfLiteIntArrayfPfS6_PiP24TfLiteAffineQuantizationib
+40081c44 g     F .text	00000048 _ZN6tflite13MicroProfiler8EndEventEm
+40000b8c g     F .text	000001b4 golden_op_run_1x1conv
+404b79cc g     O .data	00000004 _ZN6tflite24kActivationsOutputTensorE
+4000e5d4 g     F .text	000000a4 _ZN6tflite17FlexbufferWrapperC2EPKhj
+404a6dbc  w    O .rodata	0000005c _ZTVN6tflite26SingleArenaBufferAllocatorE
+4007ec2c g     F .text	00000018 _ZN6tflite14MicroAllocator38AllocatePersistentTfLiteTensorInternalEv
+40030544 g     F .text	000000c4 _ZN6tflite28DepthwiseConvParamsQuantizedERK25TfLiteDepthwiseConvParamsRKNS_10OpDataConvE
+4000642c g     F .text	00000080 _ZN6tflite11CheckedLog2EfPi
+400733b8 g     F .text	000009b4 _ZN6tflite11PrepareSvdfEP13TfLiteContextP10TfLiteNode
+40083d84 g     F .text	000000c8 uart_isr
+4008208c g     F .text	000000c8 _ZN6tflite22MicroResourceVariables8AllocateEiP13TfLiteContextPK12TfLiteTensor
+4006e68c  w    F .text	00000c58 _ZN6tflite13reference_ops21BroadcastQuantSubSlowIaLi5EEEvRKNS_16ArithmeticParamsERKNS_12RuntimeShapeEPKT_S7_SA_S7_PS8_
+4008408c g     F .text	00000004 __gtsf2
+40009d30  w    F .text	00000010 _ZNK6tflite10OpResolver19GetDelegateCreatorsEv
+4000e3e8 g     F .text	00000070 _ZN6tflite16FakeMicroContext13GetEvalTensorEi
+40082a50 g     F .text	0000007c _ZN6tflite15EvalTensorBytesEPK16TfLiteEvalTensor
+4007cf9c g     F .text	00000014 _ZN6tflite14AlignPointerUpEPhj
+40081c8c g     F .text	00000244 _ZNK6tflite13MicroProfiler6LogCsvEv
+40085fe4 g     F .text	0000003c __lshrdi3
+4005d950 g     F .text	00000138 _ZN6tflite3ops5micro7reshape7PrepareEP13TfLiteContextP10TfLiteNode
+404b79e4 g     O .data	00000004 _ZN6tflite27kCircularBufferOutputTensorE
+4008a6a4 g     F .text	00000004 kill
+400459e0 g     F .text	0000015c _ZN6tflite5micro30CopySubgraphOutputsToOpOutputsEP13TfLiteContextP10TfLiteNodePNS_10MicroGraphEi
+40084090 g     F .text	00000094 __ledf2
+4008029c g     F .text	00000004 _ZN6tflite12MicroContextD1Ev
+4006a228 g     F .text	00000040 _ZN6tflite16Register_SQUEEZEEv
+4000ee08 g     F .text	0000007c _ZN6tflite14Relu6QuantizedEaaRKNS_12RuntimeShapeEPKaS2_Pa
+4006f2e4  w    F .text	00000d98 _ZN6tflite13reference_ops21BroadcastQuantSubSlowIsLi5EEEvRKNS_16ArithmeticParamsERKNS_12RuntimeShapeEPKT_S7_SA_S7_PS8_
+4004edf8  w    F .text	00000464 _ZN6tflite13reference_ops27MaximumMinimumBroadcastSlowIlPFlllELi5EEEvRKNS_12RuntimeShapeEPKT_S6_S9_S6_PS7_T0_
+400668c8 g     F .text	00000040 _ZN6tflite3ops5micro14Register_SPLITEv
+40089e2c g     F .text	00000054 .hidden __math_oflow
+40080ef0 g     F .text	00000008 _ZN6tflite10MicroGraph22SetSubgraphAllocationsEPNS_19SubgraphAllocationsE
+4003f514 g     F .text	00000040 _ZN6tflite3ops5micro12Register_COSEv
+4000f97c g     F .text	00002188 _ZN6tflite16EvalAddQuantizedEP13TfLiteContextP10TfLiteNodeP15TfLiteAddParamsPKNS_9OpDataAddEPK16TfLiteEvalTensorSB_PS9_
+400802a0 g     F .text	00000010 _ZN6tflite12MicroContext24AllocatePersistentBufferEj
+40013870 g     F .text	00000040 _ZN6tflite24Register_ASSIGN_VARIABLEEv
+404b7a5c g     O .data	00000004 _ZN6tflite16kSubOutputTensorE
+40044fdc g     F .text	00000130 _ZN6tflite5micro12KernelRunnerC1ERK18TfLiteRegistrationP12TfLiteTensoriP14TfLiteIntArrayS8_PvS8_
+4008a6ac g     F .text	00000004 __retarget_lock_release_recursive
+4001607c g     F .text	00000140 _ZN6tflite18CircularBufferEvalEP13TfLiteContextP10TfLiteNode
+4000dc58 g     F .text	00000004 _ZN6tflite26SingleArenaBufferAllocatorD1Ev
+40075298  w    F .text	0000016c _ZN6tflite13reference_ops18transpose_internal13TransposeImplIaEEviiPKlPKT_PKiPS5_S9_S4_
+400804ec g     F .text	0000003c _ZN6tflite10MicroGraph12NumSubgraphsEv
+400447a4 g     F .text	00000044 _ZN6tflite19Register_HARD_SWISHEv
+4007d38c g     F .text	00000378 _ZN6tflite19GreedyMemoryPlanner24CalculateOffsetsIfNeededEv
+40003eb8 g     F .text	00000008 _ZN6tflite15ParseLogicalAndEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+400233fc g     F .text	00000044 _ZN6tflite3ops5micro14Register_EQUALEv
+4008a484 g     F .text	0000003c .hidden __math_uflowf
+4004705c  w    F .text	00000368 _ZN6tflite17QuantizeLeakyReluIaEEvRKNS_15LeakyReluOpDataEPK16TfLiteEvalTensorPS4_
+400671fc g     F .text	00000174 _ZN6tflite3ops5micro5split4EvalEP13TfLiteContextP10TfLiteNode
+4004afec g     F .text	000001ec _ZN6tflite13lstm_internal24CalculateLstmOutputFloatEiiiPKfS2_21TfLiteFusedActivationS2_S2_fPfS4_
+40085ea8 g     F .text	00000098 __clzsi2
+4000226c g     F .text	0000000c do_proj_menu
+40083f34 g     F .text	00000044 uart_init
+40004648 g     F .text	000000fc _ZN6tflite19ParseResizeBilinearEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+40003c0c g     F .text	000000f4 _ZN6tflite7ParseIfEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+400452e0 g     F .text	00000028 _ZN6tflite5micro10RegisterOpEPFPvP13TfLiteContextPKcjEPF12TfLiteStatusS3_P10TfLiteNodeESC_PFvS3_S1_E
+4007d148 g     F .text	000000b4 _ZN6tflite26TfLiteEvalTensorByteLengthEPK16TfLiteEvalTensorPj
+404b74f8 g     O .rodata	00000004 stdin
+4007c6d8 g     F .text	00000044 _ZN6tflite19Register_VAR_HANDLEEv
+4003f594 g     F .text	00000040 _ZN6tflite3ops5micro13Register_SQRTEv
+4007e1c4 g     F .text	00000448 _ZN6tflite21AllocationInfoBuilder23MarkAllocationLifetimesEiPNS_8internal20ScratchBufferRequestEPNS_19ScratchBufferHandleEPNS_19SubgraphAllocationsE
+40047744 g     F .text	0000019c _ZN6tflite13LeakyReluEvalEP13TfLiteContextP10TfLiteNode
+400442dc g     F .text	00000040 _ZN6tflite18Register_GATHER_NDEv
+4007cf5c g     F .text	00000040 _ZN6tflite19Register_ZEROS_LIKEEv
+40083f78 g     F .text	00000018 uart_sync
+40003180 g     F .text	00000008 _ZN6tflite9ParseCeilEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+4000dc78 g     F .text	00000008 _ZNK6tflite26SingleArenaBufferAllocator23GetOverlayMemoryAddressEv
+40000000 g       .text	00000000 _ftext
+404b7a08 g     O .data	00000004 _ZN6tflite25kDepthwiseConvInputTensorE
+404b79d0 g     O .data	00000004 _ZN6tflite16kAddInputTensor1E
+4000e490  w    F .text	00000010 _ZN6tflite16FakeMicroContextD2Ev
+40000000 g       .text	00000000 _start
+4000ea8c g     F .text	000001c0 _ZN6tflite13ReluQuantizedERKNS_10ReluOpDataERKNS_12RuntimeShapeES5_PKaPa
+40009db4  w    F .text	00000050 _ZNK6tflite22MicroMutableOpResolverILj128EE15GetOpDataParserENS_15BuiltinOperatorE
+4008b4d4 g     F .text	00000210 .hidden __floatundidf
+40004858 g     F .text	00000114 _ZN6tflite10ParseShapeEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+400051a4 g     F .text	00000110 _ZN6tflite8ParseSubEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+40080924 g     F .text	00000214 _ZN6tflite10MicroGraph14InvokeSubgraphEi
+4005a670 g     F .text	0000000c _ZN6tflite10InitReduceEP13TfLiteContextPKcj
+40082214 g     F .text	00000068 _ZN6tflite22MicroResourceVariables8ResetAllEv
+40044f90  w    F .text	00000010 _ZN6tflite39MicroContextRequestScratchBufferInArenaEP13TfLiteContextjPi
+40009db0  w    F .text	00000004 _ZN6tflite14AllOpsResolverD1Ev
+404b7a44 g     O .data	00000004 _ZN6tflite16kMulInput2TensorE
+40049a6c  w    F .text	00000328 _ZN8gemmlowp22exp_on_negative_valuesIlLi4EEENS_10FixedPointIT_Li0EEENS1_IS2_XT0_EEE
+40084c18 g     F .text	000000bc __floatsisf
+40080644 g     F .text	0000007c _ZN6tflite10MicroGraph18NumSubgraphOutputsEi
+404b79dc g     O .data	00000004 _ZN6tflite12kTfLiteAbortE
+4000e4a0 g     F .text	000000a4 _ZN6tflite16FakeMicroContext27RequestScratchBufferInArenaEjPi
+40006350 g     F .text	000000dc _ZN6tflite20CalculateInputRadiusEiii
+40082dcc g     F .text	00000008 _ZN6tflite14MockMicroGraph18NumSubgraphOutputsEi
+400806c0 g     F .text	000000a0 _ZN6tflite10MicroGraph17GetSubgraphOutputEii
+4008a690 g     F .text	00000008 getentropy
+4008b42c g     F .text	000000a8 .hidden __clrsbsi2
+40025c28 g     F .text	0000039c _ZN6tflite19CalculateOpDataConvEP13TfLiteContextP10TfLiteNodeRK16TfLiteConvParamsiiiiii10TfLiteTypePNS_10OpDataConvE
+4007c5b8 g     F .text	0000003c _ZN6tflite3ops5micro15Register_UNPACKEv
+400867c4 g     F .text	00000040 strncmp
+4000dc5c g     F .text	0000001c _ZN6tflite26SingleArenaBufferAllocator14DeallocateTempEPh
+400040b0 g     F .text	000000f4 _ZN6tflite9ParsePackEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+40014400  w    F .text	00000134 _ZN6tflite13reference_ops13BroadcastArgsIlEEvRKNS_12RuntimeShapeEPKT_S4_S7_S4_PS5_
+40023484 g     F .text	00000044 _ZN6tflite3ops5micro16Register_GREATEREv
+400531e0 g     F .text	0000003c _ZN6tflite12Register_NEGEv
+4007ec48 g     F .text	00000100 _ZN6tflite14MicroAllocator28AllocateNodeAndRegistrationsEPKNS_5ModelEPNS_19SubgraphAllocationsE
+4004ebd4  w    F .text	00000224 _ZN6tflite15NDOpsHelperImplILi5ELi1EZNS_13reference_ops27MaximumMinimumBroadcastSlowIlPFlllELi5EEEvRKNS_12RuntimeShapeEPKT_S7_SA_S7_PS8_T0_EUlPiE_EENSt9enable_ifIXneT0_miT_Li1EEvE4typeERKNS_11NdArrayDescIXT_EEERKT1_SD_
+40059274 g     F .text	000012e4 _ZN6tflite21EvalQuantizeReferenceEP13TfLiteContextP10TfLiteNode
+40081644 g     F .text	00000490 _ZN6tflite16MicroInterpreter15AllocateTensorsEv
+40084080 g     F .text	00000004 __eqsf2
+40045344 g     F .text	0000003c _ZN6tflite5micro12GetEvalInputEPK13TfLiteContextPK10TfLiteNodei
+4005fe9c g     F .text	00000040 _ZN6tflite3ops5micro14Register_ROUNDEv
+40004454 g     F .text	00000008 _ZN6tflite9ParseReluEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+400040a0 g     F .text	00000008 _ZN6tflite8ParseNegEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+400053f4 g     F .text	00000008 _ZN6tflite14ParseTransposeEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+4006d7d4 g     F .text	0000081c _ZN6tflite3ops5micro13strided_slice15CheckOutputSizeEP13TfLiteContextPNS2_19StridedSliceContextE
+4000dc58 g     F .text	00000004 _ZN6tflite26SingleArenaBufferAllocatorD2Ev
+40009140 g     F .text	000000c0 _ZN6tflite12tensor_utils13CwiseClippingEPfif
+4007d258 g     F .text	00000004 _ZN6tflite19GreedyMemoryPlannerD0Ev
+40005844 g     F .text	0000017c _ZN6tflite25GetRegistrationFromOpCodeEPKNS_12OperatorCodeERKNS_10OpResolverEPNS_13ErrorReporterEPPK18TfLiteRegistration
+404b7a0c g     O .data	00000004 _ZN6tflite26kDepthwiseConvOutputTensorE
+40044fa0  w    F .text	00000010 _ZN6tflite28MicroContextGetScratchBufferEP13TfLiteContexti
+4000e678 g     F .text	00000038 _ZNK6tflite17FlexbufferWrapper14ElementAsInt32Ej
+40025a30 g     F .text	00000044 _ZN6tflite16Register_CONV_2DEv
+40063718 g     F .text	00000040 _ZN6tflite14Register_SLICEEv
+40086784 g     F .text	00000010 __cxa_atexit
+4007d1fc g     F .text	0000005c _ZN6tflite19GreedyMemoryPlanner4InitEPhi
+40003900 g     F .text	00000008 _ZN6tflite10ParseEqualEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+4004b4e4 g     F .text	00000160 _ZN6tflite13lstm_internal21UpdateLstmCellIntegerEiiPslPKsS1_S3_bs
+40050608 g     F .text	000003e8 _ZN6tflite18CalculateOpDataMulEP13TfLiteContextP10TfLiteNodeP15TfLiteMulParamsPNS_9OpDataMulE
+40003ec0 g     F .text	00000008 _ZN6tflite15ParseLogicalNotEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+40049a00 g     F .text	0000000c _ZN6tflite9LogicalOrEbb
+400017d0 g     F .text	00000070 perf_reset_all_counters
+400064ac g     F .text	00000550 _ZN6tflite21reference_integer_ops14ConvPerChannelERKNS_10ConvParamsEPKlS5_RKNS_12RuntimeShapeEPKaS8_SA_S8_S5_S8_Pa
+40086794 g     F .text	00000030 memcmp
+40002d14 g     F .text	00000114 _ZN6tflite11ParseArgMaxEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+40071cf0 g     F .text	00000178 _ZN6tflite10SubPrepareEP13TfLiteContextP10TfLiteNode
+4000def8 g     F .text	00000004 _ZThn4_N6tflite26SingleArenaBufferAllocatorD0Ev
+4005b770 g     F .text	00000224 _ZN6tflite22PrepareMeanOrSumHelperEP13TfLiteContextP10TfLiteNodePNS_12OpDataReduceE
+4007cfbc g     F .text	00000014 _ZN6tflite11AlignSizeUpEjj
+4005fa34 g     F .text	00000308 _ZN6tflite3ops5micro5round7PrepareEP13TfLiteContextP10TfLiteNode
+404b7a28 g     O .data	00000004 _ZN6tflite21kHardSwishInputTensorE
+40056818 g     F .text	00000044 _ZN6tflite14Register_PADV2Ev
+4000912c g     F .text	00000004 _ZN6tflite12tensor_utils30MatrixScalarMultiplyAccumulateEPKalllPl
+404b79ec g     O .data	00000004 _ZN6tflite15kConvBiasTensorE
+40003c04 g     F .text	00000008 _ZN6tflite14ParseHardSwishEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+40085878 g     F .text	000003b4 __divdf3
+40002278 g     F .text	00000004 _Z14tflite_preloadPKhj
+4002d1b0  w    F .text	000005a4 _ZN6tflite7testing27TestConvQuantizedPerChannelIslEE12TfLiteStatusPiPKfPT_fiS3_S5_PaS3_S5_PT0_PfS3_S3_S5_S7_fiP16TfLiteConvParams18TfLiteRegistrationS7_10TfLiteType
+400804ac g     F .text	0000003c _ZN6tflite25MicroContextReportOpErrorEP13TfLiteContextPKcz
+40080414 g     F .text	0000006c _ZN6tflite12MicroContext24AllocateTempOutputTensorEPK10TfLiteNodei
+4007d264 g     F .text	0000006c _ZN6tflite19GreedyMemoryPlanner9AddBufferEiii
+4007db6c g     F .text	0000008c _ZN6tflite19GreedyMemoryPlanner18GetOffsetForBufferEiPi
+400006dc g     F .text	00000114 cpp_math_mul_by_quantized_mul_software
+40004370 g     F .text	00000008 _ZN6tflite10ParsePreluEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+40058618 g     F .text	00000044 _ZN6tflite14Register_PRELUEv
+4002f398 g     F .text	00000040 _ZN6tflite23Register_DEPTH_TO_SPACEEv
+40085470 g     F .text	00000388 __muldf3
+4003f554 g     F .text	00000040 _ZN6tflite3ops5micro12Register_LOGEv
+4005fd3c g     F .text	00000160 _ZN6tflite3ops5micro5round4EvalEP13TfLiteContextP10TfLiteNode
+40069c84 g     F .text	00000044 _ZN6tflite27Register_SQUARED_DIFFERENCEEv
+400041b4 g     F .text	000001bc _ZN6tflite9ParsePoolEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+40083680 g     F .text	0000004c _ZN6tflite25GetRegistrationFromOpCodeEPKNS_12OperatorCodeERKNS_10OpResolverEPPK18TfLiteRegistration
+4000dc80 g     F .text	00000020 _ZNK6tflite26SingleArenaBufferAllocator25GetNonPersistentUsedBytesEv
+4005792c g     F .text	000002b4 _ZN6tflite23MaxPoolingEvalQuantizedEP13TfLiteContextP10TfLiteNodeP16TfLitePoolParamsPKNS_13OpDataPoolingEPK16TfLiteEvalTensorPS9_
+40003ee8 g     F .text	00000008 _ZN6tflite12ParseMinimumEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+40003d00 g     F .text	000000d4 _ZN6tflite20ParseL2NormalizationEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+404b7a58 g     O .data	00000004 _ZN6tflite16kSubInputTensor2E
+40089e80 g     F .text	00000108 scalbnf
+4006541c g     F .text	000001e4 _ZN6tflite14SoftmaxPrepareEP13TfLiteContextP10TfLiteNode
+4004a700 g     F .text	00000008 _ZN6tflite15LogisticPrepareEP13TfLiteContextP10TfLiteNode
+40004464 g     F .text	000001e4 _ZN6tflite12ParseReshapeEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+40005d4c g     F .text	000000e8 _ZN6tflite18QuantizeMultiplierEdPlPi
+40044fdc g     F .text	00000130 _ZN6tflite5micro12KernelRunnerC2ERK18TfLiteRegistrationP12TfLiteTensoriP14TfLiteIntArrayS8_PvS8_
+40005a2c g     F .text	0000002c TfLiteTypeGetName
+40086780 g     F .text	00000004 strtoull
+40083f90 g     F .text	00000060 __cmpsf2
+4006a268 g     F .text	0000000c _ZN6tflite3ops5micro13strided_slice4InitEP13TfLiteContextPKcj
+4001653c g     F .text	00000178 _ZN6tflite3ops5micro11comparisons7PrepareEP13TfLiteContextP10TfLiteNode
+40003ed8 g     F .text	00000008 _ZN6tflite15ParseLogSoftmaxEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+4008a6a8 g     F .text	00000004 __retarget_lock_acquire_recursive
+40008b28 g     F .text	0000009c _ZN6tflite12tensor_utils16PortableCwiseAddEPKsS2_iiPs
+40011c34 g     F .text	00000044 _ZN6tflite12Register_ADDEv
+40009260 g     F .text	0000005c _ZN6tflite12tensor_utils13CwiseClippingEPaia
+40045380 g     F .text	00000018 _ZN6tflite5micro13GetEvalOutputEPK13TfLiteContextPK10TfLiteNodei
+400871f0 g     F .text	00000084 fminf
+400829f4 g     F .text	00000028 _ZN6tflite19GetCurrentTimeTicksEv
+40036390 g     F .text	000002dc _ZN6tflite14DequantizeEvalEP13TfLiteContextP10TfLiteNode
+4008a5dc g     F .text	0000001c memset
+40049a0c g     F .text	00000010 _ZN6tflite10LogicalAndEbb
+4008716c g     F .text	00000084 fmaxf
+4008364c g     F .text	00000034 _ZN6tflite21GetMicroErrorReporterEv
+40045554 g     F .text	0000018c _ZN6tflite5micro23CopyOpInputsToOpOutputsEP13TfLiteContextP10TfLiteNode
+40000668 g     F .text	0000003c main
+4000df98 g     F .text	00000068 _ZThn4_N6tflite26SingleArenaBufferAllocator24AllocatePersistentBufferEjj
+40083c7c g       .text	00000000 trap_entry
+4007f1e8 g     F .text	00000300 _ZN6tflite14MicroAllocator25AllocateTfLiteEvalTensorsEPKNS_5ModelEPNS_19SubgraphAllocationsE
+40081ad4 g     F .text	00000060 _ZN6tflite16MicroInterpreter6InvokeEv
+4000496c g     F .text	00000008 _ZN6tflite8ParseSinEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+40045308 g     F .text	0000003c _ZN6tflite5micro19GetMutableEvalInputEPK13TfLiteContextPK10TfLiteNodei
+40080294 g     F .text	00000008 _ZN6tflite14MicroAllocator23GetBuiltinDataAllocatorEv
+40084084 g     F .text	00000004 __ltsf2
+4007d258 g     F .text	00000004 _ZN6tflite19GreedyMemoryPlannerD2Ev
+40003ec8 g     F .text	00000008 _ZN6tflite14ParseLogicalOrEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+40082de4  w    F .text	00000010 _ZN6tflite14MockMicroGraphD2Ev
+40004b18 g     F .text	000000c8 _ZN6tflite10ParseSplitEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+4007dc08 g     F .text	0000019c _ZN6tflite21AllocationInfoBuilder20CreateAllocationInfoEi
+400509fc g     F .text	00001dcc _ZN6tflite25EvalMulQuantizedReferenceEP13TfLiteContextP10TfLiteNodePKNS_9OpDataMulEPK16TfLiteEvalTensorS9_PS7_
+400667b4 g     F .text	00000040 _ZN6tflite23Register_SPACE_TO_DEPTHEv
+40061560  w    F .text	00000868 _ZN6tflite13reference_ops21BroadcastSelect5DSlowIbsEEvRKNS_12RuntimeShapeEPKT_S4_PKT0_S4_SA_S4_PS8_
+4007f934 g     F .text	000000c0 _ZN6tflite14MicroAllocator34PopulateTfLiteTensorFromFlatbufferEPKNS_5ModelEP12TfLiteTensoriib
+4008b7dc g     F .text	000001cc .hidden __truncdfsf2
+400836cc g     F .text	00000068 _ZN6tflite14GetBuiltinCodeEPKNS_12OperatorCodeE
+40086854 g     F .text	0000000c getchar
+4006746c g     F .text	00000040 _ZN6tflite3ops5micro16Register_SPLIT_VEv
+4004521c g     F .text	000000c4 _ZN6tflite5micro12KernelRunner6InvokeEv
+4000dca0 g     F .text	00000010 _ZNK6tflite26SingleArenaBufferAllocator22GetPersistentUsedBytesEv
+4005dd3c g     F .text	00000040 _ZN6tflite24Register_RESIZE_BILINEAREv
+4004cda8 g     F .text	00000fc4 _ZN6tflite21EvalInteger8x8_16LstmEPK16TfLiteEvalTensorS2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_PK16TfLiteLSTMParamsbbPKNS_20IntegerLstmParameterElPS0_S9_S9_PsSA_SA_SA_PaPl
+4007f9f4 g     F .text	000001a8 _ZN6tflite14MicroAllocator24AllocateTempTfLiteTensorEPKNS_5ModelEPKNS_19SubgraphAllocationsEii
+4007dbf8  w    F .text	00000008 _ZN6tflite18MicroMemoryPlanner9AddBufferEiiii
+4007d2d0 g     F .text	000000ac _ZN6tflite19GreedyMemoryPlanner9AddBufferEiiii
+4000a1d8 g     F .text	00003a80 _ZN6tflite14AllOpsResolverC1Ev
+40009768 g     F .text	00000568 _ZN6tflite37PopulateConvolutionQuantizationParamsEP13TfLiteContextPK12TfLiteTensorS4_S4_PS2_RK21TfLiteFusedActivationPlPiS9_S9_S9_S9_i
+400873d8 g     F .text	0000049c exp
+40086804 g     F .text	00000050 putc
+404b7a64 g     O .data	00000004 _ZN6tflite16kSvdfInputTensorE
+4004dea0 g     F .text	0000003c _ZN6tflite3ops5micro16Register_MINIMUMEv
+400060ac g     F .text	000002a4 _ZN6tflite30PreprocessLogSoftmaxScalingExpEddiPlPiS0_S1_
+40084464 g     F .text	00000214 __mulsf3
+4005c8c4 g     F .text	00000898 _ZN6tflite13EvalMaxHelperEP13TfLiteContextP10TfLiteNodePNS_12OpDataReduceE
+400648a0 g     F .text	00000b70 _ZN6tflite22CalculateSoftmaxParamsEP13TfLiteContextPK12TfLiteTensorPS2_PK19TfLiteSoftmaxParamsPNS_13SoftmaxParamsE
+40087aec g     F .text	000000b0 _cosf
+4008a5f8 g     F .text	00000020 strcmp
+4007ed48 g     F .text	00000130 _ZN6tflite14MicroAllocator17AllocateVariablesEPKNS_8SubGraphEP16TfLiteEvalTensor
+4005382c g     F .text	0000003c _ZN6tflite3ops5micro13Register_PACKEv
+400053ec g     F .text	00000008 _ZN6tflite9ParseTanhEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+4003876c  w    F .text	000003f0 _ZNK11flexbuffers9Reference7AsInt64Ev
+400802fc g     F .text	0000002c _ZN6tflite12MicroContext13GetEvalTensorEi
+4007eb68 g     F .text	00000004 _ZN6tflite14MicroAllocatorD2Ev
+40002a7c g     F .text	00000178 _ZN6tflite17ConvertTensorTypeENS_10TensorTypeEP10TfLiteTypePNS_13ErrorReporterE
+400835c8 g     F .text	0000005c _ZN6tflite24CallBuiltinParseFunctionEPF12TfLiteStatusPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPvES3_S7_S9_
+4004e774  w    F .text	00000460 _ZN6tflite13reference_ops27MaximumMinimumBroadcastSlowIaPFaaaELi5EEEvRKNS_12RuntimeShapeEPKT_S6_S9_S6_PS7_T0_
+40009d58  w    F .text	00000058 _ZNK6tflite22MicroMutableOpResolverILj128EE6FindOpENS_15BuiltinOperatorE
+400040a8 g     F .text	00000008 _ZN6tflite13ParseNotEqualEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+40056b28 g     F .text	00000110 _ZN6tflite22CalculateOpDataPoolingEPK13TfLiteContextPK16TfLitePoolParamsPK12TfLiteTensorS8_PNS_13OpDataPoolingE
+404b370c g     O .rodata	000000d8 _ZN6tflite18kConvFilter8x3x3x3E
+404b7b01 g     O .bss	00000001 _ZN10micro_test16is_test_completeE
+40080858 g     F .text	000000cc _ZN6tflite10MicroGraph13FreeSubgraphsEv
+400453bc g     F .text	00000060 _ZN6tflite5micro14GetTensorShapeEPK16TfLiteEvalTensor
+404b7a04 g     O .data	00000004 _ZN6tflite24kDepthwiseConvBiasTensorE
+40011f3c g     F .text	00000168 _ZN6tflite10AddPrepareEP13TfLiteContextP10TfLiteNode
+400841fc g     F .text	00000004 __nedf2
+4004b644 g     F .text	00000338 _ZN6tflite13lstm_internal32CalculateLstmOutputInteger8x8_16EiiiPslPKslllPKallPKllaPaS1_S8_Pl
+40084e6c g     F .text	000000a0 __fixunsdfdi
+40040d14 g     F .text	00000040 _ZN6tflite13Register_FILLEv
+40081b34 g     F .text	0000003c _Z3LogPKcPv
+4000502c g     F .text	00000008 _ZN6tflite9ParseSqrtEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+40083394 g     F .text	00000080 _ZN6tflite7testing28PackInt4ValuesDenselyInPlaceEPhi
+4004700c g     F .text	0000000c _ZN6tflite13LeakyReluInitEP13TfLiteContextPKcj
+40023db8  w    F .text	0000036c _ZN6tflite3ops5micro13concatenation15EvalUnquantizedIlEEvP13TfLiteContextP10TfLiteNode
+4008a818 g     F .text	0000007c fgetc
+40009ec0  w    F .text	00000078 _ZNK6tflite15MicroOpResolver6FindOpENS_15BuiltinOperatorEi
+404b7000 g     O .rodata	00000100 .hidden __clz_tab
+4004b1d8 g     F .text	0000030c _ZN6tflite13lstm_internal30CalculateLstmGateInteger8x8_16EPKaS2_PKlllS2_S2_S4_llPKsS6_llS6_S4_llliiii21TfLiteFusedActivationPsPl
+40015bb4 g     F .text	00000308 _ZN6tflite3ops5micro4ceil7PrepareEP13TfLiteContextP10TfLiteNode
+400494a8 g     F .text	0000003c _ZN6tflite19Register_LOGICAL_OREv
+4003666c g     F .text	00000044 _ZN6tflite19Register_DEQUANTIZEEv
+40084dec g     F .text	00000080 __fixdfdi
+40038b5c  w    F .text	000003d8 _ZNK11flexbuffers9Reference8AsUInt64Ev
+4000025c g     F .text	000000b0 read_val
+400016fc g     F .text	000000d4 perf_print_value
+400803a8 g     F .text	0000006c _ZN6tflite12MicroContext23AllocateTempInputTensorEPK10TfLiteNodei
+40026304 g     F .text	00005a70 _Z9conv_testiPPc
+40083ff0 g     F .text	00000060 __gesf2
+40003820 g     F .text	000000d8 _ZN6tflite8ParseDivEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+4003fbec g     F .text	00000008 _ZN6tflite15Register_ETHOSUEv
+40081ff8 g     F .text	00000094 _ZN6tflite22MicroResourceVariables4ReadEiPK16TfLiteEvalTensor
+400092c8 g     F .text	00000004 _ZN6tflite12tensor_utils23MeanStddevNormalizationEPKfPfii
+40065f20 g     F .text	00000044 _ZN6tflite26Register_SPACE_TO_BATCH_NDEv
+40003ed0 g     F .text	00000008 _ZN6tflite13ParseLogisticEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+400804e8 g     F .text	00000004 _ZN6tflite10MicroGraphD2Ev
+4003f618 g     F .text	00000040 _ZN6tflite3ops5micro15Register_SQUAREEv
+40043ae8 g     F .text	00000040 _ZN6tflite15Register_GATHEREv
+40003bfc g     F .text	00000008 _ZN6tflite17ParseGreaterEqualEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+4007ddf0 g     F .text	00000158 _ZN6tflite21AllocationInfoBuilder16ValidateSubgraphEPKNS_8SubGraphEP16TfLiteEvalTensor
+40007a00 g     F .text	00000274 _ZN6tflite12tensor_utils43PortableMatrixBatchVectorMultiplyAccumulateEPKaPKlS2_llllllPlPsPNS_17CpuBackendContextE
+404b74fc g     O .rodata	00000004 stderr
+400053fc g     F .text	00000164 _ZN6tflite18ParseTransposeConvEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+40082da8 g     F .text	0000001c _ZN6tflite14MockMicroGraph14InvokeSubgraphEi
+400247f4  w    F .text	0000036c _ZN6tflite3ops5micro13concatenation15EvalUnquantizedIsEEvP13TfLiteContextP10TfLiteNode
+4000f1a8 g     F .text	000007d4 _ZN6tflite7EvalAddEP13TfLiteContextP10TfLiteNodeP15TfLiteAddParamsPKNS_9OpDataAddEPK16TfLiteEvalTensorSB_PS9_
+40060480 g     F .text	00000044 _ZN6tflite18Register_SELECT_V2Ev
+40037084  w    F .text	0000000c _ZN11flexbuffers10KeyCompareIhEEiPKvS2_
+404b6324  w    O .rodata	00000044 _ZTVN6tflite14MicroAllocatorE
+404a9218 g     O .rodata	00002400 g_person_data
+40015298 g     F .text	00000044 _ZN6tflite18Register_CALL_ONCEEv
+40001ca0 g     F .text	0000000c perf_test_menu
+40089454 g     F .text	000000b4 _sinf
+4000497c g     F .text	000000cc _ZN6tflite12ParseSoftmaxEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+404b36e4 g     O .rodata	00000019 _ZN6tflite17kConvInput1x5x5x1E
+40005034 g     F .text	00000008 _ZN6tflite11ParseSquareEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+40045398 g     F .text	00000024 _ZN6tflite5micro14HaveSameShapesEPK16TfLiteEvalTensorS3_
+40044f3c g     F .text	00000044 _ZN6tflite11Register_IFEv
+40005a58 g     F .text	000000a0 _ZN6tflite12tensor_utils17ApplyReluToVectorEPKfiPf
+4007d258 g     F .text	00000004 _ZN6tflite19GreedyMemoryPlannerD1Ev
+4003f658 g     F .text	00000040 _ZN6tflite3ops5micro20Register_LOGICAL_NOTEv
+404b79e8 g     O .data	00000004 _ZN6tflite29kCircularBufferCyclesMaxIndexE
+40041744 g     F .text	00000044 _ZN6tflite18Register_FLOOR_DIVEv
+40081ed0 g     F .text	00000128 _ZN6tflite22MicroResourceVariables19CreateIdIfNoneFoundEPKcS2_
+400143c0 g     F .text	00000040 _ZN6tflite23Register_BROADCAST_ARGSEv
+40009464 g     F .text	00000304 _ZN6tflite33CalculateActivationRangeQuantizedEP13TfLiteContext21TfLiteFusedActivationP12TfLiteTensorPlS5_
+40086804 g     F .text	00000050 fputc
+400720a8 g     F .text	000006fc _ZN6tflite22EvalInt16SvdfReferenceEP13TfLiteContextP10TfLiteNodePK16TfLiteEvalTensorS6_S6_S6_PK16TfLiteSVDFParamsPS4_SA_RKNS_10OpDataSvdfE
+4007c0a4 g     F .text	00000044 _ZN6tflite37Register_UNIDIRECTIONAL_SEQUENCE_LSTMEv
+40014bb4 g     F .text	00000040 _ZN6tflite21Register_BROADCAST_TOEv
+400473c4  w    F .text	00000380 _ZN6tflite17QuantizeLeakyReluIsEEvRKNS_15LeakyReluOpDataEPK16TfLiteEvalTensorPS4_
+40083624  w    F .text	00000004 _ZN6tflite18MicroErrorReporterD1Ev
+4002350c g     F .text	00000044 _ZN6tflite3ops5micro13Register_LESSEv
+40053874 g     F .text	00000754 _ZN6tflite10PadPrepareEP13TfLiteContextP10TfLiteNode
+4004c21c g     F .text	00000b8c _ZN6tflite13EvalFloatLstmEPK16TfLiteEvalTensorS2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_PK16TfLiteLSTMParamsbbiPfPS0_S7_S7_
+40089454 g     F .text	000000b4 sinf
+4005a69c g     F .text	00000008 _ZN6tflite7EvalSumEP13TfLiteContextP10TfLiteNode
+40045884 g     F .text	0000015c _ZN6tflite5micro29CopyOpOutputsToSubgraphInputsEP13TfLiteContextP10TfLiteNodePNS_10MicroGraphEi
+40003910 g     F .text	00000008 _ZN6tflite15ParseExpandDimsEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+4007eb80 g     F .text	0000008c _ZN6tflite14MicroAllocator26DeallocateTempTfLiteTensorEP12TfLiteTensor
+4004510c g     F .text	00000110 _ZN6tflite5micro12KernelRunner14InitAndPrepareEPKcj
+40004380 g     F .text	00000008 _ZN6tflite17ParseReadVariableEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+40080480 g     F .text	00000024 _ZN6tflite12MicroContextC1EPNS_14MicroAllocatorEPKNS_5ModelEPNS_10MicroGraphE
+4000dd70 g     F .text	00000068 _ZN6tflite26SingleArenaBufferAllocator24AllocatePersistentBufferEjj
+40007edc g     F .text	000008f4 _ZN6tflite12tensor_utils22PortableApplyLayerNormEPKsS2_PKlllliiPs
+40031ea4 g     F .text	000044e0 _Z19depthwise_conv_testiPPc
+4007007c g     F .text	00000fe0 _ZN6tflite16EvalSubQuantizedEP13TfLiteContextP10TfLiteNodeP15TfLiteSubParamsPKNS_9OpDataSubEPK16TfLiteEvalTensorSB_PS9_
+4005f9f4 g     F .text	00000040 _ZN6tflite3ops5micro32Register_RESIZE_NEAREST_NEIGHBOREv
+400092c0 g     F .text	00000004 _ZN6tflite12tensor_utils10Sub1VectorEPKfiPf
+40003024 g     F .text	0000015c _ZN6tflite9ParseCastEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+40044f80  w    F .text	00000010 _ZN6tflite36MicroContextAllocatePersistentBufferEP13TfLiteContextj
+40082f40 g     F .text	0000023c _ZN6tflite7testing35CreatePerChannelQuantizedBiasTensorEPKfPlP14TfLiteIntArrayfPfS6_PiP24TfLiteAffineQuantizationib
+40046fc8 g     F .text	00000044 _ZN6tflite3ops5micro25Register_L2_NORMALIZATIONEv
+4002cb34  w    F .text	000005a4 _ZN6tflite7testing27TestConvQuantizedPerChannelIsxEE12TfLiteStatusPiPKfPT_fiS3_S5_PaS3_S5_PT0_PfS3_S3_S5_S7_fiP16TfLiteConvParams18TfLiteRegistrationS7_10TfLiteType
+4005eab0 g     F .text	00000264 _ZN6tflite3ops5micro23resize_nearest_neighbor7PrepareEP13TfLiteContextP10TfLiteNode
+4003f490 g     F .text	00000044 _ZN6tflite3ops5micro12Register_ABSEv
+40009db0  w    F .text	00000004 _ZN6tflite14AllOpsResolverD2Ev
+400801c4 g     F .text	000000d0 _ZN6tflite14MicroAllocator28FinishPrepareNodeAllocationsEi
+4005ff04 g     F .text	00000190 _ZN6tflite19CheckBroadcastShapeEP13TfLiteContextPK12TfLiteTensorS4_S4_PK14TfLiteIntArray
+40087a5c g     F .text	00000090 ceilf
+404b6380  w    O .rodata	00000034 _ZTVN6tflite12MicroContextE
+40056c38 g     F .text	000001dc _ZN6tflite14PoolingPrepareEP13TfLiteContextP10TfLiteNode
+4004e564  w    F .text	00000210 _ZN6tflite15NDOpsHelperImplILi5ELi1EZNS_13reference_ops27MaximumMinimumBroadcastSlowIaPFaaaELi5EEEvRKNS_12RuntimeShapeEPKT_S7_SA_S7_PS8_T0_EUlPiE_EENSt9enable_ifIXneT0_miT_Li1EEvE4typeERKNS_11NdArrayDescIXT_EEERKT1_SD_
+40085f40 g     F .text	00000078 __ctzsi2
+404b7af8 g     O .bss	00000004 _ZN10micro_test12tests_failedE
+40047f04 g     F .text	00000040 _ZN6tflite20Register_LOG_SOFTMAXEv
+4002d0d8 g     F .text	000000d8 _ZN6tflite7testing27TestConvQuantizedPerChannelEPiPKfPsfiS1_S3_PaS1_S3_PxPfS1_S1_S3_S4_fiP16TfLiteConvParams18TfLiteRegistrationS4_
+400447e8 g     F .text	00000294 _ZN6tflite16HardSwishPrepareEP13TfLiteContextP10TfLiteNode
+4008033c g     F .text	0000006c _ZN6tflite12MicroContext30AllocateTempIntermediateTensorEPK10TfLiteNodei
+404b7ac0 g       .data	00000000 _edata
+400567d4 g     F .text	00000044 _ZN6tflite12Register_PADEv
+400800d4 g     F .text	000000f0 _ZN6tflite14MicroAllocator27RequestScratchBufferInArenaEjiPi
+400052b4 g     F .text	00000138 _ZN6tflite9ParseSvdfEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+404b7a2c g     O .data	00000004 _ZN6tflite22kHardSwishOutputTensorE
+40043020 g     F .text	00000044 _ZN6tflite24Register_FULLY_CONNECTEDEv
+40009130 g     F .text	00000004 _ZN6tflite12tensor_utils14ApplyLayerNormEPKsS2_PKlllliiPs
+400509f0 g     F .text	0000000c _ZN6tflite10MulPrepareEP13TfLiteContextP10TfLiteNode
+405d0940 g       .bss	00000000 _end
+40002f4c g     F .text	00000008 _ZN6tflite18ParseBroadcastArgsEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+40084050 g     F .text	00000030 __unordsf2
+40080760 g     F .text	000000f8 _ZN6tflite10MicroGraph13InitSubgraphsEv
+40057be0 g     F .text	0000000c _ZN6tflite9PreluInitEP13TfLiteContextPKcj
+4000e3d8 g     F .text	00000010 _ZN6tflite16FakeMicroContext26DeallocateTempTfLiteTensorEP12TfLiteTensor
+404b7a38 g     O .data	00000004 _ZN6tflite20kLogisticInputTensorE
+4003f5d4 g     F .text	00000044 _ZN6tflite3ops5micro14Register_RSQRTEv
+4007eb6c g     F .text	00000014 _ZN6tflite14MicroAllocator24AllocatePersistentBufferEj
+4008a4fc g     F .text	00000040 .hidden __math_divzerof
+40002f3c g     F .text	00000008 _ZN6tflite19ParseAssignVariableEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+40083e4c g     F .text	00000054 uart_read
+40025b6c g     F .text	000000bc _ZN6tflite19ConvParamsQuantizedERK16TfLiteConvParamsRKNS_10OpDataConvE
+40023a08 g     F .text	00000044 _ZN6tflite3ops5micro22Register_CONCATENATIONEv
+40046434 g     F .text	00000040 _ZN6tflite19Register_L2_POOL_2DEv
+40040668 g     F .text	00000040 _ZN6tflite20Register_EXPAND_DIMSEv
+40049520 g     F .text	000004e0 _ZN6tflite11LogicalImplEP13TfLiteContextP10TfLiteNodePFbbbE
+4005d5d0 g     F .text	000000b0 _ZN6tflite3ops5micro7reshape4EvalEP13TfLiteContextP10TfLiteNode
+40046480 g     F .text	00000294 _ZN6tflite3ops5micro6l2norm7PrepareEP13TfLiteContextP10TfLiteNode
+4004f25c  w    F .text	00000230 _ZN6tflite15NDOpsHelperImplILi5ELi1EZNS_13reference_ops27MaximumMinimumBroadcastSlowIxPFxxxELi5EEEvRKNS_12RuntimeShapeEPKT_S7_SA_S7_PS8_T0_EUlPiE_EENSt9enable_ifIXneT0_miT_Li1EEvE4typeERKNS_11NdArrayDescIXT_EEERKT1_SD_
+40015ebc g     F .text	000000ec _ZN6tflite3ops5micro4ceil4EvalEP13TfLiteContextP10TfLiteNode
+404b7a74 g     O .data	00000004 _ZN6tflite31kSvdfInputActivationStateTensorE
+40004378 g     F .text	00000008 _ZN6tflite13ParseQuantizeEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+40084cd4 g     F .text	0000009c __floatunsisf
+40082dc4 g     F .text	00000008 _ZN6tflite14MockMicroGraph20ResetVariableTensorsEv
+4007cfb0 g     F .text	0000000c _ZN6tflite16AlignPointerDownEPhj
+4007cb08 g     F .text	00000044 _ZN6tflite14Register_WHILEEv
+4003fba8 g     F .text	00000044 _ZN6tflite12Register_ELUEv
+40003ea0 g     F .text	00000008 _ZN6tflite9ParseLessEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+4000e490  w    F .text	00000010 _ZN6tflite16FakeMicroContextD1Ev
+40089dd8 g     F .text	00000054 .hidden __math_uflow
+404b7a78 g     O .data	00000004 _ZN6tflite13kConvZeroBiasE
+40060d2c  w    F .text	00000834 _ZN6tflite13reference_ops21BroadcastSelect5DSlowIbaEEvRKNS_12RuntimeShapeEPKT_S4_PKT0_S4_SA_S4_PS8_
+40044fd0  w    F .text	0000000c _ZN6tflite30MicroContextGetExternalContextEP13TfLiteContext25TfLiteExternalContextType
+40009134 g     F .text	00000004 _ZN6tflite12tensor_utils8CwiseMulEPKsS2_iiiPs
+40082dd4 g     F .text	00000008 _ZN6tflite14MockMicroGraph16GetSubgraphInputEii
+40043064 g     F .text	00000044 _ZN6tflite29FullyConnectedParamsQuantizedERKNS_20OpDataFullyConnectedE
+4005da88 g     F .text	00000040 _ZN6tflite3ops5micro16Register_RESHAPEEv
+4000e388 g     F .text	0000002c DebugLog
+40005af8 g     F .text	000000bc _ZN6tflite12tensor_utils18ApplyRelu1ToVectorEPKfiPf
+4002bff4 g     F .text	00000068 _ZN6tflite7testing10InvokeConvEP12TfLiteTensoriiP16TfLiteConvParams18TfLiteRegistrationPa
+40024488  w    F .text	0000036c _ZN6tflite3ops5micro13concatenation15EvalUnquantizedIxEEvP13TfLiteContextP10TfLiteNode
+4002bf8c g     F .text	00000068 _ZN6tflite7testing10InvokeConvEP12TfLiteTensoriiP16TfLiteConvParams18TfLiteRegistrationPf
+40080b38 g     F .text	00000134 _ZN6tflite10MicroGraph16PrepareSubgraphsEv
+4000defc g     F .text	00000010 _ZThn4_NK6tflite26SingleArenaBufferAllocator22GetPersistentUsedBytesEv
+404b6aa8 g     O .rodata	00000101 _ctype_
+400750e4 g     F .text	00000040 _ZN6tflite18Register_TRANSPOSEEv
+40023440 g     F .text	00000044 _ZN6tflite3ops5micro18Register_NOT_EQUALEv
+404b3804 g     O .rodata	00000c00 _ZN6tflite19kConvInput1x32x32x3E
+404b7a48 g     O .data	00000004 _ZN6tflite16kMulOutputTensorE
+400841b0 g     F .text	00000044 __unorddf2
+40011b04 g     F .text	00000130 _ZN6tflite7AddEvalEP13TfLiteContextP10TfLiteNode
+404b7a54 g     O .data	00000004 _ZN6tflite16kSubInputTensor1E
+404b79c4  w    O .data	00000001 _ZZN11flexbuffers6Vector11EmptyVectorEvE12empty_vector
+4002c5ec  w    F .text	0000046c _ZN6tflite7testing27TestConvQuantizedPerChannelIalEE12TfLiteStatusPiPKfPT_fiS3_S5_PaS3_S5_PT0_PfS3_S3_S5_S7_fiP16TfLiteConvParams18TfLiteRegistrationS7_10TfLiteType
+4005a684 g     F .text	00000008 _ZN6tflite16PrepareMeanOrSumEP13TfLiteContextP10TfLiteNode
+40080528 g     F .text	0000007c _ZN6tflite10MicroGraph17NumSubgraphInputsEi
+4008a6a0 g     F .text	00000004 _exit
+40082f0c g     F .text	00000004 _ZN6tflite7testing16IntArrayFromIntsEPi
+4008aa24 g     F .text	0000088c __kernel_rem_pio2f
+40082dd4 g     F .text	00000008 _ZN6tflite14MockMicroGraph17GetSubgraphOutputEii
+400505fc g     F .text	0000000c _ZN6tflite7MulInitEP13TfLiteContextPKcj
+40005bb4 g     F .text	000000cc _ZN6tflite12tensor_utils18ApplyRelu6ToVectorEPKfiPf
+40087b9c g     F .text	0000032c expf
+4002c05c g     F .text	000002d0 _ZN6tflite7testing13TestConvFloatEPiPKfS1_S3_S1_S3_S1_S3_P16TfLiteConvParams18TfLiteRegistrationPf
+404b7a1c g     O .data	00000004 _ZN6tflite26kFullyConnectedInputTensorE
+4005fedc g     F .text	00000028 _ZN6tflite10SelectInitEP13TfLiteContextPKcj
+40071abc g     F .text	00000234 _ZN6tflite18CalculateOpDataSubEP13TfLiteContextP15TfLiteSubParamsPK12TfLiteTensorS6_PS4_PNS_9OpDataSubE
+404b7898 g     O .data	00000004 model_pdti8_len
+400802b0 g     F .text	00000014 _ZN6tflite12MicroContext16GetScratchBufferEi
+4003aec4 g     F .text	00000080 _ZN6tflite30Register_DETECTION_POSTPROCESSEv
+40050454 g     F .text	00000044 _ZN6tflite19Register_MIRROR_PADEv
+404b7540 g     O .data	00000028 golden_tests
+4000f058 g     F .text	00000144 _ZN6tflite12Relu6PrepareEP13TfLiteContextP10TfLiteNode
+404b7a10 g     O .data	00000004 _ZN6tflite27kDepthwiseConvWeightsTensorE
+4008a4c0 g     F .text	0000003c .hidden __math_oflowf
+4008a618 g     F .text	0000001c strlen
+40003ef0 g     F .text	000000d8 _ZN6tflite14ParseMirrorPadEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+40060094 g     F .text	000003ec _ZN6tflite13SelectPrepareEP13TfLiteContextP10TfLiteNode
+4005d680 g     F .text	000002d0 _ZN6tflite3ops5micro7reshape13ReshapeOutputEP13TfLiteContextP10TfLiteNode
+40025a74 g     F .text	000000f8 _ZN6tflite15ConvParamsFloatERK16TfLiteConvParamsRKNS_10OpDataConvE
+404ff864 g     O .bss	00002710 _ZN6tflite5micro12KernelRunner20kKernelRunnerBuffer_E
+40084124 g     F .text	0000008c __gedf2
+40023594 g     F .text	0000000c _ZN6tflite3ops5micro13concatenation4InitEP13TfLiteContextPKcj
+40003ee0 g     F .text	00000008 _ZN6tflite12ParseMaximumEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+400041a4 g     F .text	00000008 _ZN6tflite8ParsePadEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+4000a104  w    F .text	000000d4 _ZNK6tflite15MicroOpResolver6FindOpEPKci
+40002e28 g     F .text	00000114 _ZN6tflite11ParseArgMinEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+4005a72c g     F .text	00000044 _ZN6tflite12Register_SUMEv
+40009cd0 g     F .text	00000024 _ZN6tflite14HaveSameShapesEPK12TfLiteTensorS2_
+4005b5e8 g     F .text	00000188 _ZN6tflite16PrepareMaxHelperEP13TfLiteContextP10TfLiteNodePNS_12OpDataReduceE
+4007eb68 g     F .text	00000004 _ZN6tflite14MicroAllocatorD1Ev
+400234c8 g     F .text	00000044 _ZN6tflite3ops5micro22Register_GREATER_EQUALEv
+40066d94  w    F .text	0000026c _ZN6tflite3ops5micro5split9SplitImplIsEE12TfLiteStatusP13TfLiteContextP10TfLiteNodePK16TfLiteEvalTensori
+40009128 g     F .text	00000004 _ZN6tflite12tensor_utils35MatrixBatchVectorMultiplyAccumulateEPKaPKlS2_llllllPlPaPNS_17CpuBackendContextE
+40086124 g     F .text	00000010 abs
+40087ec8 g     F .text	00000090 floorf
+4008a74c g     F .text	000000a8 _on_exit
+400161bc g     F .text	00000080 _ZN6tflite24Register_CIRCULAR_BUFFEREv
+40023a4c  w    F .text	0000036c _ZN6tflite3ops5micro13concatenation15EvalUnquantizedIfEEvP13TfLiteContextP10TfLiteNode
+4004541c g     F .text	00000020 _ZN6tflite5micro18RuntimePaddingTypeE13TfLitePadding
+40061dc8 g     F .text	00000a94 _ZN6tflite10SelectEvalEP13TfLiteContextP10TfLiteNode
+4000ec4c g     F .text	000000d8 _ZN6tflite9ReluFloatERKNS_12RuntimeShapeEPKfS2_Pf
+40080c6c g     F .text	00000228 _ZN6tflite10MicroGraph20ResetVariableTensorsEv
+4004f48c  w    F .text	00000470 _ZN6tflite13reference_ops27MaximumMinimumBroadcastSlowIxPFxxxELi5EEEvRKNS_12RuntimeShapeEPKT_S6_S9_S6_PS7_T0_
+40083624  w    F .text	00000004 _ZN6tflite18MicroErrorReporterD0Ev
+40009e04  w    F .text	000000bc _ZNK6tflite22MicroMutableOpResolverILj128EE6FindOpEPKc
+4007d25c g     F .text	00000008 _ZN6tflite19GreedyMemoryPlanner14GetBufferCountEv
+4004ab80 g     F .text	000002cc _ZN6tflite13lstm_internal22CalculateLstmGateFloatEPKfS2_S2_S2_S2_S2_S2_S2_S2_S2_iiiii21TfLiteFusedActivationPfbb
+4008b9a8 g       .rodata	00000000 _frodata
+400853d8 g     F .text	00000018 __subdf3
+4007fb9c g     F .text	000001c8 _ZN6tflite14MicroAllocator30AllocatePersistentTfLiteTensorEPKNS_5ModelEPKNS_19SubgraphAllocationsEii
+40007c74 g     F .text	00000268 _ZN6tflite12tensor_utils43PortableMatrixBatchVectorMultiplyAccumulateEPKaPKlS2_llllllPlPaPNS_17CpuBackendContextE
+4000e0a4 g     F .text	0000011c _ZN6tflite26SingleArenaBufferAllocator33ReserveNonPersistentOverlayMemoryEjj
+40082dcc g     F .text	00000008 _ZN6tflite14MockMicroGraph17NumSubgraphInputsEi
+4000e2f4 g     F .text	00000094 _ZN6tflite26SingleArenaBufferAllocator6CreateEPhj
+40058e84 g     F .text	00000044 _ZN6tflite17Register_QUANTIZEEv
+4002c580 g     F .text	0000006c _ZN6tflite7testing19ValidateConvGoldensEP12TfLiteTensoriPKaiP16TfLiteConvParams18TfLiteRegistrationPaf
+404b7a50 g     O .data	00000004 _ZN6tflite20kPoolingOutputTensorE
+4003b1f0  w    F .text	000006d8 _ZN8gemmlowp32one_over_one_plus_x_for_x_in_0_1IlEENS_10FixedPointIT_Li0EEES3_
+400676b8  w    F .text	0000029c _ZN6tflite3ops5micro7split_v9SplitImplIaEE12TfLiteStatusP13TfLiteContextP10TfLiteNodePK16TfLiteEvalTensori
+40005654 g     F .text	000000f4 _ZN6tflite14ParseVarHandleEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+404b7a3c g     O .data	00000004 _ZN6tflite21kLogisticOutputTensorE
+40089f88 g     F .text	00000454 expm1f
+4000e768 g     F .text	00000004 _ZN6tflite33FlatBufferVectorToTfLiteTypeArrayEPKN11flatbuffers6VectorIfEE
+40066908  w    F .text	000001fc _ZN6tflite3ops5micro5split9SplitImplIfEE12TfLiteStatusP13TfLiteContextP10TfLiteNodePK16TfLiteEvalTensori
+404b7ac0 g       .bss	00000000 _fbss
+400456e0 g     F .text	000001a4 _ZN6tflite5micro28CopyOpInputsToSubgraphInputsEP13TfLiteContextP10TfLiteNodePNS_10MicroGraphEii
+40002d0c g     F .text	00000008 _ZN6tflite9ParseAddNEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+4007cfd0 g     F .text	00000078 _ZN6tflite16TfLiteTypeSizeOfE10TfLiteTypePj
+404a6bb0  w    O .rodata	00000034 _ZTVN6tflite14AllOpsResolverE
+40087990 g     F .text	000000cc frexp
+40009200 g     F .text	00000060 _ZN6tflite12tensor_utils13CwiseClippingEPsis
+40084204 g     F .text	00000254 __addsf3
+40002f5c g     F .text	000000c8 _ZN6tflite13ParseCallOnceEPKNS_8OperatorEPNS_13ErrorReporterEPNS_20BuiltinDataAllocatorEPPv
+4002d754 g     F .text	000000d8 _ZN6tflite7testing27TestConvQuantizedPerChannelEPiPKfPsfiS1_S3_PaS1_S3_PlPfS1_S1_S3_S4_fiP16TfLiteConvParams18TfLiteRegistrationS4_
+40024124  w    F .text	00000364 _ZN6tflite3ops5micro13concatenation15EvalUnquantizedIaEEvP13TfLiteContextP10TfLiteNode
+400235a0 g     F .text	00000468 _ZN6tflite3ops5micro13concatenation7PrepareEP13TfLiteContextP10TfLiteNode
+404b7a7c g     O .data	00000004 _ZN6tflite39kConvGoldenOutput4x4InputPaddingSame2x2E
+40086a24 g     F .text	00000724 vfprintf
+40013544 g     F .text	0000003c _ZN6tflite16Register_ARG_MINEv
+4008a6b0 g     F .text	0000009c raise
+40014534  w    F .text	00000150 _ZN6tflite13reference_ops13BroadcastArgsIxEEvRKNS_12RuntimeShapeEPKT_S4_S7_S4_PS5_
+40005e34 g     F .text	000000ec _ZN6tflite35QuantizeMultiplierSmallerThanOneExpEdPlPi
+404b7540 g       .rodata	00000000 _erodata
+4007eecc g     F .text	0000031c _ZN6tflite14MicroAllocator22CommitStaticMemoryPlanEPKNS_5ModelEPNS_19SubgraphAllocationsEPNS_19ScratchBufferHandleE
+4000e458 g     F .text	00000014 _ZN6tflite16FakeMicroContext24AllocatePersistentBufferEj
+400088c4 g     F .text	00000264 _ZN6tflite12tensor_utils16PortableCwiseMulEPKsS2_lllllPa
+400366b0 g     F .text	00000208 _ZN6tflite17DequantizePrepareEP13TfLiteContextP10TfLiteNode
+40082df4 g     F .text	00000114 _ZN6tflite14MockMicroGraphC2EPNS_26SingleArenaBufferAllocatorE
+
+

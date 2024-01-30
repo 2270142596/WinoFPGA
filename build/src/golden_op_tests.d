@@ -1,0 +1,30 @@
+src/golden_op_tests.o: src/golden_op_tests.cc src/golden_op_tests.h \
+ /home/cx/CFU-Playground/third_party/python/pythondata-software-picolibc/pythondata_software_picolibc/data/newlib/libc/include/stdint.h \
+ /home/cx/CFU-Playground/third_party/python/pythondata-software-picolibc/pythondata_software_picolibc/data/newlib/libc/include/machine/_default_types.h \
+ /home/cx/CFU-Playground/third_party/python/pythondata-software-picolibc/pythondata_software_picolibc/data/newlib/libc/include/sys/features.h \
+ /home/cx/CFU-Playground/soc/build/digilent_arty.mnv2_second_v6.1/software/libc/picolibc.h \
+ /home/cx/CFU-Playground/third_party/python/pythondata-software-picolibc/pythondata_software_picolibc/data/newlib/libc/include/sys/_intsup.h \
+ /home/cx/CFU-Playground/third_party/python/pythondata-software-picolibc/pythondata_software_picolibc/data/newlib/libc/include/sys/_stdint.h \
+ src/perf.h \
+ /home/cx/CFU-Playground/soc/build/digilent_arty.mnv2_second_v6.1/software/include/generated/soc.h \
+ /home/cx/CFU-Playground/soc/build/digilent_arty.mnv2_second_v6.1/software/include/generated/csr.h \
+ /home/cx/CFU-Playground/third_party/python/litex/litex/soc/cores/cpu/vexriscv/system.h \
+ /home/cx/CFU-Playground/third_party/python/litex/litex/soc/cores/cpu/vexriscv/csr-defs.h \
+ /home/cx/CFU-Playground/third_party/python/litex/litex/soc/software/include/hw/common.h \
+ src/tensorflow/lite/kernels/internal/reference/integer_ops/conv.h \
+ src/tensorflow/lite/kernels/internal/reference/integer_ops/mnv2_conv.h \
+ src/tensorflow/lite/kernels/internal/common.h \
+ src/third_party/gemmlowp/fixedpoint/fixedpoint.h \
+ src/third_party/gemmlowp/../internal/detect_platform.h \
+ src/tensorflow/lite/kernels/internal/cppmath.h \
+ src/tensorflow/lite/kernels/internal/optimized/neon_check.h \
+ src/tensorflow/lite/kernels/internal/types.h \
+ src/tensorflow/lite/kernels/internal/compatibility.h \
+ src/tensorflow/lite/kernels/op_macros.h \
+ src/tensorflow/lite/micro/debug_log.h \
+ src/tensorflow/lite/kernels/internal/runtime_shape.h \
+ src/tensorflow/lite/kernels/internal/portable_tensor_utils.h \
+ src/tensorflow/lite/core/c/builtin_op_data.h \
+ src/tensorflow/lite/core/c/common.h \
+ src/tensorflow/lite/core/c/c_api_types.h \
+ src/playground_util/print_params.h
