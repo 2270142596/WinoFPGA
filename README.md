@@ -7,6 +7,13 @@
 开发系统：Ubuntu 18.04（运行于VMware Workstation 16 Player）  
 开发软件：Visual Studio Code 1.74.3、Vivado 2022
 ## 使用方法
-1. 环境配置
-参考[CFU-Playground](https://github.com/google/CFU-Playground)相关说明
-2. 
+1. 环境配置：参考[CFU-Playground](https://github.com/google/CFU-Playground)相关说明
+2. 下载本项目代码，放到CFU-Playground项目中的`proj`目录下
+3. 连接Arty-A7设备
+4. 在本项目所处目录下打开终端，执行以下代码
+```sh
+source /home/cx/CFU-Playground/env/conda/bin/activate cfu-common && bash
+make prog TARGET=digilent_arty USE_VIVADO=1 EXTRA_LITEX_ARGS="--cpu-variant perf+cfu --variant=a7-100 --sys-clk-freq 75000000"
+make load BUILD_JOBS=4 TARGET=digilent_arty EXTRA_LITEX_ARGS="--cpu-variant perf+cfu --variant=a7-100 --sys-clk-freq 75000000"
+```
+
