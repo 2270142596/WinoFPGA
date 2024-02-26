@@ -28,7 +28,7 @@ test1对应的图片数据为：
 8. 修改[depthwise_conv.h](https://github.com/2270142596/WinoFPGA/blob/master/src/tensorflow/lite/kernels/internal/reference/integer_ops/depthwise_conv.h)中的`const int wino = 1;`为`const int wino = 0;`，将深度卷积加速功能关闭；修改[conv.cc](https://github.com/2270142596/WinoFPGA/blob/master/src/tensorflow/lite/kernels/internal/reference/integer_ops/conv.cc)中的`#ifdef ACCEL_CONV`为`#ifdef NOT_ACCEL_CONV`，将点卷积加速功能关闭。接下来将仅使用RISC-V处理器进行计算。
 9. 重新执行步骤4-6，得到如下结果  
 ![image](https://github.com/2270142596/WinoFPGA/blob/master/picture/notacc.png)  
-可以看出，仅使用RISC-V处理器在TensorFlow Lite官方原始代码下的推理结果也为8，与调用加速器的推理结果一致，加速器可以正确计算深度可分离卷积卷积。且没有加速器参与运算，推理耗时明显增加。调用加速器后，MobilenetV1网络的推理时间加快了6.7倍。
+可以看出，仅使用RISC-V处理器在TensorFlow Lite官方原始代码下的推理结果也为8，与调用加速器的推理结果一致，加速器可以正确计算深度可分离卷积卷积。且没有加速器参与运算，推理耗时明显增加。调用加速器后，MobilenetV1网络的推理时间加快了6.5倍。
 
 
 
